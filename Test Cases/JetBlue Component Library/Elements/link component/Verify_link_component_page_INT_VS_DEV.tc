@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify_link_component_page_INT_VS_DEV</name>
+   <tag></tag>
+   <comment>>>> wrote the integration environment component page image into $original.toString()
+>>> wrote the development environment component page image into $mimic.toString()
+>>> wrote the ImageDiff into $diffFile.toString()</comment>
+   <testCaseGuid>2686a201-c997-4c0c-859e-cd3ecf210432</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify_layout_callout-block_component_page_INT_VS_DEV</name>
+   <tag></tag>
+   <comment>>>> wrote the integration environment component page image into $original.toString()
+>>> wrote the development environment component page image into $mimic.toString()
+>>> wrote the ImageDiff into $diffFile.toString()</comment>
+   <testCaseGuid>a19e3c42-fc36-4883-a410-755da41e8581</testCaseGuid>
+</TestCaseEntity>

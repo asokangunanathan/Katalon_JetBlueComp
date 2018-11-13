@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify_subnav_component_page_INT_VS_DEV</name>
+   <tag></tag>
+   <comment>>>> wrote the integration environment component page image into $original.toString()
+>>> wrote the development environment component page image into $mimic.toString()
+>>> wrote the ImageDiff into $diffFile.toString()</comment>
+   <testCaseGuid>0f46ce05-f9ab-493a-bf1e-df31afa92e64</testCaseGuid>
+</TestCaseEntity>
