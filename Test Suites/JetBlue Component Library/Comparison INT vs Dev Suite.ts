@@ -4,7 +4,7 @@
    <name>Comparison INT vs Dev Suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-13T14:32:07</lastRun>
+   <lastRun>2018-11-14T11:58:35</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

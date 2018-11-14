@@ -67,7 +67,7 @@ takeEntirePage(DriverFactory.getWebDriver(), original, 500)
 WebUI.comment(">>> wrote the integration environment component page image into ${original.toString()}")
 
 // Take screenshot of component page on development environment
-def mimicUrl = 'https://dev.b6orgeng.net/component-library/layout'+componentName    //****** Variable ****
+def mimicUrl = 'https://dev.b6orgeng.net/component-library/layout/'+componentName    //****** Variable ****
 WebUI.navigateToUrl(mimicUrl)
 File mimic = resolveScreenshotFile("$componentName"+'_actual_component_page.png')   //****** Variable ****
 takeEntirePage(DriverFactory.getWebDriver(), mimic, 500)
