@@ -66,6 +66,7 @@ File mimic = resolveScreenshotFile("$componentName" + '_actual_component_page.pn
 takeEntirePage(DriverFactory.getWebDriver(), mimic, 500)
 
 WebUI.comment(">>> wrote the development environment component page image into ${mimic.toString()}")
+
 // make ImageDiff of integration vs development environment
 BufferedImage expectedImage = ImageIO.read(original)
 
@@ -88,7 +89,7 @@ Double criteriaPercent = 3.0
 Double diffRatioPercent = diffRatioPercent(diff)
 
 if (diffRatioPercent > criteriaPercent) {
-    KeywordUtil.markFailed("diffRatio=${dformat.format(diffRatioPercent)} exceeds criteria=$criteriaPercent")
+    KeywordUtil.markFailed("diffRatio=$dformat.format(diffRatioPercent) exceeds criteria=${criteriaPercent}")
 }
 
 // save the diff image into file
