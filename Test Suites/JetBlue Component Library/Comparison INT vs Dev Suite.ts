@@ -4,19 +4,13 @@
    <name>Comparison INT vs Dev Suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-14T11:58:35</lastRun>
+   <lastRun>2018-11-14T12:52:12</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>406bdafa-51f1-4144-bbf8-7915e963a7a9</testSuiteGuid>
-   <testCaseLink>
-      <guid>8529ae1b-d65e-478b-ba18-7abe29edb465</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/JetBlue Component Library/Getting Started/style-guide component library/Verify_style-guide_component_library_page_INT_VS_DEV</testCaseId>
-   </testCaseLink>
    <testCaseLink>
       <guid>54e29f76-aaf9-4f78-836b-62a71b6d08d6</guid>
       <isReuseDriver>false</isReuseDriver>
