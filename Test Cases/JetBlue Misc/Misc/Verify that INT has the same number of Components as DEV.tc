@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Verify_style-guide_component_library_page_INT_VS_DEV</name>
+   <name>Verify that INT has the same number of Components as DEV</name>
    <tag></tag>
    <comment>just a comment
 >>> wrote the integration environment component page image into $original.toString()
 >>> wrote the development environment component page image into $mimic.toString()
 >>> wrote the ImageDiff into $diffFile.toString()</comment>
-   <testCaseGuid>fd61d8cb-4931-48fc-878b-1c931e21e95d</testCaseGuid>
+   <testCaseGuid>3f0590ad-d93b-481f-b961-51ea022c6cb4</testCaseGuid>
 </TestCaseEntity>

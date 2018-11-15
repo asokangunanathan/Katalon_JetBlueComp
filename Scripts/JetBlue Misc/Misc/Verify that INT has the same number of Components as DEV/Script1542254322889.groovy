@@ -34,7 +34,7 @@ import internal.GlobalVariable as GlobalVariable
 // ---------------------------------------------------------------------------------
 WebUI.openBrowser('')
 //WebUI.maximizeWindow()
-WebUI.setViewPortSize(1024, 768)
+WebUI.setViewPortSize(1024, 4000)
 
 // component name
 def componentName = 'style-guide'
@@ -44,7 +44,7 @@ def originalUrl = 'https://int.b6orgeng.net/component-library/' + componentName 
 
 WebUI.navigateToUrl(originalUrl)
 
-WebUI.click(findTestObject('JetBlue/Misc/Page_JetBlue  Component Library/button_G'))
+WebUI.click(findTestObject('Object Repository/JetBlue/Misc/Page_JetBlue  Component Library/sideBarExpandIcon'))
 
 File original = resolveScreenshotFile("$componentName" + '_expected_component_page.png' //****** Variable ****
     )
@@ -60,7 +60,7 @@ def mimicUrl = 'https://dev.b6orgeng.net/component-library/' + componentName //*
 
 WebUI.navigateToUrl(mimicUrl)
 
-WebUI.click(findTestObject('JetBlue/Misc/Page_JetBlue  Component Library/button_G'))
+WebUI.click(findTestObject('Object Repository/JetBlue/Misc/Page_JetBlue  Component Library/sideBarExpandIcon'))
 
 File mimic = resolveScreenshotFile("$componentName" + '_actual_component_page.png' //****** Variable ****
     )
