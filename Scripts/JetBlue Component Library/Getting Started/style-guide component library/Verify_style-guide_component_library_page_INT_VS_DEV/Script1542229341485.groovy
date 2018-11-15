@@ -49,6 +49,8 @@ WebUI.click(findTestObject('JetBlue/Misc/Page_JetBlue  Component Library/button_
 File original = resolveScreenshotFile("$componentName" + '_expected_component_page.png' //****** Variable ****
     )
 
+WebUI.comment('just a comment')
+
 takeEntirePage(DriverFactory.getWebDriver(), original, 500)
 
 WebUI.comment(">>> wrote the integration environment component page image into ${original.toString()}")
@@ -85,18 +87,14 @@ DecimalFormat dformat = new DecimalFormat('##0.00')
 // check how much difference was found between the integration and development environments
 // if diff% exceed the criteria, then mark the test case as FAILED
 Double criteriaPercent = 3.0
-
 Double diffRatioPercent = diffRatioPercent(diff)
-
 if (diffRatioPercent > criteriaPercent) {
-    KeywordUtil.markFailed("diffRatio=$dformat.format(diffRatioPercent) exceeds criteria=${criteriaPercent}")
+	KeywordUtil.markFailed("diffRatio=${dformat.format(diffRatioPercent)} exceeds criteria=${criteriaPercent}")
 }
 
 // save the diff image into file
-File diffFile = resolveScreenshotFile("$componentName" + "_component_imageDiff(${dformat.format(diffRatioPercent)}).png")
-
-ImageIO.write(markedImage, 'PNG', diffFile)
-
+File diffFile = resolveScreenshotFile("$componentName"+"_component_imageDiff(${dformat.format(diffRatioPercent)}).png")    //****** Variable ****
+ImageIO.write(markedImage, "PNG", diffFile)
 WebUI.comment(">>> wrote the ImageDiff into ${diffFile.toString()}")
 
 WebUI.closeBrowser()
