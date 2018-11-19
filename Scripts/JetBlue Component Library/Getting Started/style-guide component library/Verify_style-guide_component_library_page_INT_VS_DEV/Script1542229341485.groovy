@@ -86,7 +86,8 @@ DecimalFormat dformat = new DecimalFormat('##0.00')
 
 // check how much difference was found between the integration and development environments
 // if diff% exceed the criteria, then mark the test case as FAILED
-Double criteriaPercent = 3.0
+//Double criteriaPercent = 3.0
+Double criteriaPercent = Double.parseDouble(GlobalVariable.acceptCriteria )
 Double diffRatioPercent = diffRatioPercent(diff)
 if (diffRatioPercent > criteriaPercent) {
 	KeywordUtil.markFailed("diffRatio=${dformat.format(diffRatioPercent)} exceeds criteria=${criteriaPercent}")

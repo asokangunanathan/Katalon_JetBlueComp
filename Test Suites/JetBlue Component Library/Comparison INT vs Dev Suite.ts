@@ -4,7 +4,7 @@
    <name>Comparison INT vs Dev Suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-14T22:10:23</lastRun>
+   <lastRun>2018-11-19T13:14:43</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -286,5 +286,293 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/JetBlue Component Library/Media/background component/Verify_background_component_page_INT_VS_DEV</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0757b4de-8aa8-4a61-8457-1552259013df</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Getting Started/style-guide component library/Verify_style-guide_component_library_page_INT_VS_DEV</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ceb11e80-b579-491d-a568-a7db7f96333e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Proof of Concept/filters component/Verify_poc_filters_component_page_INT_VS_DEV</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f475aa2a-6d27-432d-9fed-e94a3aa4cc58</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Layout Blocks/hero component/Verify_hero_component_page_INT_VS_DEV</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4b8d2e0f-a351-4a08-abc5-2e258c4c3307</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Layout Blocks/logo-grid-item component/Verify_logo-grid-item_component_page_INT_VS_DEV</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2b84696b-3339-4c84-ab87-777955db4264</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Layout Blocks/layout_callout-block component/Verify_layout_callout-block_component_page_INT_VS_DEV</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6c1755b4-80d2-46f2-8d46-6264bfb1a3f0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Layout Blocks/product-block component/Verify_product-block_component_page_INT_VS_DEV</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bf85cf92-3b1f-497c-92df-51f6d5ab6e01</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Layout Blocks/navigation-block component/Verify_navigation-block_component_page_INT_VS_DEV</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>49244dea-5319-47b0-b336-03354d23c41b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Layout Blocks/flight-block component/Verify_flight-block_component_page_INT_VS_DEV</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2d1c0cd6-a3f3-42a7-b9cf-3e0db75888c9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Layout Blocks/layout_promo-block component/Verify_layout_promo-block_component_page_INT_VS_DEV</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>33e380ea-3446-4877-9d6a-2e97fd024f9e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Indicators/callout-stamp component/Verify_callout-stamp_component_page_INT_VS_DEV</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ba544aba-c4d5-4d07-9b3c-b8059c7d1ef2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Indicators/flag component/Verify_flag_component_page_INT_VS_DEV</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4e6e9f7d-d555-420a-a8d3-7160047debc3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Indicators/star-rating component/Verify_star-rating_component_page_INT_VS_DEV</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4899a1e4-96a5-4be4-832a-c67aeb08d783</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Style Foundations/colors component/Verify_colors_component_page_INT_VS_DEV</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3a7d9bdb-7d37-4e53-b8bb-fb04bf5d6b8d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Style Foundations/icons component/Verify_icons_component_page_INT_VS_DEV</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f5c9d235-fd2b-4fd5-94b2-1018ec68af99</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Style Foundations/grid component/Verify_grid_component_page_INT_VS_DEV</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8b41da09-e98f-4ab8-bbaa-07a1dcc4f811</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Style Foundations/spacing component/Verify_spacing_component_page_INT_VS_DEV</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>99015de3-3483-4787-811b-644e4cd35f3e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Style Foundations/Typography/typography_copy component/Verify_typography_copy_component_page_INT_VS_DEV</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d000c717-30d2-4982-b585-04f96ffe3f08</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Style Foundations/Typography/typography component/Verify_typography_component_page_INT_VS_DEV</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4bb01dcc-35e0-4cc6-898c-87ca2eaebe4a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Navigation/breadcrumbs component/Verify_breadcrumbs_component_page_INT_VS_DEV</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>25fc51bf-7233-416c-9f69-15fde7cdc238</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Navigation/sidenav component/Verify_sidenav_component_page_INT_VS_DEV</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>09d165f4-41e9-48d0-9d5b-102811ba7628</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Navigation/back-to-top component/Verify_back-to-top_component_page_INT_VS_DEV</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>09458999-22b1-4564-935c-e724aa11add4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Navigation/toolbars component/Verify_toolbars_component_page_INT_VS_DEV</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bfb409a3-b178-4e15-8e49-fb5f49986700</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Navigation/subnav component/Verify_subnav_component_page_INT_VS_DEV</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fbec4e32-85a6-4f94-9f80-2b8cd93b219a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Elements/link component/Verify_link_component_page_INT_VS_DEV</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c7eeac4d-9088-48bc-ba5f-d8a38fbd73d7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Elements/standalone-link component/Verify_standalone-link_component_page_INT_VS_DEV</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a1bc971a-1f61-41c7-ab05-2b51bee35e33</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Elements/table component/Verify_table_component_page_INT_VS_DEV</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b0d83b33-b7bf-424e-af39-1953b3a03570</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Elements/lists component/Verify_lists_component_page_INT_VS_DEV</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>42fd593a-37a2-4f41-93cc-e18347cc1d15</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Elements/dialog-link component/Verify_dialog-link_component_page_INT_VS_DEV</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>41966d75-79b8-4a20-87e6-9cbc1f34b39f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Elements/cta-link component/Verify_cta-link_component_page_INT_VS_DEV</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b5c5b580-3dfd-48b3-8d22-08ec70269690</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Elements/inline-link component/Verify_inline-link_component_page_INT_VS_DEV</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5738be49-2cf3-4475-a881-d832937f379d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Interactive/dialog component/Verify_dialog_component_page_INT_VS_DEV</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2adf7568-1f81-4dc8-81de-9ad377c79120</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Interactive/help component/Verify_help_component_page_INT_VS_DEV</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6b331575-b629-4d14-be4e-9ef975f2b43e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Interactive/expansion component/Verify_expansion_component_page_INT_VS_DEV</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f78c0442-394a-4926-928b-935f76f2e9a3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Form Elements/buttons component/Verify_buttons_component_page_INT_VS_DEV</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>325f1f59-c386-4da1-9c8c-e4aadb6b5571</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Form Elements/checkboxes component/Verify_checkboxes_component_page_INT_VS_DEV</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ec3bff25-67d6-4cbd-8b00-cc560cdabbb7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Form Elements/autocomplete component/Verify_autocomplete_component_page_INT_VS_DEV</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>47c0b6c5-439b-4727-a007-6b5522e4acf6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Form Elements/text-input component/Verify_text-input_component_page_INT_VS_DEV</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>436c4114-8808-4937-9378-8810323ea15c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Form Elements/toggle component/Verify_toggle_component_page_INT_VS_DEV</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4f36bef9-04dd-4766-824f-866d30172b7b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Form Elements/dropdowns component/Verify_dropdowns_component_page_INT_VS_DEV</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1ba44196-a827-44b1-94a4-a25b196e6b11</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Form Elements/radios component/Verify_radios_component_page_INT_VS_DEV</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>69766bd8-37ff-4117-ad65-d9d3640ebb05</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Form Elements/inputs_incrementers component/Verify_inputs_incrementers_component_page_INT_VS_DEV</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>16c6b6de-3422-4d15-8827-ab51ad9eac12</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Media/image component/Verify_image_component_page_INT_VS_DEV</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>feb14f4d-71d4-4c46-90bf-c029d18c4acf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Media/overlay-image component/Verify_overlay-image_component_page_INT_VS_DEV</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8b63ab87-9fbf-4a1c-a751-ae8ddefd914a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Media/video component/Verify_video_component_page_INT_VS_DEV</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>008e44aa-6650-4454-94bb-92425fcfd754</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Media/featured-image component/Verify_featured-image_component_page_INT_VS_DEV</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d42d6a60-8b92-4532-be9c-2509faaa873e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Media/background component/Verify_background_component_page_INT_VS_DEV</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0846570c-55d6-4e2a-a9e0-78ab051b7437</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Interactive/tabs component/Verify_tabs_component_page_INT_VS_DEV</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e0611334-c525-4fa5-9fee-721c0ffc7ffe</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Layout Blocks/related-content-block/Verify_related-content-block_component_page_INT_VS_DEV</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

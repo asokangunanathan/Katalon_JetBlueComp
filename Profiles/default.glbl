@@ -24,4 +24,9 @@
       <initValue>768</initValue>
       <name>viewPortHeight</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'0.00'</initValue>
+      <name>acceptCriteria</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -14,6 +14,7 @@ import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
+import internal.GlobalVariable
 import ru.yandex.qatools.ashot.AShot
 import ru.yandex.qatools.ashot.Screenshot
 import ru.yandex.qatools.ashot.comparison.ImageDiff
@@ -87,7 +88,8 @@ DecimalFormat dformat = new DecimalFormat("##0.00")
 
 // check how much difference was found between the integration and development environments
 // if diff% exceed the criteria, then mark the test case as FAILED
-Double criteriaPercent = 3.0
+//Double criteriaPercent = 0.0
+Double criteriaPercent = Double.parseDouble(GlobalVariable.acceptCriteria)
 Double diffRatioPercent = diffRatioPercent(diff)
 if (diffRatioPercent > criteriaPercent) {
 	KeywordUtil.markFailed("diffRatio=${dformat.format(diffRatioPercent)} exceeds criteria=${criteriaPercent}")
