@@ -60,8 +60,11 @@ WebUI.setViewPortSize(1024, 768)
 // component name
 def componentName = "text-input"
 
-// Take screenshot of component page on integration environment
-def originalUrl = 'https://int.b6orgeng.net/component-library/'+componentName    //****** Variable ****
+// define environments
+def originalUrl = GlobalVariable.intEnvURL + componentName
+def mimicUrl = GlobalVariable.devEnvURL + componentName
+
+// Take screenshot of componenent page on integration environment
 WebUI.navigateToUrl(originalUrl)
 WebUI.click(findTestObject('JetBlue/Misc/Page_JetBlue  Component Library/button_G'))
 File original = resolveScreenshotFile("$componentName"+'_expected_component_page.png')  //****** Variable ****
@@ -69,7 +72,7 @@ takeEntirePage(DriverFactory.getWebDriver(), original, 500)
 WebUI.comment(">>> wrote the integration environment component page image into ${original.toString()}")
 
 // Take screenshot of component page on development environment
-def mimicUrl = 'https://dev.b6orgeng.net/component-library/'+componentName    //****** Variable ****
+//def mimicUrl = 'https://dev.b6orgeng.net/component-library/'+componentName    //****** Variable ****
 WebUI.navigateToUrl(mimicUrl)
 WebUI.click(findTestObject('JetBlue/Misc/Page_JetBlue  Component Library/button_G'))
 File mimic = resolveScreenshotFile("$componentName"+'_actual_component_page.png')   //****** Variable ****

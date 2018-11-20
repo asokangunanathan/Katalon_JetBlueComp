@@ -60,8 +60,10 @@ WebUI.setViewPortSize(1024, 768)
 // component name
 def componentName = "callout-block"
 
-// Take screenshot of component page on integration environment
-def originalUrl = 'https://int.b6orgeng.net/component-library/layout/'+componentName    //****** Variable ****
+// define environments
+
+def originalUrl = GlobalVariable.intEnvURL + '/layout/' + componentName
+def mimicUrl = GlobalVariable.devEnvURL + 'layout/' + componentName
 WebUI.navigateToUrl(originalUrl)
 WebUI.click(findTestObject('JetBlue/Misc/Page_JetBlue  Component Library/button_G'))
 File original = resolveScreenshotFile("$componentName"+'_expected_component_page.png')  //****** Variable ****
@@ -69,7 +71,7 @@ takeEntirePage(DriverFactory.getWebDriver(), original, 500)
 WebUI.comment(">>> wrote the integration environment component page image into ${original.toString()}")
 
 // Take screenshot of component page on development environment
-def mimicUrl = 'https://dev.b6orgeng.net/component-library/layout/'+componentName    //****** Variable ****
+//def mimicUrl = 'https://dev.b6orgeng.net/component-library/layout/'+componentName    //****** Variable ****
 WebUI.navigateToUrl(mimicUrl)
 WebUI.click(findTestObject('JetBlue/Misc/Page_JetBlue  Component Library/button_G'))
 File mimic = resolveScreenshotFile("$componentName"+'_actual_component_page.png')   //****** Variable ****
@@ -88,8 +90,8 @@ DecimalFormat dformat = new DecimalFormat("##0.00")
 
 // check how much difference was found between the integration and development environments
 // if diff% exceed the criteria, then mark the test case as FAILED
-//Double criteriaPercent = 3.0
-Double criteriaPercent = Double.parseDouble(GlobalVariable.acceptCriteria)
+Double criteriaPercent = 3.0
+//Double criteriaPercent = Double.parseDouble(GlobalVariable.acceptCriteria)
 Double diffRatioPercent = diffRatioPercent(diff)
 if (diffRatioPercent > criteriaPercent) {
 	KeywordUtil.markFailed("diffRatio=${dformat.format(diffRatioPercent)} exceeds criteria=${criteriaPercent}")

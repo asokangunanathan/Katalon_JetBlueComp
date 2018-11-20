@@ -39,8 +39,11 @@ WebUI.setViewPortSize(1024, 768)
 // component name
 def componentName = 'style-guide'
 
-// Take screenshot of component page on integration environment
-def originalUrl = 'https://int.b6orgeng.net/component-library/' + componentName //****** Variable ****
+// define environments
+def originalUrl = GlobalVariable.intEnvURL + componentName
+def mimicUrl = GlobalVariable.devEnvURL + componentName
+
+// Take screenshot of componenent page on integration environment
 
 WebUI.navigateToUrl(originalUrl)
 
@@ -56,7 +59,7 @@ takeEntirePage(DriverFactory.getWebDriver(), original, 500)
 WebUI.comment(">>> wrote the integration environment component page image into ${original.toString()}")
 
 // Take screenshot of component page on development environment
-def mimicUrl = 'https://dev.b6orgeng.net/component-library/' + componentName //****** Variable ****
+//def mimicUrl = 'https://dev.b6orgeng.net/component-library/' + componentName //****** Variable ****
 
 WebUI.navigateToUrl(mimicUrl)
 

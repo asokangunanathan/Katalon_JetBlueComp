@@ -25,8 +25,18 @@
       <name>viewPortHeight</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
-      <initValue>'0.00'</initValue>
+      <description>Acceptable percentage for image difference</description>
+      <initValue>'0.0'</initValue>
       <name>acceptCriteria</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://dev.b6orgeng.net/component-library/'</initValue>
+      <name>devEnvURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://int.b6orgeng.net/component-library/'</initValue>
+      <name>intEnvURL</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
