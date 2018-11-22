@@ -46,6 +46,7 @@ def mimicUrl = GlobalVariable.devEnvURL + componentName
 // Take screenshot of componenent page on integration environment
 
 WebUI.navigateToUrl(originalUrl)
+//WebUI.click(findTestObject('Object Repository/JetBlue/Misc/Page_JetBlue  Component Library/button_T'))
 
 WebUI.click(findTestObject('JetBlue/Misc/Page_JetBlue  Component Library/button_G'))
 
@@ -62,7 +63,7 @@ WebUI.comment(">>> wrote the integration environment component page image into $
 //def mimicUrl = 'https://dev.b6orgeng.net/component-library/' + componentName //****** Variable ****
 
 WebUI.navigateToUrl(mimicUrl)
-
+WebUI.click(findTestObject('Object Repository/JetBlue/Misc/Page_JetBlue  Component Library/button_T'))
 WebUI.click(findTestObject('JetBlue/Misc/Page_JetBlue  Component Library/button_G'))
 
 File mimic = resolveScreenshotFile("$componentName" + '_actual_component_page.png' //****** Variable ****
@@ -104,7 +105,8 @@ WebUI.comment(">>> wrote the ImageDiff into ${diffFile.toString()}")
 WebUI.closeBrowser()
 
 void takeEntirePage(WebDriver webDriver, File file, Integer timeout = 300) {
-    Screenshot screenshot = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(timeout)).takeScreenshot(webDriver)
+    //Screenshot screenshot = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(timeout)).takeScreenshot(webDriver)
+	Screenshot screenshot = new AShot().shootingStrategy(ShootingStrategies.viewportRetina(100, 0, 0, 2)).takeScreenshot(webDriver)
 
     ImageIO.write(screenshot.getImage(), 'PNG', file)
 }

@@ -26,7 +26,7 @@ import java.text.DecimalFormat
 // take screenshot of entire web page
 void takeEntirePage(WebDriver webDriver, File file, Integer timeout = 300) {
 	Screenshot screenshot = new AShot().
-			shootingStrategy(ShootingStrategies.viewportPasting(timeout)).
+			shootingStrategy(ShootingStrategies.viewportRetina(100, 0, 0, 2)).
 			takeScreenshot(webDriver)
 	ImageIO.write(screenshot.getImage(), "PNG", file)
 }
