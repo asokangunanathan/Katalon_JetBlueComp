@@ -6,12 +6,16 @@
    <elementGuidId>193e2e1c-e929-48ad-97f8-0dd345bf82dd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;toggle-design-grid&quot;)[count(. | //button[@id = 'toggle-design-grid' and (text() = 'G' or . = 'G')]) = count(//button[@id = 'toggle-design-grid' and (text() = 'G' or . = 'G')])]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//button[@id='toggle-design-grid']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;toggle-design-grid&quot;)[count(. | //button[@id = 'toggle-design-grid' and (text() = 'G' or . = 'G')]) = count(//button[@id = 'toggle-design-grid' and (text() = 'G' or . = 'G')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
