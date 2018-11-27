@@ -46,7 +46,7 @@ def mimicUrl = GlobalVariable.devEnvURL + componentName
 // Take screenshot of componenent page on integration environment
 
 WebUI.navigateToUrl(originalUrl)
-//WebUI.click(findTestObject('Object Repository/JetBlue/Misc/Page_JetBlue  Component Library/button_T'))
+WebUI.click(findTestObject('Object Repository/JetBlue/Misc/Page_JetBlue  Component Library/button_T'))
 
 WebUI.click(findTestObject('JetBlue/Misc/Page_JetBlue  Component Library/button_G'))
 

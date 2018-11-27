@@ -65,6 +65,7 @@ def componentName = "callout-block"
 def originalUrl = GlobalVariable.intEnvURL + '/layout/' + componentName
 def mimicUrl = GlobalVariable.devEnvURL + 'layout/' + componentName
 WebUI.navigateToUrl(originalUrl)
+WebUI.click(findTestObject('Object Repository/JetBlue/Misc/Page_JetBlue  Component Library/button_T'))
 WebUI.click(findTestObject('JetBlue/Misc/Page_JetBlue  Component Library/button_G'))
 File original = resolveScreenshotFile("$componentName"+'_expected_component_page.png')  //****** Variable ****
 takeEntirePage(DriverFactory.getWebDriver(), original, 500)
@@ -73,6 +74,7 @@ WebUI.comment(">>> wrote the integration environment component page image into $
 // Take screenshot of component page on development environment
 //def mimicUrl = 'https://dev.b6orgeng.net/component-library/layout/'+componentName    //****** Variable ****
 WebUI.navigateToUrl(mimicUrl)
+WebUI.click(findTestObject('Object Repository/JetBlue/Misc/Page_JetBlue  Component Library/button_T'))
 WebUI.click(findTestObject('JetBlue/Misc/Page_JetBlue  Component Library/button_G'))
 File mimic = resolveScreenshotFile("$componentName"+'_actual_component_page.png')   //****** Variable ****
 takeEntirePage(DriverFactory.getWebDriver(), mimic, 500)

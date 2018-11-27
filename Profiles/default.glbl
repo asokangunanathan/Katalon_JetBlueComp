@@ -36,7 +36,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://int.b6orgeng.net/component-library/'</initValue>
+      <initValue>'http://localhost:8080/component-library/'</initValue>
       <name>intEnvURL</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
