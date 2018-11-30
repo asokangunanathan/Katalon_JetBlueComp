@@ -62,8 +62,8 @@ def componentName = "callout-block"
 
 // define environments
 
-def originalUrl = GlobalVariable.intEnvURL + '/layout/' + componentName
-def mimicUrl = GlobalVariable.devEnvURL + 'layout/' + componentName
+def originalUrl = GlobalVariable.envURL2 + '/layout/' + componentName
+def mimicUrl = GlobalVariable.envURL1 + 'layout/' + componentName
 WebUI.navigateToUrl(originalUrl)
 WebUI.click(findTestObject('Object Repository/JetBlue/Misc/Page_JetBlue  Component Library/button_T'))
 WebUI.click(findTestObject('JetBlue/Misc/Page_JetBlue  Component Library/button_G'))

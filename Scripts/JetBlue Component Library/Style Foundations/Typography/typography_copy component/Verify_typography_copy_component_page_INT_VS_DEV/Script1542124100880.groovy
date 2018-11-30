@@ -61,8 +61,8 @@ WebUI.setViewPortSize(1024, 768)
 def componentName = "copy"
 
 // define environments
-def originalUrl = GlobalVariable.intEnvURL + '/typography/' + componentName
-def mimicUrl = GlobalVariable.devEnvURL + '/typography/' + componentName
+def originalUrl = GlobalVariable.envURL2 + '/typography/' + componentName
+def mimicUrl = GlobalVariable.envURL1 + '/typography/' + componentName
 
 // Take screenshot of componenent page on integration environment
 WebUI.navigateToUrl(originalUrl)

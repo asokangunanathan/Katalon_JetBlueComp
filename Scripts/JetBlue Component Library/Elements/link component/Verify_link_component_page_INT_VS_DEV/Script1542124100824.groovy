@@ -61,8 +61,8 @@ WebUI.setViewPortSize(1024, 768)
 def componentName = "link"
 
 // define environments
-def originalUrl = GlobalVariable.intEnvURL + '/links/' + componentName
-def mimicUrl = GlobalVariable.devEnvURL + '/links/' + componentName
+def originalUrl = GlobalVariable.envURL2 + '/links/' + componentName
+def mimicUrl = GlobalVariable.envURL1 + '/links/' + componentName
 
 // Take screenshot of componenent page on integration environment
 WebUI.navigateToUrl(originalUrl)

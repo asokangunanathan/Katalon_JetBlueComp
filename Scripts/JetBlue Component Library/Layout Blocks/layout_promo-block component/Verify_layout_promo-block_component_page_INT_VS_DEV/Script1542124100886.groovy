@@ -56,13 +56,13 @@ Double diffRatioPercent(ImageDiff diff) {
 
 WebUI.openBrowser('')
 WebUI.setViewPortSize(1024, 768)
-
+WebUI.maximizeWindow()
 // component name
 def componentName = "promo-block"
 
 // define environments
-def originalUrl = GlobalVariable.intEnvURL + '/layout/' + componentName
-def mimicUrl = GlobalVariable.devEnvURL + '/layout/' + componentName
+def originalUrl = GlobalVariable.envURL2 + '/layout/' + componentName
+def mimicUrl = GlobalVariable.envURL1 + '/layout/' + componentName
 
 // Take screenshot of componenent page on integration environment
 WebUI.navigateToUrl(originalUrl)

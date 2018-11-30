@@ -61,8 +61,8 @@ WebUI.setViewPortSize(1024, 768)
 def componentName = "incrementers"
 
 // define environments
-def originalUrl = GlobalVariable.intEnvURL + '/inputs/' + componentName
-def mimicUrl = GlobalVariable.devEnvURL + '/inputs/' + componentName
+def originalUrl = GlobalVariable.envURL2 + '/inputs/' + componentName
+def mimicUrl = GlobalVariable.envURL1 + '/inputs/' + componentName
 
 // Take screenshot of componenent page on integration environment
 WebUI.navigateToUrl(originalUrl)

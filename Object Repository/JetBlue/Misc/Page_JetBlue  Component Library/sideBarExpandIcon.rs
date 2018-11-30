@@ -6,15 +6,15 @@
    <elementGuidId>8580707a-6a61-4c4d-bc9d-d187d6a12368</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>/html[@class=&quot;h-100&quot;]/body[@class=&quot;h-100&quot;]/jb-app[@class=&quot;ng-tns-c0-0&quot;]/div[@class=&quot;flex flex-column flex-row-m flex-row-l&quot;]/div[@class=&quot;w-100 bb b--light-gray absolute pa2 bg-white fixed navbar flex&quot;]/div[@class=&quot;dib pr3&quot;]/jb-icon[@class=&quot;fill-white pa2 br1 flex pointer dim ml2 bg-core-blue t-fast notranslate&quot;]/svg[1]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>/html/body/jb-app/div/div[1]/div/jb-icon</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/jb-app/div/div[1]/div/jb-icon</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
