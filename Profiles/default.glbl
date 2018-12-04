@@ -32,11 +32,11 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://dev.b6orgeng.net/component-library/'</initValue>
-      <name>devEnvURL</name>
+      <name>envURL1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://int.b6orgeng.net/component-library/'</initValue>
-      <name>intEnvURL</name>
+      <name>envURL2</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
