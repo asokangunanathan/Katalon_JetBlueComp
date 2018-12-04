@@ -27,6 +27,7 @@ import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.logging.KeywordLogger
 
 // take screenshot of entire web page
 // resolve file name under the target directory
@@ -45,6 +46,11 @@ def expectedComponentURL = GlobalVariable.envURL2 + componentLocation + componen
 def actualComponentURL = GlobalVariable.envURL1 + componentLocation + componentName
 def browserName = DriverFactory.getExecutedBrowser().getName()
 // Take screenshot of expected componenent page
+
+KeywordLogger log = new KeywordLogger()
+log.logInfo("Component Name: " + componentName)
+log.logInfo("expected URL: " + expectedComponentURL)
+log.logInfo("actual URL: " + actualComponentURL)
 
 WebUI.navigateToUrl(expectedComponentURL)
 WebUI.click(findTestObject('Object Repository/JetBlue/Misc/Page_JetBlue  Component Library/button_T'))

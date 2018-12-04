@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>Components</name>
+   <name>All Components</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
@@ -21,7 +21,7 @@
    <data>cta-link %2Flinks%2F 0.0</data>
    <data>dialog-link %2Flinks%2F 0.0</data>
    <data>inlinke-link %2Flinks%2F 0.0</data>
-   <data>standalone-link %2Flinks%2F 0.0</data>
+   <data>standalone-link %2Flinks%2F 1.0</data>
    <data>hero null 0.0</data>
    <data>callout-block %2Flayouts%2F 0.0</data>
    <data>flight-block null 0.0</data>
@@ -31,6 +31,7 @@
    <data>logo-grid-item null 0.0</data>
    <data>related-content-block null 0.0</data>
    <data>editorial-crew-scoop null 0.0</data>
+   <data>editorial-blog-post null 0.0</data>
    <data>editorial-image null 0.0</data>
    <data>image null 0.0</data>
    <data>featured-image null 0.0</data>
@@ -41,11 +42,13 @@
    <data>help null 0.0</data>
    <data>expansion null 0.0</data>
    <data>tabs null 0.0</data>
+   <data>travel-alerts null 0.0</data>
    <data>star-rating null 0.0</data>
    <data>callout-stamp null 0.0</data>
    <data>flag null 0.0</data>
    <data>autocomplete null 0.0</data>
    <data>buttons null 0.0</data>
+   <data>button-close null 0.0</data>
    <data>checkboxes null 0.0</data>
    <data>dropdowns null 0.0</data>
    <data>incrementers %2Finputs%2F 0.0</data>
@@ -65,17 +68,17 @@
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>componentName</name>
-      <size>54</size>
+      <size>57</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>componentLocation</name>
-      <size>54</size>
+      <size>57</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>2</columnIndex>
       <name>acceptableDiff</name>
-      <size>54</size>
+      <size>57</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Visual Component Page Regression Suite</name>
+   <name>Visual Suite - Components - Proof of Concept</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-30T14:54:01</lastRun>
+   <lastRun>2018-12-04T14:42:32</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>d42188b5-8672-4653-be9c-d6441487a19f</testSuiteGuid>
+   <testSuiteGuid>49fada03-9bbc-465c-a6dc-3714681e542d</testSuiteGuid>
    <testCaseLink>
-      <guid>b008421e-da79-458b-9290-320d8f1cb27d</guid>
+      <guid>fb3b3cde-7450-4a83-9ece-db14583f2785</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/JetBlue Component Library/Cookbook Visual Comparison/Cookbook Component Pages Visual Comparison</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>980c4cf9-8aa4-4bd9-ada3-a757c1f7be0b</id>
+         <id>b2562349-f0c7-4fee-86a2-62532cd93700</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>RANGE</iterationType>
+            <value>57-57</value>
          </iterationEntity>
-         <testDataId>Data Files/Components</testDataId>
+         <testDataId>Data Files/All Components</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>980c4cf9-8aa4-4bd9-ada3-a757c1f7be0b</testDataLinkId>
+         <testDataLinkId>b2562349-f0c7-4fee-86a2-62532cd93700</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>componentName</value>
          <variableId>e1487eaf-633d-4b71-b89b-49da1b3d6eaf</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>980c4cf9-8aa4-4bd9-ada3-a757c1f7be0b</testDataLinkId>
+         <testDataLinkId>b2562349-f0c7-4fee-86a2-62532cd93700</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>componentLocation</value>
          <variableId>5e6dfab3-1130-47a7-8d7f-f06d40a12ceb</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>980c4cf9-8aa4-4bd9-ada3-a757c1f7be0b</testDataLinkId>
+         <testDataLinkId>b2562349-f0c7-4fee-86a2-62532cd93700</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>acceptableDiff</value>
          <variableId>246fabd7-93dd-4cab-b735-633509d748a9</variableId>
