@@ -4,7 +4,7 @@
    <name>Visual Suite - Components - Navigation</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-04T14:42:33</lastRun>
+   <lastRun>2018-12-05T16:33:57</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -21,7 +21,7 @@
          <id>b2562349-f0c7-4fee-86a2-62532cd93700</id>
          <iterationEntity>
             <iterationType>RANGE</iterationType>
-            <value>48-52</value>
+            <value>49-53</value>
          </iterationEntity>
          <testDataId>Data Files/All Components</testDataId>
       </testDataLink>

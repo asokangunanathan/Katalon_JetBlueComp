@@ -53,9 +53,12 @@ log.logInfo("expected URL: " + expectedComponentURL)
 log.logInfo("actual URL: " + actualComponentURL)
 
 WebUI.navigateToUrl(expectedComponentURL)
-WebUI.click(findTestObject('Object Repository/JetBlue/Misc/Page_JetBlue  Component Library/button_T'))
+WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/button_T'))
 
-WebUI.click(findTestObject('JetBlue/Misc/Page_JetBlue  Component Library/button_G'))
+WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/button_G'))
+
+// Verify all Links on page
+//WebUI.verifyAllLinksOnCurrentPageAccessible(true, [])
 
 File expectedFile = resolveScreenshotFile("$browserName" + "_" + "$componentName" + '_expected_component_page.png' //****** Variable ****
     )
@@ -70,8 +73,8 @@ WebUI.comment(">>> wrote the expected component page image into ${expectedFile.t
 
 
 WebUI.navigateToUrl(actualComponentURL)
-WebUI.click(findTestObject('Object Repository/JetBlue/Misc/Page_JetBlue  Component Library/button_T'))
-WebUI.click(findTestObject('JetBlue/Misc/Page_JetBlue  Component Library/button_G'))
+WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/button_T'))
+WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/button_G'))
 
 File actualFile = resolveScreenshotFile("$browserName" + "_" + "$componentName" + '_actual_component_page.png' //****** Variable ****
     )

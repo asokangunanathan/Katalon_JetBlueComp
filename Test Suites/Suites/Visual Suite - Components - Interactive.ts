@@ -4,7 +4,7 @@
    <name>Visual Suite - Components - Interactive</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-04T14:42:32</lastRun>
+   <lastRun>2018-12-05T16:33:57</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

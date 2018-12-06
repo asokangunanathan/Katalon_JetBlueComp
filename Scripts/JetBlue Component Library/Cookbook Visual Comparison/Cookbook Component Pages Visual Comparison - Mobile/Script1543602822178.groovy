@@ -47,9 +47,9 @@ def browserName = DriverFactory.getExecutedBrowser().getName()
 // Take screenshot of expected componenent page
 
 WebUI.navigateToUrl(expectedComponentURL)
-//WebUI.click(findTestObject('Object Repository/JetBlue/Misc/Page_JetBlue  Component Library/button_T'))
+//WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/button_T'))
 
-//WebUI.click(findTestObject('JetBlue/Misc/Page_JetBlue  Component Library/button_G'))
+//WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/button_G'))
 
 File expectedFile = resolveScreenshotFile("$browserName" + "_" + "$componentName" + '_expected_component_page.png' //****** Variable ****
     )
@@ -64,11 +64,11 @@ WebUI.comment(">>> wrote the expected component page image into ${expectedFile.t
 
 
 WebUI.navigateToUrl(actualComponentURL)
-//WebUI.click(findTestObject('Object Repository/JetBlue/Misc/Page_JetBlue  Component Library/sideBarExpandIcon'))
-//WebUI.clicfindTestObject('Object Repository/JetBlue/Misc/Page_JetBlue  Component Library/sideBarExpandIcon')k(findTestObject('Object Repository/JetBlue/Temp/Page_JetBlue  Component Library/button_T'))
+//WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/sideBarExpandIcon'))
+//WebUI.clicfindTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/sideBarExpandIcon')k(findTestObject('JetBlue Component Library Objects/Temp/Page_JetBlue  Component Library/button_T'))
 //findTestObject('{your test object}', [('{property}') : '{value of property}'])
 //findTestObject('Page_Login/txtUserName', ['(id)' : '{48415648}'])
-//WebUI.click(findTestObject('JetBlue/Misc/Page_JetBlue  Component Library/button_G'))
+//WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/button_G'))
 
 File actualFile = resolveScreenshotFile("$browserName" + "_" + "$componentName" + '_actual_component_page.png' //****** Variable ****
     )

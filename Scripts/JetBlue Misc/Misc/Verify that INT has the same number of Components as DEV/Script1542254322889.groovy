@@ -44,7 +44,7 @@ def originalUrl = 'https://int.b6orgeng.net/component-library/' + componentName 
 
 WebUI.navigateToUrl(originalUrl)
 
-WebUI.click(findTestObject('Object Repository/JetBlue/Misc/Page_JetBlue  Component Library/sideBarExpandIcon'))
+WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/sideBarExpandIcon'))
 
 File original = resolveScreenshotFile("$componentName" + '_expected_component_page.png' //****** Variable ****
     )
@@ -60,7 +60,7 @@ def mimicUrl = 'https://dev.b6orgeng.net/component-library/' + componentName //*
 
 WebUI.navigateToUrl(mimicUrl)
 
-WebUI.click(findTestObject('Object Repository/JetBlue/Misc/Page_JetBlue  Component Library/sideBarExpandIcon'))
+WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/sideBarExpandIcon'))
 
 File mimic = resolveScreenshotFile("$componentName" + '_actual_component_page.png' //****** Variable ****
     )

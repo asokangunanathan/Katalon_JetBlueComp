@@ -23,7 +23,7 @@ def topPageUrl = 'https://dev.b6orgeng.net/component-library/colors'
 WebUI.navigateToUrl(topPageUrl)
 
 // this verification will PASS
-WebUI.verifyElementPresent(findTestObject('JetBlue/Components/colors component/Page_JetBlue  Component Library/h1_Colors'), 
+WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/Components/colors component/Page_JetBlue  Component Library/h1_Colors'), 
     10, FailureHandling.CONTINUE_ON_FAILURE)
 
 // take screenshot and save a PNG file into Reports dir

@@ -46,9 +46,9 @@ def mimicUrl = GlobalVariable.envURL1 + componentName
 // Take screenshot of componenent page on integration environment
 
 WebUI.navigateToUrl(originalUrl)
-WebUI.click(findTestObject('Object Repository/JetBlue/Misc/Page_JetBlue  Component Library/button_T'))
+WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/button_T'))
 
-WebUI.click(findTestObject('JetBlue/Misc/Page_JetBlue  Component Library/button_G'))
+WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/button_G'))
 
 File original = resolveScreenshotFile("$componentName" + '_expected_component_page.png' //****** Variable ****
     )
@@ -63,8 +63,8 @@ WebUI.comment(">>> wrote the integration environment component page image into $
 //def mimicUrl = 'https://dev.b6orgeng.net/component-library/' + componentName //****** Variable ****
 
 WebUI.navigateToUrl(mimicUrl)
-WebUI.click(findTestObject('Object Repository/JetBlue/Misc/Page_JetBlue  Component Library/button_T'))
-WebUI.click(findTestObject('JetBlue/Misc/Page_JetBlue  Component Library/button_G'))
+WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/button_T'))
+WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/button_G'))
 
 File mimic = resolveScreenshotFile("$componentName" + '_actual_component_page.png' //****** Variable ****
     )
