@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>Desktop Execution Profile</name>
+   <name>Local Environment Execution Profile</name>
    <tag></tag>
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
@@ -20,8 +20,8 @@
       <name>acceptCriteria</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>Development Environment</description>
-      <initValue>'https://dev.b6orgeng.net/component-library/'</initValue>
+      <description>Local Environment</description>
+      <initValue>'http://localhost:8080/component-library/'</initValue>
       <name>envURL1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
