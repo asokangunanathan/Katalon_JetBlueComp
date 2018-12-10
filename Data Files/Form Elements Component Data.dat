@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Form Elements Component Data</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>31da6333-9ad4-4820-8f0c-25b3982088bb</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>autocomplete null 0.0</data>
+   <data>buttons null 0.0</data>
+   <data>button-close null 0.0</data>
+   <data>checkboxes null 0.0</data>
+   <data>dropdowns null 0.0</data>
+   <data>incrementers inputs%2F 0.0</data>
+   <data>radios null 0.0</data>
+   <data>simple-select null 0.0</data>
+   <data>text-input null 0.0</data>
+   <data>toggle null 0.0</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>componentName</name>
+      <size>10</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>componentLocation</name>
+      <size>10</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>acceptableDiff</name>
+      <size>10</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

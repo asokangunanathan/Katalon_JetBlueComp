@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Proof of Concept Component Data</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>31da6333-9ad4-4820-8f0c-25b3982088bb</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>style-guide null 0.0</data>
+   <data>colors null 0.0</data>
+   <data>grid null 0.0</data>
+   <data>icons null 0.0</data>
+   <data>spacing null 0.0</data>
+   <data>typography null 0.0</data>
+   <data>copy typography%2F 0.0</data>
+   <data>lists null 0.0</data>
+   <data>table null 0.0</data>
+   <data>link links%2F 0.0</data>
+   <data>cta-link links%2F 0.0</data>
+   <data>dialog-link links%2F 0.0</data>
+   <data>inlinke-link links%2F 0.0</data>
+   <data>standalone-link links%2F 1.0</data>
+   <data>hero null 0.0</data>
+   <data>callout-block layouts%2F 0.0</data>
+   <data>flight-block null 0.0</data>
+   <data>navigation-block null 0.0</data>
+   <data>product-block null 0.0</data>
+   <data>promo-block layouts%2F 0.0</data>
+   <data>logo-grid-item null 0.0</data>
+   <data>related-content-block null 0.0</data>
+   <data>editorial-crew-scoop null 0.0</data>
+   <data>editorial-blog-post null 0.0</data>
+   <data>editorial-image null 0.0</data>
+   <data>image null 0.0</data>
+   <data>featured-image null 0.0</data>
+   <data>background null 0.0</data>
+   <data>overlay-image null 0.0</data>
+   <data>video null 0.0</data>
+   <data>dialog null 0.0</data>
+   <data>help null 0.0</data>
+   <data>expansion null 0.0</data>
+   <data>tabs null 0.0</data>
+   <data>travel-alerts null 0.0</data>
+   <data>star-rating null 0.0</data>
+   <data>callout-stamp null 0.0</data>
+   <data>flag null 0.0</data>
+   <data>autocomplete null 0.0</data>
+   <data>buttons null 0.0</data>
+   <data>button-close null 0.0</data>
+   <data>checkboxes null 0.0</data>
+   <data>dropdowns null 0.0</data>
+   <data>incrementers inputs%2F 0.0</data>
+   <data>radios null 0.0</data>
+   <data>simple-select null 0.0</data>
+   <data>text-input null 0.0</data>
+   <data>toggle null 0.0</data>
+   <data>back-to-top null 0.0</data>
+   <data>breadcrumbs null 0.0</data>
+   <data>sidenav null 0.0</data>
+   <data>subnav null 0.0</data>
+   <data>toolbars null 0.0</data>
+   <data>pipes null 0.0</data>
+   <data>types null 0.0</data>
+   <data>constants null 0.0</data>
+   <data>ssr-utilities null 0.0</data>
+   <data>filters poc%2F 0.0</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>componentName</name>
+      <size>58</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>componentLocation</name>
+      <size>58</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>acceptableDiff</name>
+      <size>58</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

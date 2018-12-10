@@ -30,12 +30,12 @@
       <name>acceptCriteria</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>Development Environment</description>
       <initValue>'https://dev.b6orgeng.net/component-library/'</initValue>
       <name>envURL1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>Integration Environment</description>
       <initValue>'https://int.b6orgeng.net/component-library/'</initValue>
       <name>envURL2</name>
    </GlobalVariableEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Check Links</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e2c1280c-4644-4669-819d-6133de3a1992</testCaseGuid>
+   <variable>
+      <defaultValue>'style-guide'</defaultValue>
+      <description>Component Name</description>
+      <id>a66f294f-d899-4b05-ba68-495509314ded</id>
+      <masked>false</masked>
+      <name>componentName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Component Location</description>
+      <id>025c5d73-b4b1-4c07-a9fc-563ad1b63346</id>
+      <masked>false</masked>
+      <name>componentLocation</name>
+   </variable>
+</TestCaseEntity>
