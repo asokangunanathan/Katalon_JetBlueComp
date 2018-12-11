@@ -10,7 +10,7 @@
    <driver>InternalData</driver>
    <data>colors null 0.0</data>
    <data>grid null 0.0</data>
-   <data>icons null 0.0</data>
+   <data>icons null 0.001</data>
    <data>spacing null 0.0</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
