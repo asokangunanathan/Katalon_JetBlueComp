@@ -4,7 +4,7 @@
    <name>Functional Regression Test Suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-14T13:46:02</lastRun>
+   <lastRun>2018-12-14T14:15:31</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
