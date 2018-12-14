@@ -8,7 +8,7 @@
 >>> wrote the ImageDiff into $diffFile.toString()</comment>
    <testCaseGuid>80597163-7ccf-4bfc-8db1-3be4310247dc</testCaseGuid>
    <variable>
-      <defaultValue>'style-guide'</defaultValue>
+      <defaultValue>'simple-select'</defaultValue>
       <description></description>
       <id>e1487eaf-633d-4b71-b89b-49da1b3d6eaf</id>
       <masked>false</masked>
@@ -22,7 +22,7 @@
       <name>componentLocation</name>
    </variable>
    <variable>
-      <defaultValue>'0.0'</defaultValue>
+      <defaultValue>'0.00'</defaultValue>
       <description>Acceptable Difference in Percentage</description>
       <id>246fabd7-93dd-4cab-b735-633509d748a9</id>
       <masked>false</masked>

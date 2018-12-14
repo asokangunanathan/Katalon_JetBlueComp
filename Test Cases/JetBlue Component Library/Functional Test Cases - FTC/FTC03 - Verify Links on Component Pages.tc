@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>b4b0e859-e183-46e7-a1a0-b5d7b7546e5b</testCaseGuid>
    <variable>
-      <defaultValue>'dialog'</defaultValue>
+      <defaultValue>'links/cta-link'</defaultValue>
       <description></description>
       <id>1b9b5719-f824-4630-a628-40e7da3915bd</id>
       <masked>false</masked>

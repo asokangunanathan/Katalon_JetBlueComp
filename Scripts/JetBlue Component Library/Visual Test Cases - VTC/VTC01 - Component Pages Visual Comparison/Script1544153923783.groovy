@@ -37,10 +37,6 @@ WebUI.openBrowser('')
 WebUI.maximizeWindow()
 //WebUI.setViewPortSize(1024, 768)
 
-// component name and componant location
-//def componentName = 'style-guide'
-//def componentLocation = ''
-
 // direct link to componenent page
 def expectedComponentURL = GlobalVariable.envURL2 + componentLocation + componentName
 def actualComponentURL = GlobalVariable.envURL1 + componentLocation + componentName

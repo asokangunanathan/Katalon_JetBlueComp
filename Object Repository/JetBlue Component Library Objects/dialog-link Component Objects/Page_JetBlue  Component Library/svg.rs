@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>svg</name>
+   <tag></tag>
+   <elementGuidId>e12c6a5e-ed33-4186-b52f-5fdce0d85f37</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[@class=&quot;h-100&quot;]/body[@class=&quot;h-100 disable-scroll-in-layer&quot;]/jb-my-component[1]/jb-dialog[@class=&quot;jb-dialog&quot;]/div[@class=&quot;fixed overlay-z-index overflow-auto top-0 w-100 left-0 right-0 h-100 bg-black-60 flex pt0 pt5-m pt6-l page-margin-ns&quot;]/div[@class=&quot;jb-focusable dialog-z-index overflow-hidden relative flex flex-column self-start dialog-content h-100 h-auto-ns center bg-transparent br2-ns pb0 pb5-m pb6-l m-auto&quot;]/jb-dialog-header[1]/header[@class=&quot;w-100 flex items-center bg-core-blue ph3 relative&quot;]/jb-button-close[@class=&quot;mv-11&quot;]/button[@class=&quot;flex pointer bw0 pa0 bg-transparent&quot;]/jb-icon[@class=&quot;flex items-center t-fast notranslate ng-star-inserted&quot;]/svg[1][count(. | //svg[@xmlns = 'http://www.w3.org/2000/svg' and @width = '18' and @height = '18' and @viewBox = '0 0 18 18' and @stroke = 'white' and @focusable = 'false']) = count(//svg[@xmlns = 'http://www.w3.org/2000/svg' and @width = '18' and @height = '18' and @viewBox = '0 0 18 18' and @stroke = 'white' and @focusable = 'false'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>18</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>18</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 18 18</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>stroke</name>
+      <type>Main</type>
+      <value>white</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>focusable</name>
+      <type>Main</type>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;h-100&quot;]/body[@class=&quot;h-100 disable-scroll-in-layer&quot;]/jb-my-component[1]/jb-dialog[@class=&quot;jb-dialog&quot;]/div[@class=&quot;fixed overlay-z-index overflow-auto top-0 w-100 left-0 right-0 h-100 bg-black-60 flex pt0 pt5-m pt6-l page-margin-ns&quot;]/div[@class=&quot;jb-focusable dialog-z-index overflow-hidden relative flex flex-column self-start dialog-content h-100 h-auto-ns center bg-transparent br2-ns pb0 pb5-m pb6-l m-auto&quot;]/jb-dialog-header[1]/header[@class=&quot;w-100 flex items-center bg-core-blue ph3 relative&quot;]/jb-button-close[@class=&quot;mv-11&quot;]/button[@class=&quot;flex pointer bw0 pa0 bg-transparent&quot;]/jb-icon[@class=&quot;flex items-center t-fast notranslate ng-star-inserted&quot;]/svg[1]</value>
+   </webElementProperties>
+</WebElementEntity>

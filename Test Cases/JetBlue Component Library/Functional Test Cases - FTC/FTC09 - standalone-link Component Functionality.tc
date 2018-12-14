@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>FTC09 - standalone-link Component Functionality</name>
+   <tag></tag>
+   <comment>User Story:  When I access the standalone-link component page and scroll to Inline Link: no icon
+then I should be able to see the &quot;Standalone Link: no icon&quot; example
+When I click on the Standalone link then I should be taken to google.com
+User Story:  When I scroll to &quot;Standalone Link: with icon&quot; example
+then I should be able to see the &quot;Standalone Link: with icon&quot; example and clicking on it should take me to /icons</comment>
+   <testCaseGuid>d4fa023b-d666-45db-bc43-13e92b741968</testCaseGuid>
+</TestCaseEntity>

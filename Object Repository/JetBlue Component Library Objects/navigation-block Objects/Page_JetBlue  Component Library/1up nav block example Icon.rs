@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>1up nav block example Icon</name>
+   <tag></tag>
+   <elementGuidId>d0ca30a2-c88b-48f6-8c1f-0c0b61299c59</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;navigation-block-1up&quot;)/jb-navigation-block[1]/a[@class=&quot;jb-block-border no-underline ba-ns bt bb b--sky-blue
+        flex flex-column br3-ns overflow-hidden h-100&quot;]/div[@class=&quot;description pt3 pr3 pl4 pb3 w-100&quot;]/div[@class=&quot;flex items-center justify-between mb2&quot;]/jb-icon[@class=&quot;pl1 t-fast notranslate ng-star-inserted&quot;]/svg[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>40px</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>40px</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 48 48</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>stroke</name>
+      <type>Main</type>
+      <value>#0033a0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>#0033a0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>focusable</name>
+      <type>Main</type>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;navigation-block-1up&quot;)/jb-navigation-block[1]/a[@class=&quot;jb-block-border no-underline ba-ns bt bb b--sky-blue
+        flex flex-column br3-ns overflow-hidden h-100&quot;]/div[@class=&quot;description pt3 pr3 pl4 pb3 w-100&quot;]/div[@class=&quot;flex items-center justify-between mb2&quot;]/jb-icon[@class=&quot;pl1 t-fast notranslate ng-star-inserted&quot;]/svg[1]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -25,7 +25,7 @@ WebUI.navigateToUrl(GlobalVariable.envURL1 + 'simple-select/')
 WebUI.comment('and scrolls down to Simple Select Example')
 
 // and scroll down to Simple Select Example
-WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/simple-select Component Objects/Page_JetBlue  Component Library/h3_Simple Select'), 
+WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/simple-select Component Objects/Page_JetBlue  Component Library/h3_Simple Select with min-width'), 
     10)
 
 WebUI.verifyElementText(findTestObject('JetBlue Component Library Objects/simple-select Component Objects/Page_JetBlue  Component Library/strong_Simple Dropdown Value'), 
@@ -45,11 +45,11 @@ for (def index : (1..9)) {
     WebUI.click(findTestObject('JetBlue Component Library Objects/simple-select Component Objects/Page_JetBlue  Component Library/jb-copy_Item ' + 
             index), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.click(findTestObject('Object Repository/JetBlue Component Library Objects/simple-select Component Objects/Page_JetBlue  Component Library/h3_Simple Select'))
+   // WebUI.click(findTestObject('JetBlue Component Library Objects/simple-select Component Objects/Page_JetBlue  Component Library/h3_Simple Select with min-width'))
 
     WebUI.verifyTextPresent('Simple Dropdown Value: ' + index, false)
 
-    WebUI.verifyTextNotPresent('Dropdown title', false)
+    //WebUI.verifyTextNotPresent('Dropdown title', false)
 }
 
 WebUI.closeBrowser()
