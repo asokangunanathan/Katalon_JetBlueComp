@@ -8,14 +8,14 @@
 >>> wrote the ImageDiff into $diffFile.toString()</comment>
    <testCaseGuid>80597163-7ccf-4bfc-8db1-3be4310247dc</testCaseGuid>
    <variable>
-      <defaultValue>'promo-block'</defaultValue>
+      <defaultValue>'editorial-grid'</defaultValue>
       <description></description>
       <id>e1487eaf-633d-4b71-b89b-49da1b3d6eaf</id>
       <masked>false</masked>
       <name>componentName</name>
    </variable>
    <variable>
-      <defaultValue>'layout/'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>5e6dfab3-1130-47a7-8d7f-f06d40a12ceb</id>
       <masked>false</masked>
