@@ -4,7 +4,7 @@
    <name>Visual Suite - Components - Layout Blocks</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-14T14:07:36</lastRun>
+   <lastRun>2018-12-20T16:17:15</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

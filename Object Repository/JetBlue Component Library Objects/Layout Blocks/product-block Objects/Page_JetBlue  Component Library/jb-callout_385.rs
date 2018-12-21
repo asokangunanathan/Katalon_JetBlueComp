@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>jb-callout_385</name>
+   <tag></tag>
+   <elementGuidId>f68befad-cb44-4797-81c9-b8035d425628</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//jb-callout[@type='price']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;product-block-all-options&quot;)/a[@class=&quot;flex flex-column relative no-underline pb4 bt bb ba-ns jb-block-border br3-ns overflow-hidden h-100&quot;]/div[@class=&quot;ph4 flex-grow-1 flex flex-column&quot;]/div[@class=&quot;flex flex-column flex-grow-1 justify-end&quot;]/div[@class=&quot;pt3 core-blue ng-star-inserted&quot;]/span[@class=&quot;inline-flex items-start&quot;]/span[@class=&quot;mv1 inline-flex items-baseline&quot;]/jb-callout[@class=&quot;avenir b core-blue copy-price&quot;][count(. | //jb-callout[@class = 'avenir b core-blue copy-price' and @type = 'price' and (text() = '385' or . = '385')]) = count(//jb-callout[@class = 'avenir b core-blue copy-price' and @type = 'price' and (text() = '385' or . = '385')])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>jb-callout</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>avenir b core-blue copy-price</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>price</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>385</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;product-block-all-options&quot;)/a[@class=&quot;flex flex-column relative no-underline pb4 bt bb ba-ns jb-block-border br3-ns overflow-hidden h-100&quot;]/div[@class=&quot;ph4 flex-grow-1 flex flex-column&quot;]/div[@class=&quot;flex flex-column flex-grow-1 justify-end&quot;]/div[@class=&quot;pt3 core-blue ng-star-inserted&quot;]/span[@class=&quot;inline-flex items-start&quot;]/span[@class=&quot;mv1 inline-flex items-baseline&quot;]/jb-callout[@class=&quot;avenir b core-blue copy-price&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <value>//jb-callout[@type='price']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//jb-product-block[@id='product-block-all-options']/a/div[3]/div[2]/div/span/span/jb-callout</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[1]/following::jb-callout[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='from'])[1]/following::jb-callout[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='per person'])[1]/preceding::jb-callout[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='See restrictions'])[1]/preceding::jb-callout[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//jb-callout</value>
+   </webElementXpaths>
+</WebElementEntity>

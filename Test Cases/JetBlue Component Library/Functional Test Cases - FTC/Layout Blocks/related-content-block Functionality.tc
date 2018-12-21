@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>related-content-block Functionality</name>
+   <tag></tag>
+   <comment>User Story: When user goes to callout-block component page
+and scrolls to example &quot;Callout Block (2-up)&quot;
+then the user should see the &quot;Callout Block (2-up)&quot; example
+When I click on the Learn more link then I should be taken to google.com</comment>
+   <testCaseGuid>51f65826-4a58-47d9-ba63-91a433a39940</testCaseGuid>
+</TestCaseEntity>

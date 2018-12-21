@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>product-block Functionality</name>
+   <tag></tag>
+   <comment>User Story: When user goes to product-block component page
+and scrolls to example &quot;Product Block with all optional elements&quot;
+then the user should see the &quot;Grand Caymen Marriott Beach Resort)&quot; example
+When I click on the Learn more link then I should be taken to google.com</comment>
+   <testCaseGuid>2178255a-eb5c-4a76-a2f1-93291c4fa648</testCaseGuid>
+</TestCaseEntity>

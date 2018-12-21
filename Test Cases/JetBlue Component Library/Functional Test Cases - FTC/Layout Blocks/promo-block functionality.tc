@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>promo-block functionality</name>
+   <tag></tag>
+   <comment>User Story: When user goes to promo-block component page
+and scrolls down to the first Over the moon Promo Block example
+then I should be able to see the Over the moon Promo Block example
+When I click on the background image then I should be taken to google.com
+When I click on the Over the Moon section then I should be taken to google.com
+When I click on the Headline I should be taken to google.com
+When I click on the Subcopy I should be taken to google.com
+When I click on the background image then I should be taken to google.com
+When I click on the CTA Button (Book Now)  I should be taken to https://www.jetblue.com/</comment>
+   <testCaseGuid>eeda20c1-0b04-4e51-8c18-e1eeac9bcbc9</testCaseGuid>
+</TestCaseEntity>

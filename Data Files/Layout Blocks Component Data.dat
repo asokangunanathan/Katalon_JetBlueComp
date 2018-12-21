@@ -9,11 +9,11 @@
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
    <data>hero null 0.0</data>
-   <data>callout-block layouts%2F 0.0</data>
+   <data>callout-block layout%2F 0.0</data>
    <data>flight-block null 0.0</data>
    <data>navigation-block null 0.0</data>
    <data>product-block null 0.0</data>
-   <data>promo-block layouts%2F 0.0</data>
+   <data>promo-block layout%2F 0.0</data>
    <data>logo-grid-item null 0.0</data>
    <data>related-content-block null 0.0</data>
    <internalDataColumns>

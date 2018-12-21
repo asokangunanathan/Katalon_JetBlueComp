@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>svg</name>
+   <tag></tag>
+   <elementGuidId>bc9a9ef3-411b-4f39-9f4c-681ca9ffd7c7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;callout-block-2up-grid&quot;)/jb-callout-block[@class=&quot;db tc&quot;]/div[@class=&quot;center callout-block-icon mb3&quot;]/jb-icon[@class=&quot;t-fast notranslate&quot;]/svg[1][count(. | //svg[@xmlns = 'http://www.w3.org/2000/svg' and @width = '72' and @height = '72' and @viewBox = '0 0 72 72' and @focusable = 'false']) = count(//svg[@xmlns = 'http://www.w3.org/2000/svg' and @width = '72' and @height = '72' and @viewBox = '0 0 72 72' and @focusable = 'false'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>72</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>72</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 72 72</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>focusable</name>
+      <type>Main</type>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;callout-block-2up-grid&quot;)/jb-callout-block[@class=&quot;db tc&quot;]/div[@class=&quot;center callout-block-icon mb3&quot;]/jb-icon[@class=&quot;t-fast notranslate&quot;]/svg[1]</value>
+   </webElementProperties>
+</WebElementEntity>

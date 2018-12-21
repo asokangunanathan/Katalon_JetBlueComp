@@ -12,25 +12,16 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Functional Test Case Suite/Functional Regression Test Suite</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Functional Test Case Suites/Layout Blocks Components Suite</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
-            <runConfigurationId>Firefox</runConfigurationId>
+            <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Functional Test Case Suite/Functional Regression Test Suite</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
-            <groupName>Web Desktop</groupName>
-            <profileName>default</profileName>
-            <runConfigurationId>Safari</runConfigurationId>
-         </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Functional Test Case Suite/Functional Regression Test Suite</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Functional Test Case Suites/Elements Components Suite</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>
