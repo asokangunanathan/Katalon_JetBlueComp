@@ -6,15 +6,19 @@
    <elementGuidId>07dd44a8-382b-42ac-b709-fc6b9a757855</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>/html[@class=&quot;h-100&quot;]/body[@class=&quot;h-100&quot;]/jb-app[@class=&quot;ng-tns-c0-0&quot;]/div[@class=&quot;flex flex-column flex-row-m flex-row-l&quot;]/div[@class=&quot;flex flex-column items-center flex-auto pt4 pt0-ns w-100 h-100 ng-trigger ng-trigger-pushContent&quot;]/main[@class=&quot;h-100 bg-white charcoal pt7-ns center&quot;]/cb-simple-select[@class=&quot;ng-star-inserted&quot;]/cb-example[1]/div[@class=&quot;db pb0 mt4 mb5 page-margin&quot;]/div[@class=&quot;pv3&quot;]/div[@class=&quot;example-width&quot;]/form[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]/jb-simple-select[@class=&quot;relative db ng-tns-c3-1 ng-untouched ng-pristine ng-valid&quot;]/button[@class=&quot;flex items-center tl pointer bn pa0 bg-white b w-100 hover-core-blue royal-blue&quot;][count(. | //button[@class = 'flex items-center tl pointer bn pa0 bg-white b w-100 hover-core-blue royal-blue' and (text() = ' Dropdown title chevron' or . = ' Dropdown title chevron')]) = count(//button[@class = 'flex items-center tl pointer bn pa0 bg-white b w-100 hover-core-blue royal-blue' and (text() = ' Dropdown title chevron' or . = ' Dropdown title chevron')])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='View in CompoDoc'])[1]/following::button[1]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>/html[@class=&quot;h-100&quot;]/body[@class=&quot;h-100&quot;]/jb-app[@class=&quot;ng-tns-c0-0&quot;]/div[@class=&quot;flex flex-column flex-row-m flex-row-l&quot;]/div[@class=&quot;flex flex-column items-center flex-auto pt4 pt0-ns w-100 h-100 ng-trigger ng-trigger-pushContent&quot;]/main[@class=&quot;h-100 bg-white charcoal pt7-ns center&quot;]/cb-simple-select[@class=&quot;ng-star-inserted&quot;]/cb-example[1]/div[@class=&quot;db pb0 mt4 mb5 page-margin&quot;]/div[@class=&quot;pv3&quot;]/div[@class=&quot;example-width&quot;]/form[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]/jb-simple-select[@class=&quot;relative db ng-tns-c3-1 ng-untouched ng-pristine ng-valid&quot;]/button[@class=&quot;flex items-center tl pointer bn pa0 bg-white b w-100 hover-core-blue royal-blue&quot;][count(. | //button[@class = 'flex items-center tl pointer bn pa0 bg-white b w-100 hover-core-blue royal-blue' and (text() = ' Dropdown title chevron' or . = ' Dropdown title chevron')]) = count(//button[@class = 'flex items-center tl pointer bn pa0 bg-white b w-100 hover-core-blue royal-blue' and (text() = ' Dropdown title chevron' or . = ' Dropdown title chevron')])]</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

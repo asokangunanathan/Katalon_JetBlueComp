@@ -6,12 +6,12 @@
    <elementGuidId>1b7a26f5-5241-4711-a0e7-d88341af7cf1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//jb-copy[@class = 'avenir db copy' and (text() = ' Item 1 ' or . = ' Item 1 ')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Dropdown title'])[1]/following::jb-copy[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[@class=&quot;h-100&quot;]/body[@class=&quot;h-100&quot;]/jb-app[@class=&quot;ng-tns-c0-0&quot;]/div[@class=&quot;flex flex-column flex-row-m flex-row-l&quot;]/div[@class=&quot;flex flex-column items-center flex-auto pt4 pt0-ns w-100 h-100 ng-trigger ng-trigger-pushContent&quot;]/main[@class=&quot;h-100 bg-white charcoal pt7-ns center&quot;]/cb-simple-select[@class=&quot;ng-star-inserted&quot;]/cb-example[1]/div[@class=&quot;db pb0 mt4 mb5 page-margin&quot;]/div[@class=&quot;pv3&quot;]/div[@class=&quot;example-width&quot;]/form[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]/jb-simple-select[@class=&quot;relative db ng-tns-c5-1 ng-untouched ng-pristine ng-valid&quot;]/ul[@id=&quot;listbox-container&quot;]/li[@id=&quot;option-0&quot;]/jb-simple-select-option[@class=&quot;db&quot;]/div[@class=&quot;w-100 bn db pointer royal-blue tl pa0 bg-transparent hover-bg-royal-blue hover-white pv2 ph3 option-item bg-royal-blue white&quot;]/jb-copy[@class=&quot;avenir db copy&quot;][count(. | //jb-copy[@class = 'avenir db copy' and (text() = ' Item 1 ' or . = ' Item 1 ')]) = count(//jb-copy[@class = 'avenir db copy' and (text() = ' Item 1 ' or . = ' Item 1 ')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -38,14 +38,20 @@
       <value> Item 1 </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;h-100&quot;]/body[@class=&quot;h-100&quot;]/jb-app[@class=&quot;ng-tns-c0-0&quot;]/div[@class=&quot;flex flex-column flex-row-m flex-row-l&quot;]/div[@class=&quot;flex flex-column items-center flex-auto pt4 pt0-ns w-100 h-100 ng-trigger ng-trigger-pushContent&quot;]/main[@class=&quot;h-100 bg-white charcoal pt7-ns center&quot;]/cb-simple-select[@class=&quot;ng-star-inserted&quot;]/cb-example[1]/div[@class=&quot;db pb0 mt4 mb5 page-margin&quot;]/div[@class=&quot;pv3&quot;]/div[@class=&quot;w-50 w-20-m w-10-l&quot;]/form[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]/jb-simple-select[@class=&quot;relative db ng-tns-c2-1 ng-untouched ng-pristine ng-valid&quot;]/div[@class=&quot;br-rounded-4 dn ba b--medium-gray bg-white mt2 jb-shadow-1 absolute w-100 pop-up-index dib&quot;]/jb-simple-select-option[@class=&quot;db ng-tns-c2-1 ng-star-inserted&quot;]/button[@class=&quot;w-100 bn db pointer royal-blue tl pa0 bg-transparent hover-bg-royal-blue focus-bg-royal-blue hover-white pv2 ph3&quot;]/jb-copy[@class=&quot;avenir db copy&quot;]</value>
+      <value>/html[@class=&quot;h-100&quot;]/body[@class=&quot;h-100&quot;]/jb-app[@class=&quot;ng-tns-c0-0&quot;]/div[@class=&quot;flex flex-column flex-row-m flex-row-l&quot;]/div[@class=&quot;flex flex-column items-center flex-auto pt4 pt0-ns w-100 h-100 ng-trigger ng-trigger-pushContent&quot;]/main[@class=&quot;h-100 bg-white charcoal pt7-ns center&quot;]/cb-simple-select[@class=&quot;ng-star-inserted&quot;]/cb-example[1]/div[@class=&quot;db pb0 mt4 mb5 page-margin&quot;]/div[@class=&quot;pv3&quot;]/div[@class=&quot;example-width&quot;]/form[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]/jb-simple-select[@class=&quot;relative db ng-tns-c5-1 ng-untouched ng-pristine ng-valid&quot;]/ul[@id=&quot;listbox-container&quot;]/li[@id=&quot;option-0&quot;]/jb-simple-select-option[@class=&quot;db&quot;]/div[@class=&quot;w-100 bn db pointer royal-blue tl pa0 bg-transparent hover-bg-royal-blue hover-white pv2 ph3 option-item bg-royal-blue white&quot;]/jb-copy[@class=&quot;avenir db copy&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//li[@id='option-0']/jb-simple-select-option/div/jb-copy</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Dropdown title'])[1]/following::jb-copy[1]</value>
@@ -72,6 +78,6 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//jb-simple-select-option/button/jb-copy</value>
+      <value>//div/jb-copy</value>
    </webElementXpaths>
 </WebElementEntity>

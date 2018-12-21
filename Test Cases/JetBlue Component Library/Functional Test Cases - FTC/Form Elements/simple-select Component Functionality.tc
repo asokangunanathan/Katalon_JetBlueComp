@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>FTC01 - simple-select Component Functionality</name>
+   <name>simple-select Component Functionality</name>
    <tag></tag>
    <comment>User Story: When user goes to simple-selet component page
 and scrolls down to Simple Select Example

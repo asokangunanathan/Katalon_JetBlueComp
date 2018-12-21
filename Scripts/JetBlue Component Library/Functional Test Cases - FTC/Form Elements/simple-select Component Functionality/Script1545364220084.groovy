@@ -22,14 +22,16 @@ WebUI.comment('User Story: When user goes to simple-selet component page')
 // User Story: When user goes to simple-selet component page
 WebUI.navigateToUrl(GlobalVariable.envURL1 + 'simple-select/')
 
+WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/button_T'))
+
 WebUI.comment('and scrolls down to Simple Select Example')
 
 // and scroll down to Simple Select Example
-WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Form Elements/simple-select Component Objects/Page_JetBlue  Component Library/h3_Simple Select with min-width'), 
+WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Form Elements/simple-select Component Objects/Page_JetBlue  Component Library/h3_Simple Select (with min-width)'), 
     10)
 
-WebUI.verifyElementText(findTestObject('JetBlue Component Library Objects/Form Elements/simple-select Component Objects/Page_JetBlue  Component Library/strong_Simple Dropdown Value'), 
-    'Simple Dropdown Value:')
+WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/Form Elements/simple-select Component Objects/Page_JetBlue  Component Library/button_Dropdown title chevron'), 
+    10)
 
 // and selects each listItem in the simple select dropdown then Simple Dropdown Value should change to the listItem
 // then the Simple Dropdown value should change to the selected listItem Value
@@ -41,24 +43,12 @@ WebUI.comment('then the Simple Dropdown value should change to the selected list
 
 WebUI.click(findTestObject('JetBlue Component Library Objects/Form Elements/simple-select Component Objects/Page_JetBlue  Component Library/button_Dropdown title chevron'))
 
-WebUI.click(findTestObject('JetBlue Component Library Objects/Form Elements/simple-select Component Objects/Page_JetBlue  Component Library/jb-copy_Item 1'), 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyTextPresent('Simple Dropdown Value: ' + 1, false //WebUI.verifyTextNotPresent('Dropdown title', false)
-    )
-
 for (def index : (1..9)) {
-    WebUI.click(findTestObject(('JetBlue Component Library Objects/simple-select Component Objects/Page_JetBlue  Component Library/button_Item ' + 
-            index) + ' chevron'))
-
-    WebUI.click(findTestObject('JetBlue Component Library Objects/Form Elements/simple-select Component Objects/Page_JetBlue  Component Library/jb-copy_Item 1'))
-
-    //WebUI.click(findTestObject('JetBlue Component Library Objects/simple-select Component Objects/Page_JetBlue  Component Library/jb-copy_Item ' + 
-    //       index))
-    //WebUI.click(findTestObject('JetBlue Component Library Objects/Form Elements/simple-select Component Objects/Page_JetBlue  Component Library/svg_chevron'))
-    // WebUI.click(findTestObject('JetBlue Component Library Objects/Form Elements/simple-select Component Objects/Page_JetBlue  Component Library/h3_Simple Select with min-width'))
-    WebUI.verifyTextPresent('Simple Dropdown Value: ' + index, false)
+    WebUI.click(findTestObject('JetBlue Component Library Objects/Form Elements/simple-select Component Objects/Page_JetBlue  Component Library/jb-copy_Item ' + 
+            index))
+	//WebUI.verifyTextPresent("Simple Dropdown Value: " + index, false)
+    WebUI.click(findTestObject('JetBlue Component Library Objects/Form Elements/simple-select Component Objects/Page_JetBlue  Component Library/button_Item '+ index + ' chevron'))
+	
 }
-
+WebUI.verifyTextPresent("Simple Dropdown Value: 9", false)
 WebUI.closeBrowser()
-

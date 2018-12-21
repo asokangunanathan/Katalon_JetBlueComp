@@ -14,7 +14,7 @@
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Note:'])[1]/following::strong[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <value> Simple Dropdown Value: </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
@@ -47,13 +47,19 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='G'])[1]/preceding::strong[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='form'])[2]/following::strong[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::strong[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Simple Select (with max-width)'])[1]/preceding::strong[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View in CompoDoc'])[2]/preceding::strong[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
