@@ -3,6 +3,12 @@
    <description></description>
    <name>tabs Component Functionality</name>
    <tag></tag>
-   <comment></comment>
+   <comment>User Story: When user goes to tabs component page
+and scrolls down to Tabbed Navigation (Text Only) Example
+and selects each Tab in the Tabbed Navigation (Text Only) Component then the correct content should display within tab
+the user should expect to see the correct tab content for each tab
+When the user scrolls down to the Tabbed Navigatyion (with icon and Dynamic Base Width) Example
+and selects each Tab in the Tabbed Navigation (with icon and Dynamic Base Width) Component then the correct content should display within tab
+the user should expect to see the correct tab content for each tab</comment>
    <testCaseGuid>2d009991-4428-4914-86f6-4b79296b536c</testCaseGuid>
 </TestCaseEntity>

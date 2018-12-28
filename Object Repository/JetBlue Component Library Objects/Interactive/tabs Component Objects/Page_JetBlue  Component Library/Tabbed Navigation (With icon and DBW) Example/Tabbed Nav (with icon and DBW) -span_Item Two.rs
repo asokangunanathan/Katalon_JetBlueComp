@@ -6,12 +6,12 @@
    <elementGuidId>53acc4b4-5996-4005-a68f-87882b1d2141</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='jb-tab-id-1']/span/span</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>id(&quot;jb-tab-id-1&quot;)/span[@class=&quot;flex justify-center items-center pb2 avenir flex-column flex-row-ns&quot;]/span[1][count(. | //span[(text() = ' Item Two ' or . = ' Item Two ')]) = count(//span[(text() = ' Item Two ' or . = ' Item Two ')])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='jb-tab-id-1']/span/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

@@ -16,20 +16,25 @@
    <data>promo-block layout%2F 0.0</data>
    <data>logo-grid-item null 0.0</data>
    <data>related-content-block null 0.0</data>
+   <data>editorial-crew-scoop null 0.0</data>
+   <data>editorial-blog-post null 0.0</data>
+   <data>editorial-image null 0.0</data>
+   <data>editorial-grid null 0.0</data>
+   <data>editorial-weather-widget null 0.0</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>componentName</name>
-      <size>8</size>
+      <size>13</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>componentLocation</name>
-      <size>8</size>
+      <size>13</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>2</columnIndex>
       <name>acceptableDiff</name>
-      <size>8</size>
+      <size>13</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

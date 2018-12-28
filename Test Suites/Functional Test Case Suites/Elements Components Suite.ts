@@ -4,7 +4,7 @@
    <name>Elements Components Suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-20T16:10:19</lastRun>
+   <lastRun>2018-12-28T12:08:14</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
