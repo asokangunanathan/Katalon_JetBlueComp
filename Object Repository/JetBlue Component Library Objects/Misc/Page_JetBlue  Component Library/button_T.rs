@@ -6,16 +6,16 @@
    <elementGuidId>a79813be-2a2d-4534-8143-3d2d57cd6982</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Filters'])[2]/following::button[1]</value>
+         <key>BASIC</key>
+         <value>//button[(text() = 'T' or . = 'T')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//button[(text() = 'T' or . = 'T')]</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Filters'])[2]/following::button[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

@@ -4,7 +4,7 @@
    <name>Visual Suite - Components - Media</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-28T10:59:54</lastRun>
+   <lastRun>2019-01-03T23:09:45</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

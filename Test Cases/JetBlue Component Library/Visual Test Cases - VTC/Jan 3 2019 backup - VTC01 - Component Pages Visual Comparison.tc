@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Jan 3 2019 backup - VTC01 - Component Pages Visual Comparison</name>
+   <tag></tag>
+   <comment>>>> wrote the expected component page image into $expectedFile.toString()
+>>> wrote the actual component page image into $actualFile.toString()
+>>> wrote the ImageDiff into $diffFile.toString()</comment>
+   <testCaseGuid>c1febc39-117d-4517-979f-94b67900d190</testCaseGuid>
+   <variable>
+      <defaultValue>'buttons'</defaultValue>
+      <description></description>
+      <id>fbaf9204-5e6f-47b3-b4e0-bcb8f2f84d99</id>
+      <masked>false</masked>
+      <name>componentName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1a9145dd-e482-4559-bc1e-736966dacb04</id>
+      <masked>false</masked>
+      <name>componentLocation</name>
+   </variable>
+   <variable>
+      <defaultValue>'0.00'</defaultValue>
+      <description>Acceptable Difference in Percentage</description>
+      <id>0fc84b81-ebb6-4561-88db-dcc56fc5b61c</id>
+      <masked>false</masked>
+      <name>acceptableDiff</name>
+   </variable>
+</TestCaseEntity>
