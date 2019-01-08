@@ -22,7 +22,7 @@ WebUI.comment('User Story: When user goes to simple-selet component page')
 // User Story: When user goes to simple-selet component page
 WebUI.navigateToUrl(GlobalVariable.envURL1 + 'simple-select/')
 
-WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/button_T'))
+WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
 
 WebUI.comment('and scrolls down to Simple Select Example')
 
@@ -46,9 +46,13 @@ WebUI.click(findTestObject('JetBlue Component Library Objects/Form Elements/simp
 for (def index : (1..9)) {
     WebUI.click(findTestObject('JetBlue Component Library Objects/Form Elements/simple-select Component Objects/Page_JetBlue  Component Library/jb-copy_Item ' + 
             index))
-	//WebUI.verifyTextPresent("Simple Dropdown Value: " + index, false)
-    WebUI.click(findTestObject('JetBlue Component Library Objects/Form Elements/simple-select Component Objects/Page_JetBlue  Component Library/button_Item '+ index + ' chevron'))
-	
+
+    //WebUI.verifyTextPresent("Simple Dropdown Value: " + index, false)
+    WebUI.click(findTestObject(('JetBlue Component Library Objects/Form Elements/simple-select Component Objects/Page_JetBlue  Component Library/button_Item ' + 
+            index) + ' chevron'))
 }
-WebUI.verifyTextPresent("Simple Dropdown Value: 9", false)
+
+WebUI.verifyTextPresent('Simple Dropdown Value: 9', false)
+
 WebUI.closeBrowser()
+

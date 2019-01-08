@@ -6,15 +6,15 @@
    <elementGuidId>1c7e393b-5f6a-4b12-9a08-753a45ceddb2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='callout-block-2up-grid']/jb-callout-block/jb-copy</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>id(&quot;callout-block-2up-grid&quot;)/jb-callout-block[@class=&quot;db tc&quot;]/jb-copy[@class=&quot;avenir db copy&quot;][count(. | //jb-copy[@class = 'avenir db copy' and (text() = ' Enjoy the most legroom in coach. Get even roomier with Event More® space. ' or . = ' Enjoy the most legroom in coach. Get even roomier with Event More® space. ')]) = count(//jb-copy[@class = 'avenir db copy' and (text() = ' Enjoy the most legroom in coach. Get even roomier with Event More® space. ' or . = ' Enjoy the most legroom in coach. Get even roomier with Event More® space. ')])]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='callout-block-2up-grid']/jb-callout-block/jb-copy</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -24,7 +24,7 @@
       <value>jb-copy</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -38,7 +38,7 @@
       <value> Enjoy the most legroom in coach. Get even roomier with Event More® space. </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
@@ -78,6 +78,6 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//jb-copy</value>
+      <value>//jb-callout-block/jb-copy</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,15 +6,15 @@
    <elementGuidId>b3c3d6a6-a5ba-4a68-95be-692e439b3f6f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//jb-action-link[@id='action-link-text-cta-links-external']/jb-link/a</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//a[@href = 'https://google.ca' and (text() = 'External link CTA' or . = 'External link CTA')]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//jb-action-link[@id='action-link-text-cta-links-external']/jb-link/a</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>pointer w-100 h-100 di color-inherit hover-inherit no-underline underline-hover</value>
+      <value>pointer w-100 h-100 di color-inherit hover-inherit no-underline</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;action-link-text-cta-links-external&quot;)/jb-link[@class=&quot;copy-s b no-underline underline-hover royal-blue hover-core-blue&quot;]/a[@class=&quot;pointer w-100 h-100 di color-inherit hover-inherit no-underline underline-hover&quot;]</value>
+      <value>id(&quot;action-link-text-cta-links-external&quot;)/jb-link[@class=&quot;copy-s b no-underline underline-hover royal-blue hover-core-blue&quot;]/a[@class=&quot;pointer w-100 h-100 di color-inherit hover-inherit no-underline&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -25,13 +25,13 @@ WebUI.navigateToUrl(GlobalVariable.envURL1 + 'tabs/')
 // and scrolls down to Tabbed Navigation (Text Only) Example
 WebUI.comment('and scrolls down to Tabbed Navigation (Text Only) Example')
 
-WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/tabs Component Objects/Page_JetBlue  Component Library/Tabbed Navigation (Text Only) Example/h3_Tabbed Navigation (Text Only)'), 
+WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Interactive/tabs Component Objects/Page_JetBlue  Component Library/h3_Tabbed Navigation (Text Only)'), 
     10)
 
 // and selects each Tab in the Tabbed Navigation (Text Only) Component then the correct content should display within tab
 WebUI.comment('and selects each Tab in the Tabbed Navigation (Text Only) Component then the correct content should display within tab')
 
-WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/tabs Component Objects/Page_JetBlue  Component Library/Tabbed Navigation (Text Only) Example/Tabbed Nav Text Only -span_Item One'), 
+WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/Interactive/tabs Component Objects/Page_JetBlue  Component Library/Tabbed Nav Text Only -span_Item One'), 
     10)
 
 // the user should expect to see the correct tab content for each tab
@@ -39,44 +39,44 @@ WebUI.comment('the user should expect to see the correct tab content for each ta
 
 for (def index : (1..3)) {
     if (index == 1) {
-        WebUI.click(findTestObject('JetBlue Component Library Objects/tabs Component Objects/Page_JetBlue  Component Library/Tabbed Navigation (Text Only) Example/Tabbed Nav Text Only -span_Item One'), 
+        WebUI.click(findTestObject('JetBlue Component Library Objects/Interactive/tabs Component Objects/Page_JetBlue  Component Library/Tabbed Nav Text Only -span_Item One'), 
             FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.verifyElementNotPresent(findTestObject('JetBlue Component Library Objects/tabs Component Objects/Page_JetBlue  Component Library/Tabbed Navigation (Text Only) Example/Tabbed Nav Text Only -h2_Item Two'), 
+        WebUI.verifyElementNotPresent(findTestObject('JetBlue Component Library Objects/Interactive/tabs Component Objects/Page_JetBlue  Component Library/Tabbed Nav Text Only -h2_Item Two'), 
             5)
 
-        WebUI.verifyElementNotPresent(findTestObject('JetBlue Component Library Objects/tabs Component Objects/Page_JetBlue  Component Library/Tabbed Navigation (Text Only) Example/Tabbed Nav Text Only -h2_Item Three'), 
+        WebUI.verifyElementNotPresent(findTestObject('JetBlue Component Library Objects/Interactive/tabs Component Objects/Page_JetBlue  Component Library/Tabbed Nav Text Only -h2_Item Three'), 
             5)
 
-        WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/tabs Component Objects/Page_JetBlue  Component Library/Tabbed Navigation (Text Only) Example/Tabbed Nav Text Only -span_Item One'), 
+        WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/Interactive/tabs Component Objects/Page_JetBlue  Component Library/Tabbed Nav Text Only -span_Item One'), 
             5)
     }
     
     if (index == 2) {
-        WebUI.click(findTestObject('JetBlue Component Library Objects/tabs Component Objects/Page_JetBlue  Component Library/Tabbed Navigation (Text Only) Example/Tabbed Nav Text Only -span_Item Two'), 
+        WebUI.click(findTestObject('JetBlue Component Library Objects/Interactive/tabs Component Objects/Page_JetBlue  Component Library/Tabbed Nav Text Only -span_Item Two'), 
             FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.verifyElementNotPresent(findTestObject('JetBlue Component Library Objects/tabs Component Objects/Page_JetBlue  Component Library/Tabbed Navigation (Text Only) Example/Tabbed Nav Text Only -h2_Item One'), 
+        WebUI.verifyElementNotPresent(findTestObject('JetBlue Component Library Objects/Interactive/tabs Component Objects/Page_JetBlue  Component Library/Tabbed Nav Text Only -h2_Item One'), 
             5)
 
-        WebUI.verifyElementNotPresent(findTestObject('JetBlue Component Library Objects/tabs Component Objects/Page_JetBlue  Component Library/Tabbed Navigation (Text Only) Example/Tabbed Nav Text Only -h2_Item Three'), 
+        WebUI.verifyElementNotPresent(findTestObject('JetBlue Component Library Objects/Interactive/tabs Component Objects/Page_JetBlue  Component Library/Tabbed Nav Text Only -h2_Item Three'), 
             5)
 
-        WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/tabs Component Objects/Page_JetBlue  Component Library/Tabbed Navigation (Text Only) Example/Tabbed Nav Text Only -span_Item Two'), 
+        WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/Interactive/tabs Component Objects/Page_JetBlue  Component Library/Tabbed Nav Text Only -span_Item Two'), 
             5)
     }
     
     if (index == 3) {
-        WebUI.click(findTestObject('JetBlue Component Library Objects/tabs Component Objects/Page_JetBlue  Component Library/Tabbed Navigation (Text Only) Example/Tabbed Nav Text Only -span_Item Three'), 
+        WebUI.click(findTestObject('JetBlue Component Library Objects/Interactive/tabs Component Objects/Page_JetBlue  Component Library/Tabbed Nav Text Only -span_Item Three'), 
             FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.verifyElementNotPresent(findTestObject('JetBlue Component Library Objects/tabs Component Objects/Page_JetBlue  Component Library/Tabbed Navigation (Text Only) Example/Tabbed Nav Text Only -h2_Item Two'), 
+        WebUI.verifyElementNotPresent(findTestObject('JetBlue Component Library Objects/Interactive/tabs Component Objects/Page_JetBlue  Component Library/Tabbed Nav Text Only -h2_Item Two'), 
             5)
 
-        WebUI.verifyElementNotPresent(findTestObject('JetBlue Component Library Objects/tabs Component Objects/Page_JetBlue  Component Library/Tabbed Navigation (Text Only) Example/Tabbed Nav Text Only -h2_Item One'), 
+        WebUI.verifyElementNotPresent(findTestObject('JetBlue Component Library Objects/Interactive/tabs Component Objects/Page_JetBlue  Component Library/Tabbed Nav Text Only -h2_Item One'), 
             5)
 
-        WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/tabs Component Objects/Page_JetBlue  Component Library/Tabbed Navigation (Text Only) Example/Tabbed Nav Text Only -span_Item Three'), 
+        WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/Interactive/tabs Component Objects/Page_JetBlue  Component Library/Tabbed Nav Text Only -span_Item Three'), 
             5)
     }
 }

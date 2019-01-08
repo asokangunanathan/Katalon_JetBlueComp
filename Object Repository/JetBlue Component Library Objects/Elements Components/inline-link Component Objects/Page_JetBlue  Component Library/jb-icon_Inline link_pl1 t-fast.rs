@@ -6,15 +6,15 @@
    <elementGuidId>0d966118-ba52-44ab-a276-d85e675b3299</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//jb-inline-link[@id='inline-link-inline-links-with-icon']/jb-link/a/jb-icon</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//jb-icon[@class = 'pl1 t-fast notranslate ng-star-inserted' and @aria-hidden = 'true']</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//jb-inline-link[@id='inline-link-inline-links-with-icon']/jb-link/a/jb-icon</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -24,25 +24,25 @@
       <value>jb-icon</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>pl1 t-fast notranslate ng-star-inserted</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-hidden</name>
       <type>Main</type>
       <value>true</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;inline-link-inline-links-with-icon&quot;)/jb-link[@class=&quot;underline royal-blue hover-core-blue&quot;]/a[@class=&quot;pointer w-100 h-100 di color-inherit hover-inherit no-underline underline-hover&quot;]/jb-icon[@class=&quot;pl1 t-fast notranslate ng-star-inserted&quot;]</value>
+      <value>id(&quot;inline-link-inline-links-with-icon&quot;)/jb-link[@class=&quot;underline royal-blue hover-core-blue&quot;]/a[@class=&quot;pointer w-100 h-100 di color-inherit hover-inherit no-underline&quot;]/jb-icon[@class=&quot;pl1 t-fast notranslate ng-star-inserted&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

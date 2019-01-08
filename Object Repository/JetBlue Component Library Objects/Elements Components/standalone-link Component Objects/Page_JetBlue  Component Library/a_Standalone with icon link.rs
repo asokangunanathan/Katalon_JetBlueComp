@@ -6,15 +6,15 @@
    <elementGuidId>c7a56b59-4c59-4cc8-92e6-7eb117b34494</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//jb-standalone-link[@id='standalone-link-standalone-link-with-icon']/jb-link/a</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//a[@routerlink = '/icons' and (text() = ' Standalone with icon link ' or . = ' Standalone with icon link ')]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//jb-standalone-link[@id='standalone-link-standalone-link-with-icon']/jb-link/a</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,10 +28,10 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>pointer w-100 h-100 di color-inherit hover-inherit no-underline underline-hover</value>
+      <value>pointer w-100 h-100 di color-inherit hover-inherit no-underline</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>routerlink</name>
       <type>Main</type>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;standalone-link-standalone-link-with-icon&quot;)/jb-link[@class=&quot;underline-hover royal-blue hover-core-blue&quot;]/a[@class=&quot;pointer w-100 h-100 di color-inherit hover-inherit no-underline underline-hover&quot;]</value>
+      <value>id(&quot;standalone-link-standalone-link-with-icon&quot;)/jb-link[@class=&quot;underline-hover royal-blue hover-core-blue&quot;]/a[@class=&quot;pointer w-100 h-100 di color-inherit hover-inherit no-underline&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

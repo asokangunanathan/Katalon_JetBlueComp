@@ -6,15 +6,15 @@
    <elementGuidId>fe0e7a86-8d09-447a-844c-8f240a5851a2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='View in CompoDoc'])[1]/following::div[5]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>/html[@class=&quot;h-100&quot;]/body[@class=&quot;h-100&quot;]/jb-app[@class=&quot;ng-tns-c0-0&quot;]/div[@class=&quot;flex flex-column flex-row-m flex-row-l&quot;]/div[@class=&quot;flex flex-column items-center flex-auto pt4 pt0-ns w-100 h-100 ng-trigger ng-trigger-pushContent&quot;]/main[@class=&quot;h-100 bg-white charcoal pt7-ns center&quot;]/cb-travel-alert[@class=&quot;ng-star-inserted&quot;]/cb-example[1]/div[@class=&quot;db pb0 mt4 mb5 page-margin&quot;]/div[@class=&quot;pv3&quot;]/div[@class=&quot;flex flex-column-ns flex-column-reverse negative-page-margin&quot;]/div[@class=&quot;bg-light-gray flex justify-center&quot;][count(. | //div[@class = 'bg-light-gray flex justify-center' and (text() = 'top margin of main navigationbottom margin of main navigation' or . = 'top margin of main navigationbottom margin of main navigation')]) = count(//div[@class = 'bg-light-gray flex justify-center' and (text() = 'top margin of main navigationbottom margin of main navigation' or . = 'top margin of main navigationbottom margin of main navigation')])]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='View in CompoDoc'])[1]/following::div[5]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -24,7 +24,7 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -38,11 +38,11 @@
       <value>top margin of main navigationbottom margin of main navigation</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;h-100&quot;]/body[@class=&quot;h-100&quot;]/jb-app[@class=&quot;ng-tns-c0-0&quot;]/div[@class=&quot;flex flex-column flex-row-m flex-row-l&quot;]/div[@class=&quot;flex flex-column items-center flex-auto pt4 pt0-ns w-100 h-100 ng-trigger ng-trigger-pushContent&quot;]/main[@class=&quot;h-100 bg-white charcoal pt7-ns center&quot;]/cb-travel-alert[@class=&quot;ng-star-inserted&quot;]/cb-example[1]/div[@class=&quot;db pb0 mt4 mb5 page-margin&quot;]/div[@class=&quot;pv3&quot;]/div[@class=&quot;flex flex-column-ns flex-column-reverse negative-page-margin&quot;]/div[@class=&quot;bg-light-gray flex justify-center&quot;]</value>
+      <value>/html[@class=&quot;h-100&quot;]/body[@class=&quot;h-100&quot;]/jb-app[@class=&quot;ng-tns-c0-0&quot;]/div[@class=&quot;flex flex-column flex-row-m flex-row-l&quot;]/div[@class=&quot;flex flex-column items-center flex-auto pt4 pt0-ns w-100 h-100 ng-trigger ng-trigger-pushContent&quot;]/main[@class=&quot;h-100 bg-white charcoal pt7-ns center&quot;]/cb-travel-alert[@class=&quot;ng-star-inserted&quot;]/cb-example[1]/div[@class=&quot;pb0 mt4 mb5&quot;]/div[@class=&quot;pv3 page-margin&quot;]/div[@class=&quot;flex flex-column-ns flex-column-reverse negative-page-margin&quot;]/div[@class=&quot;bg-light-gray flex justify-center&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

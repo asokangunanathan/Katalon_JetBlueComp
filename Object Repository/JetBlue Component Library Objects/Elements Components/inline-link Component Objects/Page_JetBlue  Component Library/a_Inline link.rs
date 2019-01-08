@@ -6,15 +6,15 @@
    <elementGuidId>778b8fc1-f8e9-4b84-a07c-f9af8dd30a54</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//jb-inline-link[@id='inline-link-inline-link-no-icon']/jb-link/a</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//a[@href = 'https://google.ca' and (text() = 'Inline link' or . = 'Inline link')]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//jb-inline-link[@id='inline-link-inline-link-no-icon']/jb-link/a</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>pointer w-100 h-100 di color-inherit hover-inherit no-underline underline-hover</value>
+      <value>pointer w-100 h-100 di color-inherit hover-inherit no-underline</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;inline-link-inline-link-no-icon&quot;)/jb-link[@class=&quot;underline royal-blue hover-core-blue&quot;]/a[@class=&quot;pointer w-100 h-100 di color-inherit hover-inherit no-underline underline-hover&quot;]</value>
+      <value>id(&quot;inline-link-inline-link-no-icon&quot;)/jb-link[@class=&quot;underline royal-blue hover-core-blue&quot;]/a[@class=&quot;pointer w-100 h-100 di color-inherit hover-inherit no-underline&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

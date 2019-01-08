@@ -1,76 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Tabbed Nav Text Only -h2_Item Two</name>
+   <name>Tabbed Nav Text Only -span_Item One</name>
    <tag></tag>
-   <elementGuidId>6cd95375-aa55-457e-bc80-0546155182dd</elementGuidId>
+   <elementGuidId>99ee2fcb-b886-4bce-a302-92d7bc0fca6a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//jb-tab-panel[@id='jb-tabpanel-id-17']/div/h2</value>
+         <key>BASIC</key>
+         <value>id(&quot;jb-tab-id-16&quot;)/span[@class=&quot;flex justify-center items-center pb2 avenir flex-column flex-row-ns&quot;]/span[1][count(. | //span[(text() = ' Item One ' or . = ' Item One ')]) = count(//span[(text() = ' Item One ' or . = ' Item One ')])]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;jb-tabpanel-id-17&quot;)/div[@class=&quot;pa3 ba br2 b--black-10 bg-white charcoal ng-star-inserted&quot;]/h2[1][count(. | //h2[(text() = ' Item Two ' or . = ' Item Two ')]) = count(//h2[(text() = ' Item Two ' or . = ' Item Two ')])]</value>
+         <key>XPATH</key>
+         <value>//button[@id='jb-tab-id-16']/span/span</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h2</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Item Two </value>
+      <value> Item One </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;jb-tabpanel-id-17&quot;)/div[@class=&quot;pa3 ba br2 b--black-10 bg-white charcoal ng-star-inserted&quot;]/h2[1]</value>
+      <value>id(&quot;jb-tab-id-16&quot;)/span[@class=&quot;flex justify-center items-center pb2 avenir flex-column flex-row-ns&quot;]/span[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//jb-tab-panel[@id='jb-tabpanel-id-17']/div/h2</value>
+      <value>//button[@id='jb-tab-id-16']/span/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Item Three'])[1]/following::h2[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View in CompoDoc'])[1]/following::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Item Two'])[1]/following::h2[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tabbed Navigation (Text Only)'])[1]/following::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Continue'])[1]/preceding::h2[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Item Two'])[1]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Code sample'])[1]/preceding::h2[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Item Three'])[1]/preceding::span[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div/h2</value>
+      <value>//span/span</value>
    </webElementXpaths>
 </WebElementEntity>

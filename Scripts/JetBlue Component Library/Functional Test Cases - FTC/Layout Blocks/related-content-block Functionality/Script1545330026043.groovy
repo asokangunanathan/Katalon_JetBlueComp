@@ -21,6 +21,7 @@ WebUI.comment('User Story: When user goes to related-content-block component pag
 
 // User Story: When user goes to simple-selet component page
 WebUI.navigateToUrl(GlobalVariable.envURL1 + 'related-content-block')
+
 WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/button_T'))
 
 WebUI.comment('and scrolls to example "Section Specific Related Content Block With Icon"')
@@ -31,20 +32,18 @@ WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Layout B
     10)
 
 //WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/Layout Blocks/related-content-block Objects/Page_JetBlue  Component Library/polygon'), 
-  //  10)
-
+//  10)
 WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/Layout Blocks/related-content-block Objects/Page_JetBlue  Component Library/CTA Link'), 
     10)
 
 WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/Layout Blocks/related-content-block Objects/Page_JetBlue  Component Library/Header'), 
     10)
 
-WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/Layout Blocks/related-content-block Objects/Page_JetBlue  Component Library/jb-copy_Description'), 
+WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/Layout Blocks/related-content-block Objects/Page_JetBlue  Component Library/h4_We Mean Business'), 
     10)
 
 WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/Layout Blocks/related-content-block Objects/Page_JetBlue  Component Library/We Mean Business Related Content Block'), 
     10)
-
 
 WebUI.comment('When I click on the Learn more link then I should be taken to google.com')
 

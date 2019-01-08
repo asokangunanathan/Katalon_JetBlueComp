@@ -6,15 +6,15 @@
    <elementGuidId>7909cfdc-da95-40fd-9592-2a6a265baee8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//jb-product-block[@id='product-block-all-options']/a/div/jb-image/img</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>id(&quot;product-block-all-options&quot;)/a[@class=&quot;flex flex-column relative no-underline pb4 bt bb ba-ns jb-block-border br3-ns overflow-hidden h-100&quot;]/div[@class=&quot;h10&quot;]/jb-image[@class=&quot;line-height-0 dib mw-100 h-100 w-100&quot;]/img[@class=&quot;img nested-cropped-img h-100 w-100&quot;][count(. | //img[@class = 'img nested-cropped-img h-100 w-100' and @src = 'assets/img/sampleimage.jpg']) = count(//img[@class = 'img nested-cropped-img h-100 w-100' and @src = 'assets/img/sampleimage.jpg'])]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//jb-product-block[@id='product-block-all-options']/a/div/jb-image/img</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -24,7 +24,7 @@
       <value>img</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -38,7 +38,7 @@
       <value>assets/img/sampleimage.jpg</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

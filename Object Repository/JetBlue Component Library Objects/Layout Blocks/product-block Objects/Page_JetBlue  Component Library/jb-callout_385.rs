@@ -6,15 +6,15 @@
    <elementGuidId>f68befad-cb44-4797-81c9-b8035d425628</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//jb-callout[@type='price']</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>id(&quot;product-block-all-options&quot;)/a[@class=&quot;flex flex-column relative no-underline pb4 bt bb ba-ns jb-block-border br3-ns overflow-hidden h-100&quot;]/div[@class=&quot;ph4 flex-grow-1 flex flex-column&quot;]/div[@class=&quot;flex flex-column flex-grow-1 justify-end&quot;]/div[@class=&quot;pt3 core-blue ng-star-inserted&quot;]/span[@class=&quot;inline-flex items-start&quot;]/span[@class=&quot;mv1 inline-flex items-baseline&quot;]/jb-callout[@class=&quot;avenir b core-blue copy-price&quot;][count(. | //jb-callout[@class = 'avenir b core-blue copy-price' and @type = 'price' and (text() = '385' or . = '385')]) = count(//jb-callout[@class = 'avenir b core-blue copy-price' and @type = 'price' and (text() = '385' or . = '385')])]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//jb-callout[@type='price']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -24,7 +24,7 @@
       <value>jb-callout</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -45,7 +45,7 @@
       <value>385</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

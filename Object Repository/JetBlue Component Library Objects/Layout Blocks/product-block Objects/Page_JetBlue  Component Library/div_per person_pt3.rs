@@ -1,76 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Tabbed Nav (with icon and DBW) -span_Item One</name>
+   <name>div_per person_pt3</name>
    <tag></tag>
-   <elementGuidId>a6ed2165-4a03-4d05-b74d-b7b000adab3d</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//button[@id='jb-tab-id-0']/span/span</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;jb-tab-id-0&quot;)/span[@class=&quot;flex justify-center items-center pb2 avenir flex-column flex-row-ns&quot;]/span[1][count(. | //span[(text() = ' Item One ' or . = ' Item One ')]) = count(//span[(text() = ' Item One ' or . = ' Item One ')])]</value>
-      </entry>
-   </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <elementGuidId>75b300f8-8b81-4449-9674-222ced24ddf3</elementGuidId>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>class</name>
       <type>Main</type>
-      <value> Item One </value>
+      <value>pt3</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;jb-tab-id-0&quot;)/span[@class=&quot;flex justify-center items-center pb2 avenir flex-column flex-row-ns&quot;]/span[1]</value>
+      <value>id(&quot;product-block-all-options&quot;)/a[@class=&quot;flex flex-column relative no-underline pb4 bt bb ba-ns jb-block-border br3-ns overflow-hidden h-100&quot;]/div[@class=&quot;ph4 flex-grow-1 flex flex-column&quot;]/div[@class=&quot;flex flex-column flex-grow-1 justify-end&quot;]/div[@class=&quot;pt3&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//button[@id='jb-tab-id-0']/span/span</value>
+      <value>//jb-product-block[@id='product-block-all-options']/a/div[3]/div[2]/div[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='View in CompoDoc'])[2]/following::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='per person'])[1]/following::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tabbed Navigation (With Icon and Dynamic Base Width)'])[1]/following::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[1]/following::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Item Two'])[2]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='See restrictions'])[1]/preceding::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Item Three'])[2]/preceding::span[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Grand Hyatt Baha Marriot'])[1]/preceding::div[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//cb-example[2]/div/div[2]/div/jb-tabs/nav/div/div/div/jb-tab-button/button/span/span</value>
+      <value>//div[2]/div[3]</value>
    </webElementXpaths>
 </WebElementEntity>

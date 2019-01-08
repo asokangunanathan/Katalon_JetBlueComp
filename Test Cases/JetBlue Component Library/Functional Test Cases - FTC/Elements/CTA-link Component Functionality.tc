@@ -5,6 +5,12 @@
    <tag></tag>
    <comment>User Story:  When I access the CTA-link component page and scroll to Text CTA Links: default
 then I should be able to see the Text CTA Links: default example
-When I click on Default link CTA then I should be taken to google.com</comment>
+When I click on Default link CTA then I should be taken to google.com
+User Story:  When I access the CTA-link component page and scroll to Text CTA Links: External
+then I should be able to see the Text CTA Links: External example and clicking on it should take me to google.com
+User Story:  When I access the CTA-link component page and scroll to Text CTA Links: document
+
+then I should be able to see the Text CTA Links: document
+ example and clicking on it should take me to /icons</comment>
    <testCaseGuid>d75efa6c-eb9a-45c3-90ac-00cdcbf33db7</testCaseGuid>
 </TestCaseEntity>

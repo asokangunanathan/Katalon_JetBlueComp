@@ -6,18 +6,18 @@
    <elementGuidId>7a2619ef-7c76-4cde-ab45-a8718172f52e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//jb-dialog-link[@id='dialog-link-dialog-link']/button</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>id(&quot;dialog-link-dialog-link&quot;)/button[@class=&quot;copy-xs mt1 mt2-ns ph0 pb0 bn royal-blue hover-core-blue
       no-underline underline-hover avenir pointer bg-transparent flex&quot;][count(. | //button[@class = 'copy-xs mt1 mt2-ns ph0 pb0 bn royal-blue hover-core-blue
       no-underline underline-hover avenir pointer bg-transparent flex' and @jbclickstop = 'click($event)' and (text() = ' See restrictions ' or . = ' See restrictions ')]) = count(//button[@class = 'copy-xs mt1 mt2-ns ph0 pb0 bn royal-blue hover-core-blue
       no-underline underline-hover avenir pointer bg-transparent flex' and @jbclickstop = 'click($event)' and (text() = ' See restrictions ' or . = ' See restrictions ')])]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//jb-dialog-link[@id='dialog-link-dialog-link']/button</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -27,7 +27,7 @@
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -35,7 +35,7 @@
       no-underline underline-hover avenir pointer bg-transparent flex</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>jbclickstop</name>
       <type>Main</type>
@@ -49,7 +49,7 @@
       <value> See restrictions </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

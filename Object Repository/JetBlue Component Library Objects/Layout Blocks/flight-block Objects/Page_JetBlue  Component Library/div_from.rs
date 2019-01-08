@@ -6,39 +6,43 @@
    <elementGuidId>b80d557d-47fa-4874-b353-5059041b83cd</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//jb-flight-block[@id='flight-block-price']/a/div/div/div[2]/div</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;flight-block-price&quot;)/a[@class=&quot;no-underline bt bb ba-ns sky-blue jb-block-border flex-ns w-100 br3-ns overflow-hidden&quot;]/div[@class=&quot;flex-column relative-ns w-100&quot;]/div[@class=&quot;ph4 pv3&quot;]/div[@class=&quot;bottom-1-ns mt3 mt0-ns core-blue absolute-ns right4 bottom-0&quot;]/div[@class=&quot;pb1 tr-ns copy-s&quot;][count(. | //div[@class = 'pb1 tr-ns copy-s' and (text() = 'from' or . = 'from')]) = count(//div[@class = 'pb1 tr-ns copy-s' and (text() = 'from' or . = 'from')])]</value>
+         <key>CSS</key>
+         <value>#flight-block-price</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>pb1 tr-ns copy-s</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>from</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

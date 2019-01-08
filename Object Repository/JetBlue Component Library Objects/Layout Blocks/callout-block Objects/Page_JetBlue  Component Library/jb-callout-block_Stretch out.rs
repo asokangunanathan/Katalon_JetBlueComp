@@ -6,15 +6,15 @@
    <elementGuidId>90b8faf6-7abf-42ab-bb68-c86ec90707e4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='callout-block-2up-grid']/jb-callout-block</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>id(&quot;callout-block-2up-grid&quot;)/jb-callout-block[@class=&quot;db tc&quot;][count(. | //jb-callout-block[@class = 'db tc' and (text() = ' Stretch out  Enjoy the most legroom in coach. Get even roomier with Event More® space.  Learn more ' or . = ' Stretch out  Enjoy the most legroom in coach. Get even roomier with Event More® space.  Learn more ')]) = count(//jb-callout-block[@class = 'db tc' and (text() = ' Stretch out  Enjoy the most legroom in coach. Get even roomier with Event More® space.  Learn more ' or . = ' Stretch out  Enjoy the most legroom in coach. Get even roomier with Event More® space.  Learn more ')])]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='callout-block-2up-grid']/jb-callout-block</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -24,7 +24,7 @@
       <value>jb-callout-block</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -38,7 +38,7 @@
       <value> Stretch out  Enjoy the most legroom in coach. Get even roomier with Event More® space.  Learn more </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

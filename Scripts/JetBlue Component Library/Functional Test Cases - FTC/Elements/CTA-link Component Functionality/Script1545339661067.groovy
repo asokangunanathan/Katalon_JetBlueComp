@@ -69,5 +69,21 @@ WebUI.verifyTextPresent('Illustration Icons', false)
 
 WebUI.back()
 
+WebUI.comment('User Story:  When I access the CTA-link component page and scroll to Text CTA Links: target _blank\n\n')
+
+WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Elements Components/CTA-link Component Objects/Page_JetBlue  Component Library/h3_Text CTA Links target _blan'), 
+    10)
+
+WebUI.comment('then I should be able to see the Text CTA Links: document\n example and clicking on it should take me to /icons')
+
+WebUI.click(findTestObject('JetBlue Component Library Objects/Elements Components/CTA-link Component Objects/Page_JetBlue  Component Library/a_Document link CTA for target_blank'))
+
+WebUI.waitForPageLoad(5)
+
+//'Switch to Documentation window'
+WebUI.switchToWindowTitle('Google')
+
+WebUI.verifyTextPresent('Google', false)
+
 WebUI.closeBrowser()
 

@@ -6,15 +6,15 @@
    <elementGuidId>1bd6e7a4-5f5c-4d3f-8573-f1af294be040</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//jb-product-block[@id='product-block-all-options']/a/div[3]/div[2]/div/jb-copy</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>id(&quot;product-block-all-options&quot;)/a[@class=&quot;flex flex-column relative no-underline pb4 bt bb ba-ns jb-block-border br3-ns overflow-hidden h-100&quot;]/div[@class=&quot;ph4 flex-grow-1 flex flex-column&quot;]/div[@class=&quot;flex flex-column flex-grow-1 justify-end&quot;]/div[@class=&quot;pt3 core-blue ng-star-inserted&quot;]/jb-copy[@class=&quot;core-blue avenir db copy-s&quot;][count(. | //jb-copy[@class = 'core-blue avenir db copy-s' and @size = 'small' and (text() = 'from' or . = 'from')]) = count(//jb-copy[@class = 'core-blue avenir db copy-s' and @size = 'small' and (text() = 'from' or . = 'from')])]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//jb-product-block[@id='product-block-all-options']/a/div[3]/div[2]/div/jb-copy</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -24,14 +24,14 @@
       <value>jb-copy</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>core-blue avenir db copy-s</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>size</name>
       <type>Main</type>
@@ -45,7 +45,7 @@
       <value>from</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

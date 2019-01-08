@@ -6,15 +6,15 @@
    <elementGuidId>0045622b-c11e-4e4d-9302-ffb872ae4317</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='callout-block-2up-grid']/jb-callout-block/header/h3</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>id(&quot;callout-block-2up-grid&quot;)/jb-callout-block[@class=&quot;db tc&quot;]/header[@class=&quot;mb2 core-blue&quot;]/h3[1][count(. | //h3[(text() = ' Stretch out ' or . = ' Stretch out ')]) = count(//h3[(text() = ' Stretch out ' or . = ' Stretch out ')])]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='callout-block-2up-grid']/jb-callout-block/header/h3</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <value> Stretch out </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

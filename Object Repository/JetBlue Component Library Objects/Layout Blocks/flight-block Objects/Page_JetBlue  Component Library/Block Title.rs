@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;flight-block-price&quot;)/a[@class=&quot;no-underline bt bb ba-ns sky-blue jb-block-border flex-ns w-100 br3-ns overflow-hidden&quot;]/div[@class=&quot;flex-column relative-ns w-100&quot;]/div[@class=&quot;ph4 pv3&quot;]/div[@class=&quot;core-blue&quot;]/h3[@class=&quot;mb1&quot;][count(. | //h3[@class = 'mb1' and (text() = 'Reykjavik, Iceland' or . = 'Reykjavik, Iceland')]) = count(//h3[@class = 'mb1' and (text() = 'Reykjavik, Iceland' or . = 'Reykjavik, Iceland')])]</value>
+         <value>//h3[(text() = 'Reykjavik, Iceland' or . = 'Reykjavik, Iceland')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,7 +24,7 @@
       <value>h3</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -38,7 +38,7 @@
       <value>Reykjavik, Iceland</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

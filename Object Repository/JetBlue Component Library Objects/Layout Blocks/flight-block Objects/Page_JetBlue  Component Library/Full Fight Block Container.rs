@@ -6,46 +6,50 @@
    <elementGuidId>4061451e-8af3-4e3b-bd34-a4c503a950a1</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//jb-flight-block[@id='flight-block-price']/a</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;flight-block-price&quot;)/a[@class=&quot;no-underline bt bb ba-ns sky-blue jb-block-border flex-ns w-100 br3-ns overflow-hidden&quot;][count(. | //a[@class = 'no-underline bt bb ba-ns sky-blue jb-block-border flex-ns w-100 br3-ns overflow-hidden' and @href = 'https://www.jetblue.com' and (text() = 'Reykjavik, IcelandNew York (JFK) to Reykjavik (KEF)from$1,028one-way See restrictions ' or . = 'Reykjavik, IcelandNew York (JFK) to Reykjavik (KEF)from$1,028one-way See restrictions ')]) = count(//a[@class = 'no-underline bt bb ba-ns sky-blue jb-block-border flex-ns w-100 br3-ns overflow-hidden' and @href = 'https://www.jetblue.com' and (text() = 'Reykjavik, IcelandNew York (JFK) to Reykjavik (KEF)from$1,028one-way See restrictions ' or . = 'Reykjavik, IcelandNew York (JFK) to Reykjavik (KEF)from$1,028one-way See restrictions ')])]</value>
+         <key>CSS</key>
+         <value>#flight-block-price</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>no-underline bt bb ba-ns sky-blue jb-block-border flex-ns w-100 br3-ns overflow-hidden</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>https://www.jetblue.com</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Reykjavik, IcelandNew York (JFK) to Reykjavik (KEF)from$1,028one-way See restrictions </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

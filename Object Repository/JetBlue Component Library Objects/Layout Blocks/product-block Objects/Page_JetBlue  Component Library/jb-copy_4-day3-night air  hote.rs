@@ -6,15 +6,15 @@
    <elementGuidId>6523696a-b70f-471c-9929-2d2c649a8591</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//jb-product-block[@id='product-block-all-options']/a/div[3]/div[2]/div[2]/jb-copy</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>id(&quot;product-block-all-options&quot;)/a[@class=&quot;flex flex-column relative no-underline pb4 bt bb ba-ns jb-block-border br3-ns overflow-hidden h-100&quot;]/div[@class=&quot;ph4 flex-grow-1 flex flex-column&quot;]/div[@class=&quot;flex flex-column flex-grow-1 justify-end&quot;]/div[@class=&quot;charcoal&quot;]/jb-copy[@class=&quot;avenir db copy-s&quot;][count(. | //jb-copy[@class = 'avenir db copy-s' and @size = 'small' and (text() = '4-day/3-night air + hotelfrom New York (JFK)' or . = '4-day/3-night air + hotelfrom New York (JFK)')]) = count(//jb-copy[@class = 'avenir db copy-s' and @size = 'small' and (text() = '4-day/3-night air + hotelfrom New York (JFK)' or . = '4-day/3-night air + hotelfrom New York (JFK)')])]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//jb-product-block[@id='product-block-all-options']/a/div[3]/div[2]/div[2]/jb-copy</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -24,14 +24,14 @@
       <value>jb-copy</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>avenir db copy-s</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>size</name>
       <type>Main</type>
@@ -45,7 +45,7 @@
       <value>4-day/3-night air + hotelfrom New York (JFK)</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

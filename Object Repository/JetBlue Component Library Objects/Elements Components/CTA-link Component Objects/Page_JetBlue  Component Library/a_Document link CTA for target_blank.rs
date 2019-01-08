@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Standalone link</name>
+   <name>a_Document link CTA for target_blank</name>
    <tag></tag>
-   <elementGuidId>d35ae882-28e1-4999-85dc-149d5d6f0bb6</elementGuidId>
+   <elementGuidId>c8abc2c2-cf51-4849-8c32-cf8aba77d70a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//a[@href = 'https://google.ca' and (text() = ' Standalone link ' or . = ' Standalone link ')]</value>
+         <key>XPATH</key>
+         <value>//jb-action-link[@id='action-link-text-cta-links-new-tab']/jb-link/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//jb-standalone-link[@id='standalone-link-standalone-link-no-icon']/jb-link/a</value>
+         <key>BASIC</key>
+         <value>//a[@href = 'https://google.ca' and @target = '_blank' and (text() = 'Document link CTA' or . = 'Document link CTA')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -40,63 +40,77 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_blank</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rel</name>
+      <type>Main</type>
+      <value>noopener noreferrer</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Standalone link </value>
+      <value>Document link CTA</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;standalone-link-standalone-link-no-icon&quot;)/jb-link[@class=&quot;underline-hover royal-blue hover-core-blue&quot;]/a[@class=&quot;pointer w-100 h-100 di color-inherit hover-inherit no-underline&quot;]</value>
+      <value>id(&quot;action-link-text-cta-links-new-tab&quot;)/jb-link[@class=&quot;copy-s b no-underline underline-hover royal-blue hover-core-blue&quot;]/a[@class=&quot;pointer w-100 h-100 di color-inherit hover-inherit no-underline&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//jb-standalone-link[@id='standalone-link-standalone-link-no-icon']/jb-link/a</value>
+      <value>//jb-action-link[@id='action-link-text-cta-links-new-tab']/jb-link/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
-      <value>//a[contains(text(),'Standalone link')]</value>
+      <value>(//a[contains(text(),'Document link CTA')])[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='View in CompoDoc'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View in CompoDoc'])[4]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Standalone Link: no icon'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Text CTA Links: target _blank'])[1]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Code sample'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Code sample'])[4]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copy'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copy'])[4]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
-      <value>//a[contains(@href, 'https://google.ca')]</value>
+      <value>(//a[contains(@href, 'https://google.ca')])[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//jb-link/a</value>
+      <value>//cb-example[4]/div/div[2]/jb-action-link/jb-link/a</value>
    </webElementXpaths>
 </WebElementEntity>

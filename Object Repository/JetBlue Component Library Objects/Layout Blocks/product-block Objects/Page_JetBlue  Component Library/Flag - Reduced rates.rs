@@ -6,15 +6,15 @@
    <elementGuidId>5986cec7-2534-4d0a-8508-73e75b6483d9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//jb-product-block[@id='product-block-all-options']/a/div[2]/jb-flag</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>id(&quot;product-block-all-options&quot;)/a[@class=&quot;flex flex-column relative no-underline pb4 bt bb ba-ns jb-block-border br3-ns overflow-hidden h-100&quot;]/div[2]/jb-flag[@class=&quot;pv1 ph3 copy-s b br-rounded-3 fw6 dib bg-core-blue white&quot;][count(. | //jb-flag[@class = 'pv1 ph3 copy-s b br-rounded-3 fw6 dib bg-core-blue white' and @title = 'Reduced rates' and (text() = 'Reduced rates' or . = 'Reduced rates')]) = count(//jb-flag[@class = 'pv1 ph3 copy-s b br-rounded-3 fw6 dib bg-core-blue white' and @title = 'Reduced rates' and (text() = 'Reduced rates' or . = 'Reduced rates')])]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//jb-product-block[@id='product-block-all-options']/a/div[2]/jb-flag</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -24,7 +24,7 @@
       <value>jb-flag</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -45,7 +45,7 @@
       <value>Reduced rates</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

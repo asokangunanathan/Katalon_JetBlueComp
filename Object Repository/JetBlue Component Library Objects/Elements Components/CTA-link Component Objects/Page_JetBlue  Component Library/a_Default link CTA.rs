@@ -6,12 +6,16 @@
    <elementGuidId>09211189-80c7-4c12-a719-33ea78fa2590</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//a[@href = 'https://google.ca' and (text() = 'Default link CTA' or . = 'Default link CTA')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//jb-action-link[@id='action-link-text-cta-links-default']/jb-link/a</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//a[@href = 'https://google.ca' and (text() = 'Default link CTA' or . = 'Default link CTA')]</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -28,7 +32,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>pointer w-100 h-100 di color-inherit hover-inherit no-underline underline-hover</value>
+      <value>pointer w-100 h-100 di color-inherit hover-inherit no-underline</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +53,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;action-link-text-cta-links-default&quot;)/jb-link[@class=&quot;copy-s b no-underline underline-hover royal-blue hover-core-blue&quot;]/a[@class=&quot;pointer w-100 h-100 di color-inherit hover-inherit no-underline underline-hover&quot;]</value>
+      <value>id(&quot;action-link-text-cta-links-default&quot;)/jb-link[@class=&quot;copy-s b no-underline underline-hover royal-blue hover-core-blue&quot;]/a[@class=&quot;pointer w-100 h-100 di color-inherit hover-inherit no-underline&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

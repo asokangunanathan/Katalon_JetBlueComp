@@ -6,15 +6,15 @@
    <elementGuidId>bf69c2ce-a4dd-4fa3-b126-87c6d4b7b47d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//jb-product-block[@id='product-block-all-options']/a</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>id(&quot;product-block-all-options&quot;)/a[@class=&quot;flex flex-column relative no-underline pb4 bt bb ba-ns jb-block-border br3-ns overflow-hidden h-100&quot;][count(. | //a[@class = 'flex flex-column relative no-underline pb4 bt bb ba-ns jb-block-border br3-ns overflow-hidden h-100' and @href = 'https://google.ca' and (text() = 'Reduced ratesGrand Cayman Marriott Beach ResortBreak away from the usual and discover the modern designs and friendly service of the courtyard...from$385per person4-day/3-night air + hotelfrom New York (JFK)' or . = 'Reduced ratesGrand Cayman Marriott Beach ResortBreak away from the usual and discover the modern designs and friendly service of the courtyard...from$385per person4-day/3-night air + hotelfrom New York (JFK)')]) = count(//a[@class = 'flex flex-column relative no-underline pb4 bt bb ba-ns jb-block-border br3-ns overflow-hidden h-100' and @href = 'https://google.ca' and (text() = 'Reduced ratesGrand Cayman Marriott Beach ResortBreak away from the usual and discover the modern designs and friendly service of the courtyard...from$385per person4-day/3-night air + hotelfrom New York (JFK)' or . = 'Reduced ratesGrand Cayman Marriott Beach ResortBreak away from the usual and discover the modern designs and friendly service of the courtyard...from$385per person4-day/3-night air + hotelfrom New York (JFK)')])]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//jb-product-block[@id='product-block-all-options']/a</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -24,7 +24,7 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -45,7 +45,7 @@
       <value>Reduced ratesGrand Cayman Marriott Beach ResortBreak away from the usual and discover the modern designs and friendly service of the courtyard...from$385per person4-day/3-night air + hotelfrom New York (JFK)</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

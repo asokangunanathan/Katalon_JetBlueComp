@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//jb-promo-block[@id='promo-block-full-bleed-with-logo-button-background-image-and-small-card']/jb-link/a/div/div/div/jb-promo-card/div/div[2]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = ' Over the moon  Celebrate new developments in paradise. Explore our Honeymoon &amp; Babymoon vacation packages.  Book now ' or . = ' Over the moon  Celebrate new developments in paradise. Explore our Honeymoon &amp; Babymoon vacation packages.  Book now ')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -20,7 +24,7 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -34,7 +38,7 @@
       <value> Over the moon  Celebrate new developments in paradise. Explore our Honeymoon &amp; Babymoon vacation packages.  Book now </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

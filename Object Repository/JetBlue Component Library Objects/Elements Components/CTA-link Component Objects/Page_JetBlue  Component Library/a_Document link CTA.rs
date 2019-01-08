@@ -6,15 +6,15 @@
    <elementGuidId>47f75ad8-39ed-4c5d-84b3-0afdb85bf392</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//jb-action-link[@id='action-link-text-cta-links-document']/jb-link/a</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//a[@routerlink = '/icons' and (text() = 'Document link CTA' or . = 'Document link CTA')]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//jb-action-link[@id='action-link-text-cta-links-document']/jb-link/a</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,10 +28,10 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>pointer w-100 h-100 di color-inherit hover-inherit no-underline underline-hover</value>
+      <value>pointer w-100 h-100 di color-inherit hover-inherit no-underline</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>routerlink</name>
       <type>Main</type>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;action-link-text-cta-links-document&quot;)/jb-link[@class=&quot;copy-s b no-underline underline-hover royal-blue hover-core-blue&quot;]/a[@class=&quot;pointer w-100 h-100 di color-inherit hover-inherit no-underline underline-hover&quot;]</value>
+      <value>id(&quot;action-link-text-cta-links-document&quot;)/jb-link[@class=&quot;copy-s b no-underline underline-hover royal-blue hover-core-blue&quot;]/a[@class=&quot;pointer w-100 h-100 di color-inherit hover-inherit no-underline&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

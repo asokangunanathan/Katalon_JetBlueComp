@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;flight-block-price&quot;)/a[@class=&quot;no-underline bt bb ba-ns sky-blue jb-block-border flex-ns w-100 br3-ns overflow-hidden&quot;]/div[@class=&quot;flex-column relative-ns w-100&quot;]/div[@class=&quot;ph4 pv3&quot;]/div[@class=&quot;bottom-1-ns mt3 mt0-ns core-blue absolute-ns right4 bottom-0&quot;]/div[@class=&quot;flex flex-column-ns items-baseline copy-s items-end-ns&quot;]/div[2]/span[1][count(. | //span[(text() = 'one-way' or . = 'one-way')]) = count(//span[(text() = 'one-way' or . = 'one-way')])]</value>
+         <value>//span[(text() = 'one-way' or . = 'one-way')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,7 +31,7 @@
       <value>one-way</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

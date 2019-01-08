@@ -11,10 +11,14 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;flight-block-price&quot;)/a[@class=&quot;no-underline bt bb ba-ns sky-blue jb-block-border flex-ns w-100 br3-ns overflow-hidden&quot;]/div[@class=&quot;flex-column relative-ns w-100&quot;]/div[@class=&quot;ph4 pv3&quot;]/jb-dialog-link[@class=&quot;dib&quot;]/button[@class=&quot;copy-xs mt1 mt2-ns ph0 pb0 bn royal-blue hover-core-blue
+         <value>id(&quot;flight-block-price&quot;)/jb-dialog-link[@class=&quot;dialog-link absolute bottom-0 left-0 pb3 dib&quot;]/button[@class=&quot;copy-xs mt1 mt2-ns ph0 pb0 bn royal-blue hover-core-blue
       no-underline underline-hover avenir pointer bg-transparent flex&quot;][count(. | //button[@class = 'copy-xs mt1 mt2-ns ph0 pb0 bn royal-blue hover-core-blue
-      no-underline underline-hover avenir pointer bg-transparent flex' and @jbclickstop = 'click($event)' and (text() = ' See restrictions ' or . = ' See restrictions ')]) = count(//button[@class = 'copy-xs mt1 mt2-ns ph0 pb0 bn royal-blue hover-core-blue
-      no-underline underline-hover avenir pointer bg-transparent flex' and @jbclickstop = 'click($event)' and (text() = ' See restrictions ' or . = ' See restrictions ')])]</value>
+      no-underline underline-hover avenir pointer bg-transparent flex' and @jbclickstop = 'click($event)' and (text() = ' See restrictions
+' or . = ' See restrictions
+')]) = count(//button[@class = 'copy-xs mt1 mt2-ns ph0 pb0 bn royal-blue hover-core-blue
+      no-underline underline-hover avenir pointer bg-transparent flex' and @jbclickstop = 'click($event)' and (text() = ' See restrictions
+' or . = ' See restrictions
+')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -46,21 +50,22 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> See restrictions </value>
+      <value> See restrictions
+</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;flight-block-price&quot;)/a[@class=&quot;no-underline bt bb ba-ns sky-blue jb-block-border flex-ns w-100 br3-ns overflow-hidden&quot;]/div[@class=&quot;flex-column relative-ns w-100&quot;]/div[@class=&quot;ph4 pv3&quot;]/jb-dialog-link[@class=&quot;dib&quot;]/button[@class=&quot;copy-xs mt1 mt2-ns ph0 pb0 bn royal-blue hover-core-blue
+      <value>id(&quot;flight-block-price&quot;)/jb-dialog-link[@class=&quot;dialog-link absolute bottom-0 left-0 pb3 dib&quot;]/button[@class=&quot;copy-xs mt1 mt2-ns ph0 pb0 bn royal-blue hover-core-blue
       no-underline underline-hover avenir pointer bg-transparent flex&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//jb-flight-block[@id='flight-block-price']/a/div/div/jb-dialog-link/button</value>
+      <value>//jb-flight-block[@id='flight-block-price']/jb-dialog-link/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
