@@ -7,20 +7,21 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;dialog-link-dialog-link&quot;)/button[@class=&quot;copy-xs mt1 mt2-ns ph0 pb0 bn royal-blue hover-core-blue
-      no-underline underline-hover avenir pointer bg-transparent flex&quot;][count(. | //button[@class = 'copy-xs mt1 mt2-ns ph0 pb0 bn royal-blue hover-core-blue
-      no-underline underline-hover avenir pointer bg-transparent flex' and @jbclickstop = 'click($event)' and (text() = ' See restrictions ' or . = ' See restrictions ')]) = count(//button[@class = 'copy-xs mt1 mt2-ns ph0 pb0 bn royal-blue hover-core-blue
-      no-underline underline-hover avenir pointer bg-transparent flex' and @jbclickstop = 'click($event)' and (text() = ' See restrictions ' or . = ' See restrictions ')])]</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//jb-dialog-link[@id='dialog-link-dialog-link']/button</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#dialog-link-dialog-link</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -42,7 +43,7 @@
       <value>click($event)</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

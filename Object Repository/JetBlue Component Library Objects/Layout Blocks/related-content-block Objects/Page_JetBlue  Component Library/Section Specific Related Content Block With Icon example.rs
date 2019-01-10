@@ -6,12 +6,16 @@
    <elementGuidId>f8d8316c-b2d5-4867-ae5f-317873a5d9a6</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//h3[(text() = ' Section Specific Related Content Block With Icon ' or . = ' Section Specific Related Content Block With Icon ')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Examples'])[1]/following::h3[1]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//h3[(text() = ' Section Specific Related Content Block With Icon ' or . = ' Section Specific Related Content Block With Icon ')]</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

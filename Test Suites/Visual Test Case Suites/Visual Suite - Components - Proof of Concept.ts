@@ -4,7 +4,7 @@
    <name>Visual Suite - Components - Proof of Concept</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-01-07T10:10:45</lastRun>
+   <lastRun>2019-01-08T20:40:22</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

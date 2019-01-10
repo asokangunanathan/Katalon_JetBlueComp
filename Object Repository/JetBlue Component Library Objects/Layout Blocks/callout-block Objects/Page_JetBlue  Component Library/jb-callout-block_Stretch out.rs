@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;callout-block-2up-grid&quot;)/jb-callout-block[@class=&quot;db tc&quot;][count(. | //jb-callout-block[@class = 'db tc' and (text() = ' Stretch out  Enjoy the most legroom in coach. Get even roomier with Event More® space.  Learn more ' or . = ' Stretch out  Enjoy the most legroom in coach. Get even roomier with Event More® space.  Learn more ')]) = count(//jb-callout-block[@class = 'db tc' and (text() = ' Stretch out  Enjoy the most legroom in coach. Get even roomier with Event More® space.  Learn more ' or . = ' Stretch out  Enjoy the most legroom in coach. Get even roomier with Event More® space.  Learn more ')])]</value>
+         <value>//jb-callout-block[(text() = ' Stretch out  Enjoy the most legroom in coach. Get even roomier with Event More® space.  Learn more ' or . = ' Stretch out  Enjoy the most legroom in coach. Get even roomier with Event More® space.  Learn more ')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='callout-block-2up-grid']/jb-callout-block</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#callout-block-2up-grid</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

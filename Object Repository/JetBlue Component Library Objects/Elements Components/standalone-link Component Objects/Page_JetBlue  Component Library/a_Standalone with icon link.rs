@@ -7,17 +7,21 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[@routerlink = '/icons' and (text() = ' Standalone with icon link ' or . = ' Standalone with icon link ')]</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//jb-standalone-link[@id='standalone-link-standalone-link-with-icon']/jb-link/a</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#standalone-link-standalone-link-with-icon</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -38,7 +42,7 @@
       <value>/icons</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

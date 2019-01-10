@@ -4,7 +4,7 @@
    <name>Visual Suite - All Components</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-30T15:37:24</lastRun>
+   <lastRun>2019-01-10T12:50:53</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -16,22 +16,31 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/JetBlue Component Library/Visual Test Cases - VTC/VTC01 - Component Pages Visual Comparison</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>78b544a1-e50e-4e4d-8e37-e5a61b5c6102</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/All Components Data</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
+         <testDataLinkId>78b544a1-e50e-4e4d-8e37-e5a61b5c6102</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value></value>
+         <value>componentName</value>
          <variableId>e1487eaf-633d-4b71-b89b-49da1b3d6eaf</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
+         <testDataLinkId>78b544a1-e50e-4e4d-8e37-e5a61b5c6102</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value></value>
+         <value>componentLocation</value>
          <variableId>5e6dfab3-1130-47a7-8d7f-f06d40a12ceb</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
+         <testDataLinkId>78b544a1-e50e-4e4d-8e37-e5a61b5c6102</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value></value>
+         <value>acceptableDiff</value>
          <variableId>246fabd7-93dd-4cab-b735-633509d748a9</variableId>
       </variableLink>
    </testCaseLink>

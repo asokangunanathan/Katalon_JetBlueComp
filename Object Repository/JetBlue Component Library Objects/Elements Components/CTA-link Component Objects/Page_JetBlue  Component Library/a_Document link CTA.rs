@@ -7,17 +7,21 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[@routerlink = '/icons' and (text() = 'Document link CTA' or . = 'Document link CTA')]</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//jb-action-link[@id='action-link-text-cta-links-document']/jb-link/a</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#action-link-text-cta-links-document</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -38,7 +42,7 @@
       <value>/icons</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

@@ -22,32 +22,35 @@ WebUI.comment('User Story: When user goes to promo-block component page')
 // User Story: When user goes to simple-selet component page
 WebUI.navigateToUrl(GlobalVariable.envURL1 + 'layout/promo-block/')
 
+// Click on T button to remove JetBlue floating menu
+WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
+
 WebUI.comment('and scrolls down to the first Over the moon Promo Block example')
 
 WebUI.comment('then I should be able to see the Over the moon Promo Block example')
 
-WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Layout Blocks/promo-block Component Objects/Page_JetBlue  Component Library/Cookbook Example of promo block'), 
+WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Layout Blocks/promo-block Component Objects/Page_JetBlue  Component Library/promo-block full container'), 
     10)
 
 //WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/Layout Blocks/promo-block Component Objects/Page_JetBlue  Component Library/promo-block full container'), 
 //   10)
-WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/Layout Blocks/promo-block Component Objects/Page_JetBlue  Component Library/Beach Area of Image'), 
-    10)
+WebUI.verifyElementClickable(findTestObject('JetBlue Component Library Objects/Layout Blocks/promo-block Component Objects/Page_JetBlue  Component Library/Beach Area of Image'), 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/Layout Blocks/promo-block Component Objects/Page_JetBlue  Component Library/Text Content'), 
-    10)
+WebUI.verifyElementClickable(findTestObject('JetBlue Component Library Objects/Layout Blocks/promo-block Component Objects/Page_JetBlue  Component Library/Text Content'), 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/Layout Blocks/promo-block Component Objects/Page_JetBlue  Component Library/jetBlue Logo'), 
-    10)
+WebUI.verifyElementClickable(findTestObject('JetBlue Component Library Objects/Layout Blocks/promo-block Component Objects/Page_JetBlue  Component Library/jetBlue Logo'), 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/Layout Blocks/promo-block Component Objects/Page_JetBlue  Component Library/a_Book now'), 
-    10)
+WebUI.verifyElementClickable(findTestObject('JetBlue Component Library Objects/Layout Blocks/promo-block Component Objects/Page_JetBlue  Component Library/a_Book now'), 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/Layout Blocks/promo-block Component Objects/Page_JetBlue  Component Library/Headline'), 
-    10)
+WebUI.verifyElementClickable(findTestObject('JetBlue Component Library Objects/Layout Blocks/promo-block Component Objects/Page_JetBlue  Component Library/Headline'), 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/Layout Blocks/promo-block Component Objects/Page_JetBlue  Component Library/Subcopy'), 
-    10)
+WebUI.verifyElementClickable(findTestObject('JetBlue Component Library Objects/Layout Blocks/promo-block Component Objects/Page_JetBlue  Component Library/Subcopy'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.comment('When I click on the background image then I should be taken to google.com')
 
@@ -59,6 +62,9 @@ WebUI.verifyTextPresent('Google', false)
 
 WebUI.back()
 
+// Click on T button to remove JetBlue floating menu
+WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
+
 WebUI.comment('When I click on the Over the Moon section then I should be taken to google.com')
 
 WebUI.click(findTestObject('JetBlue Component Library Objects/Layout Blocks/promo-block Component Objects/Page_JetBlue  Component Library/Text Content'))
@@ -68,6 +74,9 @@ WebUI.waitForPageLoad(5)
 WebUI.verifyTextPresent('Google', false)
 
 WebUI.back()
+
+// Click on T button to remove JetBlue floating menu
+WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
 
 WebUI.comment('When I click on the Headline I should be taken to google.com')
 
@@ -79,6 +88,9 @@ WebUI.verifyTextPresent('Google', false)
 
 WebUI.back()
 
+// Click on T button to remove JetBlue floating menu
+WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
+
 WebUI.comment('When I click on the Subcopy I should be taken to google.com')
 
 WebUI.click(findTestObject('JetBlue Component Library Objects/Layout Blocks/promo-block Component Objects/Page_JetBlue  Component Library/Subcopy'))
@@ -88,6 +100,9 @@ WebUI.waitForPageLoad(5)
 WebUI.verifyTextPresent('Google', false)
 
 WebUI.back()
+
+// Click on T button to remove JetBlue floating menu
+WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
 
 WebUI.comment('When I click on the background image then I should be taken to google.com')
 
@@ -99,6 +114,9 @@ WebUI.verifyTextPresent('Google', false)
 
 WebUI.back()
 
+// Click on T button to remove JetBlue floating menu
+WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
+
 WebUI.comment('When I click on the CTA Button (Book Now)  I should be taken to https://www.jetblue.com/')
 
 WebUI.click(findTestObject('JetBlue Component Library Objects/Layout Blocks/promo-block Component Objects/Page_JetBlue  Component Library/a_Book now'))
@@ -106,8 +124,6 @@ WebUI.click(findTestObject('JetBlue Component Library Objects/Layout Blocks/prom
 WebUI.waitForPageLoad(5)
 
 WebUI.verifyTextPresent('Book on jetblue.com', false)
-
-WebUI.back()
 
 WebUI.closeBrowser()
 

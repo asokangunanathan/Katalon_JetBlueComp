@@ -19,28 +19,16 @@ WebUI.maximizeWindow()
 
 WebUI.comment('User Story: When user goes to callout-block component page')
 
-// User Story: When user goes to simple-selet component page
 WebUI.navigateToUrl(GlobalVariable.envURL1 + 'layout/callout-block')
+
+// Click on T button to remove JetBlue floating menu
+WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
 
 WebUI.comment('and scrolls to example "Callout Block (2-up)"')
 
 WebUI.comment('then the user should see the "Callout Block (2-up)" example')
 
-WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Layout Blocks/callout-block Objects/Page_JetBlue  Component Library/h3_Callout Block (2-up)'), 
-    10)
-
-//WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/Layout Blocks/promo-block Component Objects/Page_JetBlue  Component Library/promo-block full container'), 
-//   10)
-WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/Layout Blocks/callout-block Objects/Page_JetBlue  Component Library/jb-copy_Enjoy the most legroom'), 
-    10)
-
-WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/Layout Blocks/callout-block Objects/Page_JetBlue  Component Library/jb-callout-block_Stretch out'), 
-    10)
-
-WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/Layout Blocks/callout-block Objects/Page_JetBlue  Component Library/h3_Stretch out'), 
-    10)
-
-WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/Layout Blocks/callout-block Objects/Page_JetBlue  Component Library/a_Learn more'), 
+WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Layout Blocks/callout-block Objects/Page_JetBlue  Component Library/jb-callout-block_Stretch out'), 
     10)
 
 WebUI.comment('When I click on the Learn more link then I should be taken to google.com')
@@ -50,8 +38,6 @@ WebUI.click(findTestObject('JetBlue Component Library Objects/Layout Blocks/call
 WebUI.waitForPageLoad(5)
 
 WebUI.verifyTextPresent('Google', false)
-
-WebUI.back()
 
 WebUI.closeBrowser()
 

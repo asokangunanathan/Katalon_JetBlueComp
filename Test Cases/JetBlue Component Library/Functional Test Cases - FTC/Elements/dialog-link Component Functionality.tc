@@ -3,6 +3,8 @@
    <description></description>
    <name>dialog-link Component Functionality</name>
    <tag></tag>
-   <comment></comment>
+   <comment>User Story:  When I access the dialog-link component page and scroll to Dialog Link Example
+then I should be able to see the Dialog Link example
+When I click on See restrictions link then then a dialog should popup with text &quot;Lorem Ipsum Consequuntur&quot;</comment>
    <testCaseGuid>09fbc117-5f86-40e8-8c7e-7e8bec82487b</testCaseGuid>
 </TestCaseEntity>

@@ -22,34 +22,39 @@ WebUI.comment('User Story: When user goes to flight-block component page')
 // User Story: When user goes to simple-selet component page
 WebUI.navigateToUrl(GlobalVariable.envURL1 + 'flight-block')
 
+// Click on T button to remove JetBlue floating menu
+WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
+
 WebUI.comment('and scrolls to example "Price-based Flight Block"')
 
 WebUI.comment('then the user should see the "Price-based Flight Block" example')
 
-WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Layout Blocks/flight-block Objects/Page_JetBlue  Component Library/Price-based Flight Block Example'), 
+WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Layout Blocks/flight-block Objects/Page_JetBlue  Component Library/Full Fight Block Container'), 
     10)
+
+WebUI.comment('the entire component pieces should be clickable')
 
 //WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/Layout Blocks/promo-block Component Objects/Page_JetBlue  Component Library/promo-block full container'), 
 //   10)
-WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/Layout Blocks/flight-block Objects/Page_JetBlue  Component Library/Block Title'), 
-    10)
+WebUI.verifyElementClickable(findTestObject('JetBlue Component Library Objects/Layout Blocks/flight-block Objects/Page_JetBlue  Component Library/Block Title'), 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/Layout Blocks/flight-block Objects/Page_JetBlue  Component Library/p_New York (JFK) to Reykjavik'), 
-    10)
+WebUI.verifyElementClickable(findTestObject('JetBlue Component Library Objects/Layout Blocks/flight-block Objects/Page_JetBlue  Component Library/p_New York (JFK) to Reykjavik'), 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/Layout Blocks/flight-block Objects/Page_JetBlue  Component Library/Full Fight Block Container'), 
-    10)
+WebUI.verifyElementClickable(findTestObject('JetBlue Component Library Objects/Layout Blocks/flight-block Objects/Page_JetBlue  Component Library/Full Fight Block Container'), 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/Layout Blocks/flight-block Objects/Page_JetBlue  Component Library/div_from'), 
-    10)
+WebUI.verifyElementClickable(findTestObject('JetBlue Component Library Objects/Layout Blocks/flight-block Objects/Page_JetBlue  Component Library/div_from'), 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/Layout Blocks/flight-block Objects/Page_JetBlue  Component Library/jb-callout_1028'), 
-    10)
+WebUI.verifyElementClickable(findTestObject('JetBlue Component Library Objects/Layout Blocks/flight-block Objects/Page_JetBlue  Component Library/jb-callout_1028'), 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/Layout Blocks/flight-block Objects/Page_JetBlue  Component Library/span_one-way'), 
-    10)
+WebUI.verifyElementClickable(findTestObject('JetBlue Component Library Objects/Layout Blocks/flight-block Objects/Page_JetBlue  Component Library/span_one-way'), 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.comment('When I click on the Learn more link then I should be taken to google.com')
+WebUI.comment('when the user clicks on the Price-based Flight Block Example then user should navigate to jetblue.com')
 
 WebUI.click(findTestObject('JetBlue Component Library Objects/Layout Blocks/flight-block Objects/Page_JetBlue  Component Library/Full Fight Block Container'))
 
@@ -58,6 +63,11 @@ WebUI.waitForPageLoad(5)
 WebUI.verifyTextPresent('Book on jetblue.com', false)
 
 WebUI.back()
+
+// Click on T button to remove JetBlue floating menu
+WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
+
+WebUI.comment('when the user clicks See restrictions Dialog link then a popup should open')
 
 WebUI.click(findTestObject('JetBlue Component Library Objects/Layout Blocks/flight-block Objects/Page_JetBlue  Component Library/button_See restrictions'))
 

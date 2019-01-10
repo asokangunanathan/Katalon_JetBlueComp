@@ -17,68 +17,72 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.comment('User Story:  When I access the CTA-link component page and scroll to Text CTA Links: default')
+WebUI.comment('User Story:  When I access the CTA-link component page\n ')
 
 WebUI.navigateToUrl(GlobalVariable.envURL1 + 'links/cta-link/')
+// Click on T button to remove JetBlue floating menu
+WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
+WebUI.comment('and I click on the Default link CTA link')
 
-// and scroll down to Simple Select Example
-WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Elements Components/CTA-link Component Objects/Page_JetBlue  Component Library/h3_Text CTA Links default'), 
+
+WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Elements Components/CTA-link Component Objects/Page_JetBlue  Component Library/a_Default link CTA'), 
     10)
-
-WebUI.comment('then I should be able to see the Text CTA Links: default example')
-
-WebUI.comment('When I click on Default link CTA then I should be taken to google.com')
 
 WebUI.click(findTestObject('JetBlue Component Library Objects/Elements Components/CTA-link Component Objects/Page_JetBlue  Component Library/a_Default link CTA'))
 
 WebUI.waitForPageLoad(5)
 
+WebUI.comment('I should be taken to Google page')
+
 WebUI.verifyTextPresent('Google', false)
 
 WebUI.back()
+// Click on T button to remove JetBlue floating menu
+WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
+WebUI.comment('and when I click on the External link CTA link')
 
-WebUI.comment('User Story:  When I access the CTA-link component page and scroll to Text CTA Links: External')
 
-// and scroll down to Simple Select Example
-WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Elements Components/CTA-link Component Objects/Page_JetBlue  Component Library/h3_Text CTA Links external'), 
+WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Elements Components/CTA-link Component Objects/Page_JetBlue  Component Library/a_External link CTA'), 
     10)
-
-WebUI.comment('then I should be able to see the Text CTA Links: External example and clicking on it should take me to google.com')
 
 WebUI.click(findTestObject('JetBlue Component Library Objects/Elements Components/CTA-link Component Objects/Page_JetBlue  Component Library/a_External link CTA'))
 
 WebUI.waitForPageLoad(5)
 
+WebUI.comment('I should be taken to Google page')
+
 WebUI.verifyTextPresent('Google', false)
 
 WebUI.back()
+// Click on T button to remove JetBlue floating menu
+WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
+WebUI.comment('and when I click on Document link CTA link')
 
-WebUI.comment('User Story:  When I access the CTA-link component page and scroll to Text CTA Links: document\n')
 
-// and scroll down to Simple Select Example
-WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Elements Components/CTA-link Component Objects/Page_JetBlue  Component Library/h3_Text CTA Links external'), 
+WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Elements Components/CTA-link Component Objects/Page_JetBlue  Component Library/a_Document link CTA'), 
     10)
-
-WebUI.comment('then I should be able to see the Text CTA Links: document\n example and clicking on it should take me to /icons')
 
 WebUI.click(findTestObject('JetBlue Component Library Objects/Elements Components/CTA-link Component Objects/Page_JetBlue  Component Library/a_Document link CTA'))
 
 WebUI.waitForPageLoad(5)
 
+WebUI.comment('then I should taken to coponent libray icons page https://dev.b6orgeng.net/component-library/icons')
+
 WebUI.verifyTextPresent('Illustration Icons', false)
 
 WebUI.back()
+// Click on T button to remove JetBlue floating menu
+WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
+WebUI.comment('and when I click on Document link CTA with target _blank')
 
-WebUI.comment('User Story:  When I access the CTA-link component page and scroll to Text CTA Links: target _blank\n\n')
-
-WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Elements Components/CTA-link Component Objects/Page_JetBlue  Component Library/h3_Text CTA Links target _blan'), 
+WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Elements Components/CTA-link Component Objects/Page_JetBlue  Component Library/a_Document link CTA for target_blank'), 
     10)
-
-WebUI.comment('then I should be able to see the Text CTA Links: document\n example and clicking on it should take me to /icons')
 
 WebUI.click(findTestObject('JetBlue Component Library Objects/Elements Components/CTA-link Component Objects/Page_JetBlue  Component Library/a_Document link CTA for target_blank'))
 
 WebUI.waitForPageLoad(5)
+
+WebUI.comment('then I should be taken to Google page in a new Tab')
 
 //'Switch to Documentation window'
 WebUI.switchToWindowTitle('Google')

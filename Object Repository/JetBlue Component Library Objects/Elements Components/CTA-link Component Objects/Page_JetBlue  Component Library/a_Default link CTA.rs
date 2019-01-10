@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[@href = 'https://google.ca' and (text() = 'Default link CTA' or . = 'Default link CTA')]</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -15,13 +15,13 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>#action-link-text-cta-links-default</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -35,14 +35,14 @@
       <value>pointer w-100 h-100 di color-inherit hover-inherit no-underline</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>https://google.ca</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

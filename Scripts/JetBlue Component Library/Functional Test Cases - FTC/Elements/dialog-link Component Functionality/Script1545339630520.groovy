@@ -17,26 +17,20 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.comment('User Story:  When I access the dialog-link component page and scroll to Dialog Link Example')
+WebUI.comment('User Story:  When I access the dialog-link component page')
 
 WebUI.navigateToUrl(GlobalVariable.envURL1 + 'links/dialog-link/')
 
-// and scroll down to Simple Select Example
-WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Elements Components/dialog-link Component Objects/Page_JetBlue  Component Library/h3_Dialog Link'), 
+WebUI.comment('When I click on See restrictions Dialog link then a dialog should popup with text "Lorem Ipsum Consequuntur"')
+
+// Click on T button to remove JetBlue floating menu
+WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
+WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Elements Components/dialog-link Component Objects/Page_JetBlue  Component Library/button_See restrictions'), 
     10)
-
-WebUI.comment('then I should be able to see the Dialog Link example')
-
-WebUI.comment('When I click on See restrictions link then then a dialog should popup with text "Lorem Ipsum Consequuntur"')
 
 WebUI.click(findTestObject('JetBlue Component Library Objects/Elements Components/dialog-link Component Objects/Page_JetBlue  Component Library/button_See restrictions'))
 
 WebUI.verifyTextPresent('Lorem Ipsum Consequuntur', false)
 
-
-WebUI.back()
-
 WebUI.closeBrowser()
-
-
 

@@ -73,7 +73,7 @@ WebUI.comment(">>> wrote the expected component page image into ${expectedFile.t
 // Take screenshot of actual component page
 WebUI.navigateToUrl(actualComponentURL)
 
-WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/button_T'))
+WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
 
 WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/button_G'))
 

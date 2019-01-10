@@ -3,6 +3,9 @@
    <description></description>
    <name>callout-block Functionality</name>
    <tag></tag>
-   <comment></comment>
+   <comment>User Story: When user goes to callout-block component page
+and scrolls to example &quot;Callout Block (2-up)&quot;
+then the user should see the &quot;Callout Block (2-up)&quot; example
+When I click on the Learn more link then I should be taken to google.com</comment>
    <testCaseGuid>3af7f33d-25db-4979-a7bb-52418388e16f</testCaseGuid>
 </TestCaseEntity>

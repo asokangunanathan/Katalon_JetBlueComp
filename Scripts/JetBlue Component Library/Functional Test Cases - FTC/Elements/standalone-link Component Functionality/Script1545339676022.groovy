@@ -17,17 +17,17 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.comment('User Story:  When I access the standalone-link component page and scroll to Inline Link: no icon')
+WebUI.comment('User Story:  When I access the standalone-link component page')
 
 WebUI.navigateToUrl(GlobalVariable.envURL1 + 'links/standalone-link/')
 
-// and scroll down to Simple Select Example
-WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Elements Components/standalone-link Component Objects/Page_JetBlue  Component Library/h3_Standalone Link no icon'), 
-    10)
-
-WebUI.comment('then I should be able to see the "Standalone Link: no icon" example')
+// Click on T button to remove JetBlue floating menu
+WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
 
 WebUI.comment('When I click on the Standalone link then I should be taken to google.com')
+
+WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Elements Components/standalone-link Component Objects/Page_JetBlue  Component Library/a_Standalone link'), 
+    10)
 
 WebUI.click(findTestObject('JetBlue Component Library Objects/Elements Components/standalone-link Component Objects/Page_JetBlue  Component Library/a_Standalone link'))
 
@@ -36,22 +36,19 @@ WebUI.waitForPageLoad(5)
 WebUI.verifyTextPresent('Google', false)
 
 WebUI.back()
+// Click on T button to remove JetBlue floating menu
+WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
 
-WebUI.comment('User Story:  When I scroll to "Standalone Link: with icon" example')
+WebUI.comment('when I click on Standalone link: with icon I should be taken to component library icons page')
 
-// and scroll down to Simple Select Example
-WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Elements Components/standalone-link Component Objects/Page_JetBlue  Component Library/h3_Standalone Link no icon'), 
+WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Elements Components/standalone-link Component Objects/Page_JetBlue  Component Library/a_Standalone with icon link'), 
     10)
-
-WebUI.comment('then I should be able to see the "Standalone Link: with icon" example and clicking on it should take me to /icons')
 
 WebUI.click(findTestObject('JetBlue Component Library Objects/Elements Components/standalone-link Component Objects/Page_JetBlue  Component Library/a_Standalone with icon link'))
 
 WebUI.waitForPageLoad(5)
 
 WebUI.verifyTextPresent('Illustration Icons', false)
-
-WebUI.back()
 
 WebUI.closeBrowser()
 

@@ -6,15 +6,15 @@
    <elementGuidId>7aac09e0-78ef-41de-b321-1038d6bbb6e3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;product-block-all-options&quot;)/a[@class=&quot;flex flex-column relative no-underline pb4 bt bb ba-ns jb-block-border br3-ns overflow-hidden h-100&quot;]/div[@class=&quot;ph4 flex-grow-1 flex flex-column&quot;]/h3[@class=&quot;pt2 mb0 core-blue&quot;][count(. | //h3[@class = 'pt2 mb0 core-blue' and (text() = 'Grand Cayman Marriott Beach Resort' or . = 'Grand Cayman Marriott Beach Resort')]) = count(//h3[@class = 'pt2 mb0 core-blue' and (text() = 'Grand Cayman Marriott Beach Resort' or . = 'Grand Cayman Marriott Beach Resort')])]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//jb-product-block[@id='product-block-all-options']/a/div[3]/h3</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//h3[(text() = 'Grand Cayman Marriott Beach Resort' or . = 'Grand Cayman Marriott Beach Resort')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

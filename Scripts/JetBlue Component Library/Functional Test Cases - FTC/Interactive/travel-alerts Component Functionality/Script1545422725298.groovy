@@ -22,13 +22,16 @@ WebUI.comment('User Story: When user goes to travel-alerts component page')
 // User Story: When user goes to simple-selet component page
 WebUI.navigateToUrl(GlobalVariable.envURL1 + 'travel-alerts')
 
+// Click on T button to remove JetBlue floating menu
+WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
+
 WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
 
 WebUI.comment('and scrolls to the Example')
 
 WebUI.comment('then the user should see the "travel-alerts" example')
 
-WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Interactive/travel alerts Objects/Page_JetBlue  Component Library/h2_Example'), 
+WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Interactive/travel alerts Objects/Page_JetBlue  Component Library/svg'), 
     10)
 
 //WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/Layout Blocks/related-content-block Objects/Page_JetBlue  Component Library/polygon'), 
@@ -53,23 +56,13 @@ WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/Int
 
 WebUI.comment('When I click on the Learn more link then I should be taken to google.com')
 
-WebUI.click(findTestObject('JetBlue Component Library Objects/Interactive/travel alerts Objects/Page_JetBlue  Component Library/p_Emotional Support Animal (ES'))
-
 WebUI.waitForPageLoad(5)
-
-WebUI.verifyTextPresent('bestFareFinderDT', false)
-
-WebUI.back()
 
 WebUI.click(findTestObject('JetBlue Component Library Objects/Interactive/travel alerts Objects/Page_JetBlue  Component Library/svg'))
 
-WebUI.verifyElementNotPresent(findTestObject('JetBlue Component Library Objects/Interactive/travel alerts Objects/Page_JetBlue  Component Library/p_Emotional Support Animal (ES'), 
-    10)
+WebUI.waitForPageLoad(5)
 
 WebUI.click(findTestObject('JetBlue Component Library Objects/Interactive/travel alerts Objects/Page_JetBlue  Component Library/button_Reset Alert'))
-
-WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/Interactive/travel alerts Objects/Page_JetBlue  Component Library/svg'), 
-    10)
 
 WebUI.closeBrowser()
 

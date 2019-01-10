@@ -17,19 +17,19 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.comment('User Story:  When I access the inline-link component page and scroll to Inline Link: no icon')
+WebUI.comment('User Story:  When I access the inline-link component page')
 
 WebUI.navigateToUrl(GlobalVariable.envURL1 + 'links/inline-link/')
 
-// and scroll down to Simple Select Example
-WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Elements Components/inline-link Component Objects/Page_JetBlue  Component Library/h3_Inline Link no icon'), 
-    10)
+// Click on T button to remove JetBlue floating menu
+WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
 
-WebUI.comment('then I should be able to see the Inline Link: no icon example')
+WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Elements Components/inline-link Component Objects/Page_JetBlue  Component Library/a_Inline link no icon'), 
+    10)
 
 WebUI.comment('When I click on the inline link in "Lorem ipsum Inline link dolor esta." then I should be taken to google.com')
 
-WebUI.click(findTestObject('JetBlue Component Library Objects/Elements Components/inline-link Component Objects/Page_JetBlue  Component Library/a_Inline link'))
+WebUI.click(findTestObject('JetBlue Component Library Objects/Elements Components/inline-link Component Objects/Page_JetBlue  Component Library/a_Inline link no icon'))
 
 WebUI.waitForPageLoad(5)
 
@@ -37,21 +37,19 @@ WebUI.verifyTextPresent('Google', false)
 
 WebUI.back()
 
-WebUI.comment('User Story:  When I scroll to Inline Links: with icon example')
+// Click on T button to remove JetBlue floating menu
+WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
 
-// and scroll down to Simple Select Example
-WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Elements Components/inline-link Component Objects/Page_JetBlue  Component Library/h3_Inline Links with icon'), 
+WebUI.comment('when I click on Inline Links: with icon example link then I should be taken to Component Library icons page')
+
+WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Elements Components/inline-link Component Objects/Page_JetBlue  Component Library/a_Inline link with icon'), 
     10)
 
-WebUI.comment('then I should be able to see the "Inline Links: with icon" example and clicking on it should take me to /icons')
-
-WebUI.click(findTestObject('JetBlue Component Library Objects/Elements Components/inline-link Component Objects/Page_JetBlue  Component Library/jb-icon_Inline link_pl1 t-fast'))
+WebUI.click(findTestObject('JetBlue Component Library Objects/Elements Components/inline-link Component Objects/Page_JetBlue  Component Library/a_Inline link with icon'))
 
 WebUI.waitForPageLoad(5)
 
 WebUI.verifyTextPresent('Illustration Icons', false)
-
-WebUI.back()
 
 WebUI.closeBrowser()
 

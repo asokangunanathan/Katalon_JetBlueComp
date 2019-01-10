@@ -24,12 +24,6 @@
       <testCaseId>Test Cases/JetBlue Component Library/Functional Test Cases - FTC/Elements/dialog-link Component Functionality</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d71266de-909e-46d6-95a1-08bac8ba193f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/JetBlue Component Library/Functional Test Cases - FTC/Elements/CTA-link Component Functionality</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>a5a460b0-520e-46fe-abd0-c48e9323d8b7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

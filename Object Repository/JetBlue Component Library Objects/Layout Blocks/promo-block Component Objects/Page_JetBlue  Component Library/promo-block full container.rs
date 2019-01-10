@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;promo-block-full-bleed-with-logo-button-background-image-and-small-card&quot;)/jb-link[@class=&quot;db no-underline block-link-z-index pointer overflow-hidden page-margin-ns relative bg-white light-theme&quot;]/a[@class=&quot;pointer w-100 h-100 di color-inherit hover-inherit no-underline&quot;]/jb-background[@class=&quot;db absolute absolute--fill&quot;]/div[@class=&quot;w-100 h-100&quot;][count(. | //div[@class = 'w-100 h-100']) = count(//div[@class = 'w-100 h-100'])]</value>
+         <value>/html[@class=&quot;h-100&quot;]/body[@class=&quot;h-100&quot;]/jb-app[@class=&quot;ng-tns-c0-0&quot;]/div[@class=&quot;flex flex-column flex-row-m flex-row-l&quot;]/div[@class=&quot;flex flex-column items-center flex-auto pt4 pt0-ns w-100 h-100 ng-trigger ng-trigger-pushContent&quot;]/main[@class=&quot;h-100 bg-white charcoal pt7-ns center&quot;]/cb-cookbook-promo-block[@class=&quot;ng-star-inserted&quot;]/cb-example[1]/div[@class=&quot;pb0 mt4 mb5&quot;]/div[@class=&quot;pv3 page-margin&quot;][count(. | //div[@class = 'pv3 page-margin' and (text() = ' Over the moon  Celebrate new developments in paradise. Explore our Honeymoon &amp; Babymoon vacation packages.  Book now ' or . = ' Over the moon  Celebrate new developments in paradise. Explore our Honeymoon &amp; Babymoon vacation packages.  Book now ')]) = count(//div[@class = 'pv3 page-margin' and (text() = ' Over the moon  Celebrate new developments in paradise. Explore our Honeymoon &amp; Babymoon vacation packages.  Book now ' or . = ' Over the moon  Celebrate new developments in paradise. Explore our Honeymoon &amp; Babymoon vacation packages.  Book now ')])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//jb-promo-block[@id='promo-block-full-bleed-with-logo-button-background-image-and-small-card']/jb-link/a/jb-background/div</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#promo-block-full-bleed-with-logo-button-background-image-and-small-card</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -24,7 +28,7 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -38,7 +42,7 @@
       <value> Over the moon  Celebrate new developments in paradise. Explore our Honeymoon &amp; Babymoon vacation packages.  Book now </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

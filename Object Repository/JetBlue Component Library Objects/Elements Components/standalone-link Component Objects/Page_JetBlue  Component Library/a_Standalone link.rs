@@ -7,17 +7,21 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[@href = 'https://google.ca' and (text() = ' Standalone link ' or . = ' Standalone link ')]</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//jb-standalone-link[@id='standalone-link-standalone-link-no-icon']/jb-link/a</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#standalone-link-standalone-link-no-icon</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -31,14 +35,14 @@
       <value>pointer w-100 h-100 di color-inherit hover-inherit no-underline</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>https://google.ca</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
