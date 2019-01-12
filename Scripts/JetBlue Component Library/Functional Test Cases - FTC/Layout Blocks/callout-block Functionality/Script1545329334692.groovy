@@ -17,6 +17,7 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
+'User Story: When user goes to callout-block component page'
 WebUI.comment('User Story: When user goes to callout-block component page')
 
 WebUI.navigateToUrl(GlobalVariable.envURL1 + 'layout/callout-block')
@@ -24,14 +25,17 @@ WebUI.navigateToUrl(GlobalVariable.envURL1 + 'layout/callout-block')
 // Click on T button to remove JetBlue floating menu
 WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
 
+'and scrolls to example "Callout Block (2-up)"'
 WebUI.comment('and scrolls to example "Callout Block (2-up)"')
 
+'then the user should see the "Callout Block (2-up)" example'
 WebUI.comment('then the user should see the "Callout Block (2-up)" example')
 
 WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Layout Blocks/callout-block Objects/Page_JetBlue  Component Library/jb-callout-block_Stretch out'), 
     10)
 
-WebUI.comment('When I click on the Learn more link then I should be taken to google.com')
+'When the user clicks on the Learn more link then the user should be taken to google.com'
+WebUI.comment('When I click on the Learn more link then the user should be taken to google.com')
 
 WebUI.click(findTestObject('JetBlue Component Library Objects/Layout Blocks/callout-block Objects/Page_JetBlue  Component Library/a_Learn more'))
 

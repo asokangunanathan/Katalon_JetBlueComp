@@ -17,13 +17,16 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
+'User Story: When user goes to product-block component page'
 WebUI.comment('User Story: When user goes to product-block component page')
 
 // User Story: When user goes to simple-selet component page
 WebUI.navigateToUrl(GlobalVariable.envURL1 + 'product-block')
 
+'and scrolls to example "Product Block with all optional elements"'
 WebUI.comment('and scrolls to example "Product Block with all optional elements"')
 
+'then the user should see the "Grand Caymen Marriott Beach Resort)" example'
 WebUI.comment('then the user should see the "Grand Caymen Marriott Beach Resort)" example')
 
 WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Layout Blocks/product-block Objects/Page_JetBlue  Component Library/h3_Product Block with all optional elements'), 
@@ -52,7 +55,8 @@ WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/Lay
 WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/Layout Blocks/product-block Objects/Page_JetBlue  Component Library/jb-copy_per person'), 
     10)
 
-WebUI.comment('When I click on the Learn more link then I should be taken to google.com')
+'When the user clicks on the image of the dog user should be taken to google.com'
+WebUI.comment('When the user clicks on the image of the dog user should be taken to google.com')
 
 WebUI.click(findTestObject('JetBlue Component Library Objects/Layout Blocks/product-block Objects/Page_JetBlue  Component Library/dog image'))
 
@@ -62,6 +66,9 @@ WebUI.verifyTextPresent('Google', false)
 
 WebUI.back()
 
+'When the user clicks on the product title user should be taken to google.com'
+WebUI.comment('When the user clicks on the product title user should be taken to google.com')
+
 WebUI.click(findTestObject('JetBlue Component Library Objects/Layout Blocks/product-block Objects/Page_JetBlue  Component Library/Product Title'))
 
 WebUI.waitForPageLoad(5)
@@ -69,6 +76,9 @@ WebUI.waitForPageLoad(5)
 WebUI.verifyTextPresent('Google', false)
 
 WebUI.back()
+
+'When the user clicks on the price the user should be taken to google.com'
+WebUI.comment('When the user clicks on the price the user should be taken to google.com')
 
 WebUI.click(findTestObject('JetBlue Component Library Objects/Layout Blocks/product-block Objects/Page_JetBlue  Component Library/jb-callout_385'))
 
@@ -78,6 +88,9 @@ WebUI.verifyTextPresent('Google', false)
 
 WebUI.back()
 
+'When the user clicks on the text "from" the user should be taken to google.com'
+WebUI.comment('When the user clicks on the text "from" the user should be taken to google.com')
+
 WebUI.click(findTestObject('JetBlue Component Library Objects/Layout Blocks/product-block Objects/Page_JetBlue  Component Library/jb-copy_from'))
 
 WebUI.waitForPageLoad(5)
@@ -85,6 +98,9 @@ WebUI.waitForPageLoad(5)
 WebUI.verifyTextPresent('Google', false)
 
 WebUI.back()
+
+'When the user clicks on the descripton the user should be taken to google.com'
+WebUI.comment('When the user clicks on the descripton the user should be taken to google.com')
 
 WebUI.click(findTestObject('JetBlue Component Library Objects/Layout Blocks/product-block Objects/Page_JetBlue  Component Library/a_Reduced ratesGrand Cayman Ma'))
 
@@ -94,6 +110,9 @@ WebUI.verifyTextPresent('Google', false)
 
 WebUI.back()
 
+'When the user clicks on the Reduced rates flag the user should be taken to google.com'
+WebUI.comment('When the user clicks on the Reduced rates flag the user should be taken to google.com')
+
 WebUI.click(findTestObject('JetBlue Component Library Objects/Layout Blocks/product-block Objects/Page_JetBlue  Component Library/Flag - Reduced rates'))
 
 WebUI.waitForPageLoad(5)
@@ -102,6 +121,9 @@ WebUI.verifyTextPresent('Google', false)
 
 WebUI.back()
 
+'When the user clicks on the text "per person" the user should be taken to google.com'
+WebUI.comment('When the user clicks on the text "per person" the user should be taken to google.com')
+
 WebUI.click(findTestObject('JetBlue Component Library Objects/Layout Blocks/product-block Objects/Page_JetBlue  Component Library/jb-copy_per person'))
 
 WebUI.waitForPageLoad(5)
@@ -109,6 +131,9 @@ WebUI.waitForPageLoad(5)
 WebUI.verifyTextPresent('Google', false)
 
 WebUI.back()
+
+'When the user clicks on the button "See restrictions" the user should see a popup with text: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."'
+WebUI.comment('When the user clicks on the button "See restrictions" the user should see a popup with text: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."')
 
 WebUI.click(findTestObject('JetBlue Component Library Objects/Layout Blocks/product-block Objects/Page_JetBlue  Component Library/button_See restrictions'))
 

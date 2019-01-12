@@ -17,7 +17,8 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.comment('User Story:  When I access the inline-link component page')
+'User Story:  When the user accesses the inline-link component page'
+WebUI.comment('User Story:  When the user accesses the inline-link component page')
 
 WebUI.navigateToUrl(GlobalVariable.envURL1 + 'links/inline-link/')
 
@@ -27,7 +28,8 @@ WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue 
 WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Elements Components/inline-link Component Objects/Page_JetBlue  Component Library/a_Inline link no icon'), 
     10)
 
-WebUI.comment('When I click on the inline link in "Lorem ipsum Inline link dolor esta." then I should be taken to google.com')
+'and clicks on the inline link in "Lorem ipsum Inline link dolor esta." then the user should be taken to google.com'
+WebUI.comment('and clicks on the inline link in "Lorem ipsum Inline link dolor esta." then the user should be taken to google.com')
 
 WebUI.click(findTestObject('JetBlue Component Library Objects/Elements Components/inline-link Component Objects/Page_JetBlue  Component Library/a_Inline link no icon'))
 
@@ -40,7 +42,8 @@ WebUI.back()
 // Click on T button to remove JetBlue floating menu
 WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
 
-WebUI.comment('when I click on Inline Links: with icon example link then I should be taken to Component Library icons page')
+'when the user clicks on Inline Links: with icon example link then the user should be taken to Component Library icons page'
+WebUI.comment('when the user clicks on Inline Links: with icon example link then the user should be taken to Component Library icons page')
 
 WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Elements Components/inline-link Component Objects/Page_JetBlue  Component Library/a_Inline link with icon'), 
     10)

@@ -17,19 +17,23 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
+'User Story: When user goes to navigation-block component page'
 WebUI.comment('User Story: When user goes to navigation-block component page')
 
 // User Story: When user goes to simple-selet component page
 WebUI.navigateToUrl(GlobalVariable.envURL1 + 'navigation-block/')
 
+'and scrolls down to the 1 up Navigation Block example'
 WebUI.comment('and scrolls down to the 1 up Navigation Block example')
 
 // and scroll down to Simple Select Example
 WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Layout Blocks/navigation-block Objects/Page_JetBlue  Component Library/Cookbook section - Navigation Block Example'), 
     10)
 
-WebUI.comment('then I should be able to see 1-up example')
+'user should be able to see 1-up example'
+WebUI.comment('user should be able to see 1-up example')
 
+'Navigation Block should have Title, Block Copy, Optional Icon, and the entire Navigation block should be clickable'
 WebUI.comment('Navigation Block should have Title, Block Copy, Optional Icon, and the entire Navigation block should be clickable')
 
 WebUI.verifyElementText(findTestObject('JetBlue Component Library Objects/Layout Blocks/navigation-block Objects/Page_JetBlue  Component Library/1up Nav Block Example Title'), 
@@ -47,6 +51,9 @@ WebUI.verifyElementClickable(findTestObject('JetBlue Component Library Objects/L
 
 WebUI.verifyElementClickable(findTestObject('JetBlue Component Library Objects/Layout Blocks/navigation-block Objects/Page_JetBlue  Component Library/1up Nav Block Example Full Container'))
 
+'Clicking on navigation block should navigate to google'
+WebUI.comment('Clicking on navigation block should navigate to google')
+
 WebUI.clickOffset(findTestObject('JetBlue Component Library Objects/Layout Blocks/navigation-block Objects/Page_JetBlue  Component Library/1up Nav Block Example Full Container'), 
     100, 100)
 
@@ -56,13 +63,16 @@ WebUI.verifyTextPresent('Google', false)
 
 WebUI.back()
 
-WebUI.comment('When I scroll down to the Secondary Block')
+'When user scrolls down to the Secondary Block'
+WebUI.comment('When user scrolls down to the Secondary Block')
 
 WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Layout Blocks/navigation-block Objects/Page_JetBlue  Component Library/Cookbook Secondary Block Section'), 
     10)
 
-WebUI.comment('then I should be able to see Secondary Block Example')
+'the user should be able to see Secondary Block Example'
+WebUI.comment('the user should be able to see Secondary Block Example')
 
+'Seconary Navigation Block should have Title, Block Copy, and the entire Navigation block should be clickable'
 WebUI.comment('Seconary Navigation Block should have Title, Block Copy, and the entire Navigation block should be clickable')
 
 WebUI.verifyElementText(findTestObject('JetBlue Component Library Objects/Layout Blocks/navigation-block Objects/Page_JetBlue  Component Library/3 Titles of Secondary Nav Block'), 
@@ -78,6 +88,9 @@ WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/Lay
     10)
 
 WebUI.verifyElementClickable(findTestObject('JetBlue Component Library Objects/Layout Blocks/navigation-block Objects/Page_JetBlue  Component Library/Secondary Block full container'))
+
+'Clicking on navigation block should navigate to google'
+WebUI.comment('Clicking on navigation block should navigate to google')
 
 WebUI.clickOffset(findTestObject('JetBlue Component Library Objects/Layout Blocks/navigation-block Objects/Page_JetBlue  Component Library/Secondary Block container 1'), 
     100, 100)

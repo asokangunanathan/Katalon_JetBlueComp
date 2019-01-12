@@ -3,6 +3,8 @@
    <description></description>
    <name>radios Component Funtionality</name>
    <tag></tag>
-   <comment></comment>
+   <comment>User Story: When user goes to radios component page
+and scrolls to Simple Radio Button example
+</comment>
    <testCaseGuid>8e0a77ee-8ede-402f-ae73-77ba27499f46</testCaseGuid>
 </TestCaseEntity>

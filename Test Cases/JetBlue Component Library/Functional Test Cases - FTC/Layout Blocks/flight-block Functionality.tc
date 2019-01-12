@@ -6,6 +6,8 @@
    <comment>User Story: When user goes to flight-block component page
 and scrolls to example &quot;Price-based Flight Block&quot;
 then the user should see the &quot;Price-based Flight Block&quot; example
-When I click on the Learn more link then I should be taken to google.com</comment>
+the entire component pieces should be clickable
+when the user clicks on the Price-based Flight Block Example then user should navigate to jetblue.com
+when the user clicks See restrictions Dialog link then a popup should open</comment>
    <testCaseGuid>eb5042f3-d5fa-4c4d-a3f6-d80f00cb07d1</testCaseGuid>
 </TestCaseEntity>

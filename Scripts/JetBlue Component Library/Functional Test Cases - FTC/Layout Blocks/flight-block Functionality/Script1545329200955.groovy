@@ -17,6 +17,7 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
+'User Story: When user goes to flight-block component page'
 WebUI.comment('User Story: When user goes to flight-block component page')
 
 // User Story: When user goes to simple-selet component page
@@ -25,13 +26,16 @@ WebUI.navigateToUrl(GlobalVariable.envURL1 + 'flight-block')
 // Click on T button to remove JetBlue floating menu
 WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
 
+'and scrolls to example "Price-based Flight Block"'
 WebUI.comment('and scrolls to example "Price-based Flight Block"')
 
+'then the user should see the "Price-based Flight Block" example'
 WebUI.comment('then the user should see the "Price-based Flight Block" example')
 
 WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Layout Blocks/flight-block Objects/Page_JetBlue  Component Library/Full Fight Block Container'), 
     10)
 
+'the entire component pieces should be clickable'
 WebUI.comment('the entire component pieces should be clickable')
 
 //WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/Layout Blocks/promo-block Component Objects/Page_JetBlue  Component Library/promo-block full container'), 
@@ -54,6 +58,7 @@ WebUI.verifyElementClickable(findTestObject('JetBlue Component Library Objects/L
 WebUI.verifyElementClickable(findTestObject('JetBlue Component Library Objects/Layout Blocks/flight-block Objects/Page_JetBlue  Component Library/span_one-way'), 
     FailureHandling.STOP_ON_FAILURE)
 
+'when the user clicks on the Price-based Flight Block Example then user should navigate to jetblue.com'
 WebUI.comment('when the user clicks on the Price-based Flight Block Example then user should navigate to jetblue.com')
 
 WebUI.click(findTestObject('JetBlue Component Library Objects/Layout Blocks/flight-block Objects/Page_JetBlue  Component Library/Full Fight Block Container'))
@@ -67,12 +72,14 @@ WebUI.back()
 // Click on T button to remove JetBlue floating menu
 WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
 
+'when the user clicks See restrictions Dialog link then a popup should open'
 WebUI.comment('when the user clicks See restrictions Dialog link then a popup should open')
 
 WebUI.click(findTestObject('JetBlue Component Library Objects/Layout Blocks/flight-block Objects/Page_JetBlue  Component Library/button_See restrictions'))
 
 WebUI.waitForPageLoad(5)
 
+'Popup should contain Text: This fare is available on select dates between 08/21/2018 and 11/14/2018. Fare may not be available during holidays or other peak travel days. Click on the fare to see a fare calendar showing the exact dates this fare is available. Any "Price Drop" that is shown is based on lowest bookable fare within the last 72 hours.'
 WebUI.verifyTextPresent('This fare is available on select dates between 08/21/2018 and 11/14/2018. Fare may not be available during holidays or other peak travel days. Click on the fare to see a fare calendar showing the exact dates this fare is available. Any "Price Drop" that is shown is based on lowest bookable fare within the last 72 hours.', 
     false)
 

@@ -17,14 +17,16 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.comment('User Story:  When I access the standalone-link component page')
+'User Story:  When the user accesses the standalone-link component page'
+WebUI.comment('User Story:  When the user accesses the standalone-link component page')
 
 WebUI.navigateToUrl(GlobalVariable.envURL1 + 'links/standalone-link/')
 
 // Click on T button to remove JetBlue floating menu
 WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
 
-WebUI.comment('When I click on the Standalone link then I should be taken to google.com')
+'When the user clicks on the Standalone link then the user should be taken to google.com'
+WebUI.comment('When the user clicks on the Standalone link then the user should be taken to google.com')
 
 WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Elements Components/standalone-link Component Objects/Page_JetBlue  Component Library/a_Standalone link'), 
     10)
@@ -36,10 +38,12 @@ WebUI.waitForPageLoad(5)
 WebUI.verifyTextPresent('Google', false)
 
 WebUI.back()
+
 // Click on T button to remove JetBlue floating menu
 WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
 
-WebUI.comment('when I click on Standalone link: with icon I should be taken to component library icons page')
+'when the user clicks on Standalone link: with icon then the user should be taken to component library icons page'
+WebUI.comment('when the user clicks on Standalone link: with icon then the user should be taken to component library icons page')
 
 WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Elements Components/standalone-link Component Objects/Page_JetBlue  Component Library/a_Standalone with icon link'), 
     10)

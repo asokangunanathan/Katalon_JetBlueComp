@@ -17,13 +17,16 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.comment('User Story:  When I access the CTA-link component page\n ')
+'User Story:  When the user accesses the CTA-link component page\n '
+WebUI.comment('User Story:  When the user accesses the CTA-link component page\n ')
 
 WebUI.navigateToUrl(GlobalVariable.envURL1 + 'links/cta-link/')
+
 // Click on T button to remove JetBlue floating menu
 WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
-WebUI.comment('and I click on the Default link CTA link')
 
+'and the user clicks on the Default link CTA link'
+WebUI.comment('and the user clicks on the Default link CTA link')
 
 WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Elements Components/CTA-link Component Objects/Page_JetBlue  Component Library/a_Default link CTA'), 
     10)
@@ -32,15 +35,18 @@ WebUI.click(findTestObject('JetBlue Component Library Objects/Elements Component
 
 WebUI.waitForPageLoad(5)
 
-WebUI.comment('I should be taken to Google page')
+'the user should be taken to Google page'
+WebUI.comment('the user should be taken to Google page')
 
 WebUI.verifyTextPresent('Google', false)
 
 WebUI.back()
+
 // Click on T button to remove JetBlue floating menu
 WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
-WebUI.comment('and when I click on the External link CTA link')
 
+'when the user clicks on the External link CTA link'
+WebUI.comment('when the user clicks on the External link CTA link')
 
 WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Elements Components/CTA-link Component Objects/Page_JetBlue  Component Library/a_External link CTA'), 
     10)
@@ -49,15 +55,18 @@ WebUI.click(findTestObject('JetBlue Component Library Objects/Elements Component
 
 WebUI.waitForPageLoad(5)
 
-WebUI.comment('I should be taken to Google page')
+'the user should be taken to Google page'
+WebUI.comment('the user should be taken to Google page')
 
 WebUI.verifyTextPresent('Google', false)
 
 WebUI.back()
+
 // Click on T button to remove JetBlue floating menu
 WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
-WebUI.comment('and when I click on Document link CTA link')
 
+'when the user clicks on Document link CTA link'
+WebUI.comment('when the user clicks on Document link CTA link')
 
 WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Elements Components/CTA-link Component Objects/Page_JetBlue  Component Library/a_Document link CTA'), 
     10)
@@ -66,14 +75,18 @@ WebUI.click(findTestObject('JetBlue Component Library Objects/Elements Component
 
 WebUI.waitForPageLoad(5)
 
-WebUI.comment('then I should taken to coponent libray icons page https://dev.b6orgeng.net/component-library/icons')
+'the user should taken to coponent libray icons page https://dev.b6orgeng.net/component-library/icons'
+WebUI.comment('the user should taken to coponent libray icons page https://dev.b6orgeng.net/component-library/icons')
 
 WebUI.verifyTextPresent('Illustration Icons', false)
 
 WebUI.back()
+
 // Click on T button to remove JetBlue floating menu
 WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
-WebUI.comment('and when I click on Document link CTA with target _blank')
+
+'when the user clicks on Document link CTA with target _blank'
+WebUI.comment('when the user clicks on Document link CTA with target _blank')
 
 WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Elements Components/CTA-link Component Objects/Page_JetBlue  Component Library/a_Document link CTA for target_blank'), 
     10)
@@ -82,7 +95,8 @@ WebUI.click(findTestObject('JetBlue Component Library Objects/Elements Component
 
 WebUI.waitForPageLoad(5)
 
-WebUI.comment('then I should be taken to Google page in a new Tab')
+'when the user clicks on Document link CTA with target _blank (new tab)'
+WebUI.comment('the user should be taken to Google page in a new Tab')
 
 //'Switch to Documentation window'
 WebUI.switchToWindowTitle('Google')

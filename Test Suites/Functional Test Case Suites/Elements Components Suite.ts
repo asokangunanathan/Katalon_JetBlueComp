@@ -4,7 +4,7 @@
    <name>Elements Components Suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-28T12:08:14</lastRun>
+   <lastRun>2019-01-11T15:01:10</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -12,21 +12,27 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>16d28e1d-f46f-4015-a691-75ae10c7937c</testSuiteGuid>
    <testCaseLink>
-      <guid>8f78b142-83cb-4862-95aa-d7cace2b10cb</guid>
+      <guid>b8bcccff-e26a-43de-b4c0-2440652dd8aa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/JetBlue Component Library/Functional Test Cases - FTC/Elements/inline-link Component Functionality</testCaseId>
+      <testCaseId>Test Cases/JetBlue Component Library/Functional Test Cases - FTC/Elements/standalone-link Component Functionality</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>377058d4-c8bd-4845-bf02-15da9aeb38f8</guid>
+      <guid>b851a016-188c-4bf3-9094-e0d91ff539f8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Functional Test Cases - FTC/Elements/CTA-link Component Functionality</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>429735a4-4d85-4d91-8a7f-b448bc37af8e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/JetBlue Component Library/Functional Test Cases - FTC/Elements/dialog-link Component Functionality</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a5a460b0-520e-46fe-abd0-c48e9323d8b7</guid>
+      <guid>bffcaa10-e12c-4194-a71f-fe15ea14acc6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/JetBlue Component Library/Functional Test Cases - FTC/Elements/standalone-link Component Functionality</testCaseId>
+      <testCaseId>Test Cases/JetBlue Component Library/Functional Test Cases - FTC/Elements/inline-link Component Functionality</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

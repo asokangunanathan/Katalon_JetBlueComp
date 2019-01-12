@@ -17,6 +17,7 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
+'User Story: When user goes to related-content-block component page'
 WebUI.comment('User Story: When user goes to related-content-block component page')
 
 // User Story: When user goes to simple-selet component page
@@ -24,8 +25,10 @@ WebUI.navigateToUrl(GlobalVariable.envURL1 + 'related-content-block')
 
 WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/button_T'))
 
+'and scrolls to example "Section Specific Related Content Block With Icon"'
 WebUI.comment('and scrolls to example "Section Specific Related Content Block With Icon"')
 
+'then the user should see the "Section Specific Related Content Block With Icon" example'
 WebUI.comment('then the user should see the "Section Specific Related Content Block With Icon" example')
 
 WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Layout Blocks/related-content-block Objects/Page_JetBlue  Component Library/Section Specific Related Content Block With Icon example'), 
@@ -45,7 +48,8 @@ WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/Lay
 WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/Layout Blocks/related-content-block Objects/Page_JetBlue  Component Library/We Mean Business Related Content Block'), 
     10)
 
-WebUI.comment('When I click on the Learn more link then I should be taken to google.com')
+'When the user clicks on the Learn more link then the user should be taken to google.com'
+WebUI.comment('When the user clicks on the Learn more link then the user should be taken to google.com')
 
 WebUI.click(findTestObject('JetBlue Component Library Objects/Layout Blocks/related-content-block Objects/Page_JetBlue  Component Library/CTA Link'))
 

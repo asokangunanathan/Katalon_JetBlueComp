@@ -4,7 +4,7 @@
    <name>Layout Blocks Components Suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-28T12:08:14</lastRun>
+   <lastRun>2019-01-11T14:59:04</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -12,37 +12,37 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>51190279-efa7-4e8d-9d25-03c22bbc960a</testSuiteGuid>
    <testCaseLink>
-      <guid>4ffc6601-7b6f-42fd-b390-747674aa1229</guid>
+      <guid>61917b51-063c-4f47-ab5b-545280139d2c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/JetBlue Component Library/Functional Test Cases - FTC/Layout Blocks/flight-block Functionality</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>4a1426d0-df63-4799-aa52-0231854884d6</guid>
+      <guid>679d0330-e6c1-4d6b-9dcc-832ede0453ec</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/JetBlue Component Library/Functional Test Cases - FTC/Layout Blocks/navigation-block Functionality</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>93d69a88-65b2-432d-8947-fd31a0cf6636</guid>
+      <guid>3a42ff7f-7cce-45fb-9a83-5c1a5d0608c0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/JetBlue Component Library/Functional Test Cases - FTC/Layout Blocks/related-content-block Functionality</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>1f74ad5e-72fe-495d-83f9-3bb2bf717d6f</guid>
+      <guid>4d37eac6-76f2-4e4b-8642-a8cb602251eb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/JetBlue Component Library/Functional Test Cases - FTC/Layout Blocks/promo-block functionality</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d71a98ea-85e1-4a5a-8cd5-a551c280270e</guid>
+      <guid>bb99685b-d701-4aad-b5c9-606b53774184</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/JetBlue Component Library/Functional Test Cases - FTC/Layout Blocks/callout-block Functionality</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>65f956fc-5e90-464a-a73d-15772608cf97</guid>
+      <guid>cff8a406-079c-401a-854f-13ee95d0657f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/JetBlue Component Library/Functional Test Cases - FTC/Layout Blocks/product-block Functionality</testCaseId>

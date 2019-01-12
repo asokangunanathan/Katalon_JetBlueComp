@@ -6,15 +6,15 @@
    <elementGuidId>dba4d57a-cf75-4b83-b7dd-6df4d0088f07</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//jb-copy[@class = 'avenir db copy' and (text() = ' Item 2 ' or . = ' Item 2 ')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Item 1'])[1]/following::jb-copy[1]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//jb-copy[(text() = ' Item 2 ' or . = ' Item 2 ')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

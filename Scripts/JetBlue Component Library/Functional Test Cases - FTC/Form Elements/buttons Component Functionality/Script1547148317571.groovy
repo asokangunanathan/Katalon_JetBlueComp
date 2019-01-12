@@ -17,6 +17,7 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
+'User Story: When user goes to buttons component page'
 WebUI.comment('User Story: When user goes to buttons component page')
 
 // User Story: When user goes to simple-selet component page
@@ -24,9 +25,11 @@ WebUI.navigateToUrl(GlobalVariable.envURL1 + 'buttons')
 
 WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
 
+'and scrolls down to Primary Button - Rounded example\n'
 WebUI.comment('and scrolls down to Primary Button - Rounded example\n')
 
-WebUI.comment('and when I click on it  then I should be taken to google.com')
+'and clicks on it  then the user should be taken to google.com'
+WebUI.comment('and clicks on it  then the user should be taken to google.com')
 
 // and scroll down to Simple Select Example
 WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Form Elements/buttons Component Objects/Page_JetBlue  Component Library/Primary button_Button Rounded'), 
@@ -43,9 +46,11 @@ WebUI.back()
 // Click on T button to remove JetBlue floating menu
 WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
 
-WebUI.comment('and scrolls down to Primary Button - Paired example\n')
+'and clicks on it  then the user should be taken to google.com'
+WebUI.comment('when the user scrolls down to Primary Button - Paired example\n')
 
-WebUI.comment('When I click on it  then I should be taken to google.com')
+'and clicks on it  then the user should be taken to google.com'
+WebUI.comment('and clicks on it  then the user should be taken to google.com')
 
 // and scroll down to Simple Select Example
 WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Form Elements/buttons Component Objects/Page_JetBlue  Component Library/Primary_Button Paired'), 
@@ -62,9 +67,11 @@ WebUI.back()
 // Click on T button to remove JetBlue floating menu
 WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
 
-WebUI.comment('and scrolls down to Primary Button - Default example\n')
+'when the user scrolls down to Primary Button - Default example\n'
+WebUI.comment('when the user scrolls down to Primary Button - Default example\n')
 
-WebUI.comment('and when I click on it  then I should be taken to google.com')
+'and clicks on it  then the user should be taken to google.com'
+WebUI.comment('and clicks on it  then the user should be taken to google.com')
 
 // and scroll down to Simple Select Example
 WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Form Elements/buttons Component Objects/Page_JetBlue  Component Library/Primary button_Button Default'), 
@@ -81,9 +88,11 @@ WebUI.back()
 // Click on T button to remove JetBlue floating menu
 WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
 
-WebUI.comment('and scrolls down to Secondary Button - Rounded example\n')
+'when the user scrolls down to Secondary Button - Rounded example\n'
+WebUI.comment('when the user scrolls down to Secondary Button - Rounded example\n')
 
-WebUI.comment('and when I click on it  then I should be taken to google.com')
+'and clicks on it  then the user should be taken to google.com'
+WebUI.comment('and clicks on it  then the user should be taken to google.com')
 
 // and scroll down to Simple Select Example
 WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Form Elements/buttons Component Objects/Page_JetBlue  Component Library/Secondary button_Button Rounded'), 
@@ -100,9 +109,11 @@ WebUI.back()
 // Click on T button to remove JetBlue floating menu
 WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
 
-WebUI.comment('and scrolls down to Secondary Button - Paired example\n')
+'when the user scrolls down to Secondary Button - Paired example\n'
+WebUI.comment('when the user scrolls down to Secondary Button - Paired example\n')
 
-WebUI.comment('and when I click on it  then I should be taken to google.com')
+'and clicks on it  then the user should be taken to google.com'
+WebUI.comment('and clicks on it  then the user should be taken to google.com')
 
 // and scroll down to Simple Select Example
 WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Form Elements/buttons Component Objects/Page_JetBlue  Component Library/Secondary_Button Paired'), 
@@ -119,9 +130,11 @@ WebUI.back()
 // Click on T button to remove JetBlue floating menu
 WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
 
-WebUI.comment('and scrolls down to Secondary Button - Default example\n')
+'when the user scrolls down to Secondary Button - Default example\n'
+WebUI.comment('when the user scrolls down to Secondary Button - Default example\n')
 
-WebUI.comment('and when I click on it  then I should be taken to google.com')
+'and clicks on it then the user should be taken to google.com'
+WebUI.comment('and clicks on it then the user should be taken to google.com')
 
 // and scroll down to Simple Select Example
 WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Form Elements/buttons Component Objects/Page_JetBlue  Component Library/Secondary button_Button Default'), 
@@ -138,9 +151,11 @@ WebUI.back()
 // Click on T button to remove JetBlue floating menu
 WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
 
-WebUI.comment('and scrolls down to Loading Button example\n')
+'wnen the user scrolls down to Loading Button example\n'
+WebUI.comment('wnen the user scrolls down to Loading Button example\n')
 
-WebUI.comment('and when I click on it  then I should see the button change to loading image')
+'and clicks on it  then the user should see the button change to loading image'
+WebUI.comment('and clicks on it  then the user should see the button change to loading image')
 
 // and scroll down to Simple Select Example
 WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Form Elements/buttons Component Objects/Page_JetBlue  Component Library/button_Load Records'), 

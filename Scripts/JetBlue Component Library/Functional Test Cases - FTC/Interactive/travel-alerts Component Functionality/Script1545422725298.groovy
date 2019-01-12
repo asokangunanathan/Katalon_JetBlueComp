@@ -17,6 +17,7 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
+'User Story: When user goes to travel-alerts component page'
 WebUI.comment('User Story: When user goes to travel-alerts component page')
 
 // User Story: When user goes to simple-selet component page
@@ -27,8 +28,10 @@ WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue 
 
 WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
 
+'and scrolls to the Example'
 WebUI.comment('and scrolls to the Example')
 
+'then the user should see the "travel-alerts" example'
 WebUI.comment('then the user should see the "travel-alerts" example')
 
 WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Interactive/travel alerts Objects/Page_JetBlue  Component Library/svg'), 
@@ -54,7 +57,8 @@ WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/Int
 WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/Interactive/travel alerts Objects/Page_JetBlue  Component Library/h3_Desktop view above main nav'), 
     10)
 
-WebUI.comment('When I click on the Learn more link then I should be taken to google.com')
+'When then user clicks close button then the travel alert should close'
+WebUI.comment('When then user clicks close button then the travel alert should close')
 
 WebUI.waitForPageLoad(5)
 
