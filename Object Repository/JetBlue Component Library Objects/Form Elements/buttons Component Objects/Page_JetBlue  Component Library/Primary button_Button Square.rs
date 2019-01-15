@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Primary button_Button Rounded</name>
+   <name>Primary button_Button Square</name>
    <tag></tag>
-   <elementGuidId>d28dca2c-72b5-4d14-864a-75728485fe50</elementGuidId>
+   <elementGuidId>e5c23e10-077d-41ba-8285-b169f1271d00</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//button[@id='button-primary-button-rounded']</value>
+         <value>//button[@id='button-primary-button-square']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#button-primary-button-rounded</value>
+         <value>#button-primary-button-square</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@id = 'button-primary-button-square' and (text() = ' Button Square ' or . = ' Button Square ')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -32,14 +32,14 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mv2 pointer avenir copy-s b b--none white no-underline dib lh-3 tc nowrap t-med-bg w-100 w-max-ns w-auto-ns min-w-button hover-white jb-button-primary bg-royal-blue br-rounded-2</value>
+      <value>mv2 pointer avenir copy-s b b--none white no-underline dib lh-3 tc nowrap t-med-bg w-100 w-max-ns w-auto-ns min-w-button hover-white jb-button-primary bg-royal-blue</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>button-primary-button-rounded</value>
+      <value>button-primary-button-square</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,58 +58,79 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-disabled</name>
+      <name>ng-reflect-theme</name>
+      <type>Main</type>
+      <value>primary</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-is-rounded</name>
       <type>Main</type>
       <value>false</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>ng-reflect-is-paired</name>
+      <type>Main</type>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Button Rounded </value>
+      <value> Button Square </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;button-primary-button-rounded&quot;)</value>
+      <value>id(&quot;button-primary-button-square&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>//button[@id='button-primary-button-rounded']</value>
+      <value>//button[@id='button-primary-button-square']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='View in CompoDoc'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View in CompoDoc'])[3]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Primary Button - Rounded'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Primary Button - Square'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Code sample'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Code sample'])[3]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copy'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copy'])[3]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//cb-example/div/div[2]/button</value>
+      <value>//div[3]/cb-example/div/div[2]/button</value>
    </webElementXpaths>
 </WebElementEntity>

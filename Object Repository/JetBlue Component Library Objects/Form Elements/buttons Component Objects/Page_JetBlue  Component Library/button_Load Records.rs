@@ -6,10 +6,6 @@
    <elementGuidId>5b93313f-e6b2-4648-8a14-8736a7aeb18b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#button-loading</value>
       </entry>
@@ -17,11 +13,15 @@
          <key>XPATH</key>
          <value>//button[@id='button-loading']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@id = 'button-loading' and (text() = ' Load Records ' or . = ' Load Records ')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -42,7 +42,7 @@
       <value>pointer avenir copy-s b b--none white no-underline dib lh-3 tc nowrap t-med-bg w-100 w-max-ns w-auto-ns min-w-button hover-white jb-button-primary bg-royal-blue br-rounded-2</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -70,7 +70,7 @@
       <value>false</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

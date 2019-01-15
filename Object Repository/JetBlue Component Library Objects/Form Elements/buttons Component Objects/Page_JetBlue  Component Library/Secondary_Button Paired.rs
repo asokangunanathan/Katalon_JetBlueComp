@@ -6,22 +6,22 @@
    <elementGuidId>4f9b0c7b-cd18-4c0f-95ca-04a7a1a49396</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>CSS</key>
+         <value>#button-secondary-button-paired</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//a[@id='button-secondary-button-paired']</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#button-secondary-button-paired</value>
+         <key>BASIC</key>
+         <value>//a[@href = 'https://google.ca' and @id = 'button-secondary-button-paired' and (text() = ' Button Paired ' or . = ' Button Paired ')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -32,17 +32,17 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mv2 pointer avenir copy-s b b--none white no-underline dib lh-3 tc nowrap t-med-bg w-100 w-max-ns w-auto-ns min-w-button hover-white jb-button-secondary bg-orange ph3 w-max br-rounded-1 relative</value>
+      <value>mv2 pointer avenir copy-s b b--none white no-underline dib lh-3 tc nowrap t-med-bg w-100 w-max-ns w-auto-ns min-w-button hover-white jb-button-secondary bg-orange ph3 w-max br-rounded-1</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>https://google.ca</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -64,6 +64,20 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-theme</name>
+      <type>Main</type>
+      <value>secondary</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-is-paired</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

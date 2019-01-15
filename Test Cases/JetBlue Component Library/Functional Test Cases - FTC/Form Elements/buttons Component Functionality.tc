@@ -6,24 +6,24 @@
    <comment>User Story: When user goes to buttons component page
 and scrolls down to Primary Button - Rounded example
 
-and when I click on it  then I should be taken to google.com
-and scrolls down to Primary Button - Paired example
+and clicks on it  then the user should be taken to google.com
+when the user scrolls down to Primary Button - Paired example
 
-When I click on it  then I should be taken to google.com
-and scrolls down to Primary Button - Default example
+and clicks on it  then the user should be taken to google.com
+when the user scrolls down to Primary Button - Default example
 
-and when I click on it  then I should be taken to google.com
-and scrolls down to Secondary Button - Rounded example
+and clicks on it  then the user should be taken to google.com
+when the user scrolls down to Secondary Button - Rounded example
 
-and when I click on it  then I should be taken to google.com
-and scrolls down to Secondary Button - Paired example
+and clicks on it  then the user should be taken to google.com
+when the user scrolls down to Secondary Button - Paired example
 
-and when I click on it  then I should be taken to google.com
-and scrolls down to Secondary Button - Default example
+and clicks on it  then the user should be taken to google.com
+when the user scrolls down to Secondary Button - Default example
 
-and when I click on it  then I should be taken to google.com
-and scrolls down to Loading Button example
+and clicks on it then the user should be taken to google.com
+wnen the user scrolls down to Loading Button example
 
-and when I click on it  then I should see the button change to loading image</comment>
+and clicks on it  then the user should see the button change to loading image</comment>
    <testCaseGuid>c5655218-8540-41d6-af7a-a9759bbd8c0b</testCaseGuid>
 </TestCaseEntity>

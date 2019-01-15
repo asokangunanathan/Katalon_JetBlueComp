@@ -6,22 +6,22 @@
    <elementGuidId>c7d6c3a0-5b88-41aa-8f77-a9b091af36e5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>CSS</key>
+         <value>#button-primary-button-paired</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//a[@id='button-primary-button-paired']</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#button-primary-button-paired</value>
+         <key>BASIC</key>
+         <value>//a[@href = 'https://google.ca' and @id = 'button-primary-button-paired' and (text() = ' Button Paired ' or . = ' Button Paired ')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -35,14 +35,14 @@
       <value>mv2 pointer avenir copy-s b b--none white no-underline dib lh-3 tc nowrap t-med-bg w-100 w-max-ns w-auto-ns min-w-button hover-white jb-button-primary bg-royal-blue ph3 w-max br-rounded-1</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>https://google.ca</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -64,6 +64,20 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-theme</name>
+      <type>Main</type>
+      <value>primary</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-is-paired</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
