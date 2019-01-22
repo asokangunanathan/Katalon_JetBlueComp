@@ -6,11 +6,11 @@
    <comment>User Story: When user goes to promo-block component page
 and scrolls down to the first Over the moon Promo Block example
 then the user should be able to see the Over the moon Promo Block example
-When the user clicks on the background image then I should be taken to google.com
-When the user clicks on the Over the Moon section then I should be taken to google.com
-When the user clicks on the Headline I should be taken to google.com
-When the user clicks on the Subcopy I should be taken to google.com
-When the user clicks on the background image then I should be taken to google.com
-When I click on the CTA Button (Book Now)  I should be taken to https://www.jetblue.com/</comment>
+When the user clicks on the background image then the user should be taken to google.com
+When the user clicks on the Over the Moon section then the user should be taken to google.com
+When the user clicks on the Headline the user should be taken to google.com
+When the user clicks on the Subcopy the user should be taken to google.com
+When the user clicks on the background image then the user should be taken to google.com
+When I click on the CTA Button (Book Now) the user should be taken to https://www.jetblue.com/</comment>
    <testCaseGuid>eeda20c1-0b04-4e51-8c18-e1eeac9bcbc9</testCaseGuid>
 </TestCaseEntity>

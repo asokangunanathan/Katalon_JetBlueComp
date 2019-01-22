@@ -4,7 +4,6 @@
    <name>flight-block test suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-01-11T15:12:51</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

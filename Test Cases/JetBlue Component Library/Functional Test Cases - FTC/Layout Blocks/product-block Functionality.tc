@@ -6,6 +6,13 @@
    <comment>User Story: When user goes to product-block component page
 and scrolls to example &quot;Product Block with all optional elements&quot;
 then the user should see the &quot;Grand Caymen Marriott Beach Resort)&quot; example
-When I click on the Learn more link then I should be taken to google.com</comment>
+When the user clicks on the image of the dog user should be taken to google.com
+When the user clicks on the product title user should be taken to google.com
+When the user clicks on the price the user should be taken to google.com
+When the user clicks on the text &quot;from&quot; the user should be taken to google.com
+When the user clicks on the descripton the user should be taken to google.com
+When the user clicks on the Reduced rates flag the user should be taken to google.com
+When the user clicks on the text &quot;per person&quot; the user should be taken to google.com
+When the user clicks on the button &quot;See restrictions&quot; the user should see a popup with text: &quot;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.&quot;</comment>
    <testCaseGuid>2178255a-eb5c-4a76-a2f1-93291c4fa648</testCaseGuid>
 </TestCaseEntity>

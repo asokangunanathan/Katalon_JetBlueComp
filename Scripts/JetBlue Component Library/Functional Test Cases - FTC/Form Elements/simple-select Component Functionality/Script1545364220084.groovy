@@ -56,7 +56,7 @@ for (def index : (1..9)) {
             index) + ' chevron'))
 }
 
-WebUI.verifyTextPresent('Simple Dropdown Value: 9', false)
+WebUI.verifyTextPresent('Simple Dropdown Value: 1', false)
 
 WebUI.closeBrowser()
 

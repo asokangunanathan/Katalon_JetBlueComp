@@ -8,7 +8,7 @@
 >>> wrote the ImageDiff into $diffFile.toString()</comment>
    <testCaseGuid>4bf39026-c9dd-480b-b3b8-99d21f878210</testCaseGuid>
    <variable>
-      <defaultValue>'product-block'</defaultValue>
+      <defaultValue>'video'</defaultValue>
       <description></description>
       <id>2a1f8851-f843-49bb-828a-7aa7d0038a34</id>
       <masked>false</masked>

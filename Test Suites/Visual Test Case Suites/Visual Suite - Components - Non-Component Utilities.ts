@@ -4,7 +4,6 @@
    <name>Visual Suite - Components - Non-Component Utilities</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-01-11T17:04:50</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

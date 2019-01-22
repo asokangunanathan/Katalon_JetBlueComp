@@ -132,7 +132,7 @@ WebUI.click(findTestObject('JetBlue Component Library Objects/Layout Blocks/prom
 
 WebUI.waitForPageLoad(5)
 
-WebUI.verifyTextPresent('Book on jetblue.com', false)
+WebUI.verifyTextPresent('Let\'s go somewhere.', false)
 
 WebUI.closeBrowser()
 
