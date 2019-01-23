@@ -22,7 +22,7 @@ WebUI.maximizeWindow()
 WebUI.comment('User Story: When user goes to product-block component page')
 
 // User Story: When user goes to simple-selet component page
-WebUI.navigateToUrl(GlobalVariable.envURL1 + 'product-block')
+WebUI.navigateToUrl(GlobalVariable.envURL1 + 'product-block?test')
 
 'and scrolls to example "Product Block with all optional elements"'
 WebUI.comment('and scrolls to example "Product Block with all optional elements"')

@@ -5,6 +5,8 @@
    <tag></tag>
    <comment>User Story: When user goes to radios component page
 and scrolls to Simple Radio Button example
+
+selecting the radio item by item number should set the value to the correct number
 </comment>
    <testCaseGuid>8e0a77ee-8ede-402f-ae73-77ba27499f46</testCaseGuid>
 </TestCaseEntity>

@@ -3,8 +3,8 @@
    <description></description>
    <name>inline-link Component Functionality</name>
    <tag></tag>
-   <comment>User Story:  When I access the inline-link component page
-When I click on the inline link in &quot;Lorem ipsum Inline link dolor esta.&quot; then I should be taken to google.com
-when I click on Inline Links: with icon example link then I should be taken to Component Library icons page</comment>
+   <comment>User Story:  When the user accesses the inline-link component page
+and clicks on the inline link in &quot;Lorem ipsum Inline link dolor esta.&quot; then the user should be taken to google.com
+when the user clicks on Inline Links: with icon example link then the user should be taken to Component Library icons page</comment>
    <testCaseGuid>48a4f858-8731-42ed-ba67-ec11380d0385</testCaseGuid>
 </TestCaseEntity>

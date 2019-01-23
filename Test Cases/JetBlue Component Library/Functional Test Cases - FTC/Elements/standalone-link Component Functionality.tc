@@ -3,8 +3,8 @@
    <description></description>
    <name>standalone-link Component Functionality</name>
    <tag></tag>
-   <comment>User Story:  When I access the standalone-link component page
-When I click on the Standalone link then I should be taken to google.com
-when I click on Standalone link: with icon I should be taken to component library icons page</comment>
+   <comment>User Story:  When the user accesses the standalone-link component page
+When the user clicks on the Standalone link then the user should be taken to google.com
+when the user clicks on Standalone link: with icon then the user should be taken to component library icons page</comment>
    <testCaseGuid>d4fa023b-d666-45db-bc43-13e92b741968</testCaseGuid>
 </TestCaseEntity>

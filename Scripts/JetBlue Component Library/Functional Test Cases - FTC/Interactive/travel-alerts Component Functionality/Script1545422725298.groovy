@@ -21,12 +21,12 @@ WebUI.maximizeWindow()
 WebUI.comment('User Story: When user goes to travel-alerts component page')
 
 // User Story: When user goes to simple-selet component page
-WebUI.navigateToUrl(GlobalVariable.envURL1 + 'travel-alerts')
+WebUI.navigateToUrl(GlobalVariable.envURL1 + 'travel-alerts?test')
 
 // Click on T button to remove JetBlue floating menu
-WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
+//WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
 
-WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
+//WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
 
 'and scrolls to the Example'
 WebUI.comment('and scrolls to the Example')

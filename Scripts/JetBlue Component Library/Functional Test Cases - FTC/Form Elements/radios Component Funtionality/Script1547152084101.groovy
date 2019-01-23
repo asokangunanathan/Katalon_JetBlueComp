@@ -21,9 +21,9 @@ WebUI.maximizeWindow()
 WebUI.comment('User Story: When user goes to radios component page')
 
 // User Story: When user goes to simple-selet component page
-WebUI.navigateToUrl(GlobalVariable.envURL1 + 'radios')
+WebUI.navigateToUrl(GlobalVariable.envURL1 + 'radios?test')
 
-WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
+//WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
 
 'and scrolls to Simple Radio Button example\n'
 WebUI.comment('and scrolls to Simple Radio Button example\n')

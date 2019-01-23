@@ -5,10 +5,12 @@
    <tag></tag>
    <comment>User Story: When user goes to navigation-block component page
 and scrolls down to the 1 up Navigation Block example
-then I should be able to see 1-up example
+user should be able to see 1-up example
 Navigation Block should have Title, Block Copy, Optional Icon, and the entire Navigation block should be clickable
-When I scroll down to the Secondary Block
-then I should be able to see Secondary Block Example
-Seconary Navigation Block should have Title, Block Copy, and the entire Navigation block should be clickable</comment>
+Clicking on navigation block should navigate to google
+When user scrolls down to the Secondary Block
+the user should be able to see Secondary Block Example
+Seconary Navigation Block should have Title, Block Copy, and the entire Navigation block should be clickable
+Clicking on navigation block should navigate to google</comment>
    <testCaseGuid>48b8f0e9-4a38-4ea5-945b-007007817f23</testCaseGuid>
 </TestCaseEntity>

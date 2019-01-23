@@ -21,7 +21,7 @@ WebUI.setViewPortSize(GlobalVariable.viewPortWidth, GlobalVariable.viewPortHeigh
 WebUI.comment('User Story: When user goes to tabs component page')
 
 // User Story: When user goes to tabs component page
-WebUI.navigateToUrl(GlobalVariable.envURL1 + 'tabs/')
+WebUI.navigateToUrl(GlobalVariable.envURL1 + 'tabs/?test')
 
 // and scrolls down to Tabbed Navigation (Text Only) Example
 'and scrolls down to Tabbed Navigation (Text Only) Example'

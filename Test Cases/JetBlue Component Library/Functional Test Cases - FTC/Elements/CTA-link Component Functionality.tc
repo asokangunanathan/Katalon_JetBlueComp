@@ -3,15 +3,15 @@
    <description></description>
    <name>CTA-link Component Functionality</name>
    <tag></tag>
-   <comment>User Story:  When I access the CTA-link component page
+   <comment>User Story:  When the user accesses the CTA-link component page
  
-and I click on the Default link CTA link
-I should be taken to Google page
-and when I click on the External link CTA link
-I should be taken to Google page
-and when I click on Document link CTA link
-then I should taken to coponent libray icons page https://dev.b6orgeng.net/component-library/icons
-and when I click on Document link CTA with target _blank
-then I should be taken to Google page in a new Tab</comment>
+and the user clicks on the Default link CTA link
+the user should be taken to Google page
+when the user clicks on the External link CTA link
+the user should be taken to Google page
+when the user clicks on Document link CTA link
+the user should taken to coponent libray icons page https://dev.b6orgeng.net/component-library/icons
+when the user clicks on Document link CTA with target _blank
+the user should be taken to Google page in a new Tab</comment>
    <testCaseGuid>66ee9561-1528-4bf0-94d3-48073cadb546</testCaseGuid>
 </TestCaseEntity>

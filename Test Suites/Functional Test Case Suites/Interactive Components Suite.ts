@@ -4,7 +4,6 @@
    <name>Interactive Components Suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-01-11T15:03:43</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

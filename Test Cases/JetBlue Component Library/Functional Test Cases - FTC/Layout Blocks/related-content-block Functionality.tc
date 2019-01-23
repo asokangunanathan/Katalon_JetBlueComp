@@ -6,6 +6,6 @@
    <comment>User Story: When user goes to related-content-block component page
 and scrolls to example &quot;Section Specific Related Content Block With Icon&quot;
 then the user should see the &quot;Section Specific Related Content Block With Icon&quot; example
-When the user clicks on the Learn more link then I should be taken to google.com</comment>
+When the user clicks on the Learn more link then the user should be taken to google.com</comment>
    <testCaseGuid>51f65826-4a58-47d9-ba63-91a433a39940</testCaseGuid>
 </TestCaseEntity>

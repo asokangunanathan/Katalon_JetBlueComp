@@ -21,9 +21,9 @@ WebUI.maximizeWindow()
 WebUI.comment('User Story: When user goes to buttons component page')
 
 // User Story: When user goes to simple-selet component page
-WebUI.navigateToUrl(GlobalVariable.envURL1 + 'buttons')
+WebUI.navigateToUrl(GlobalVariable.envURL1 + 'buttons?test')
 
-WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
+//WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
 
 'and scrolls down to Primary Button - Default  example\n'
 WebUI.comment('and scrolls down to Primary Button - Default example\n')
@@ -44,7 +44,7 @@ WebUI.verifyTextPresent('Google', false)
 WebUI.back()
 
 // Click on T button to remove JetBlue floating menu
-WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
+//WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
 
 'and clicks on it  then the user should be taken to google.com'
 WebUI.comment('when the user scrolls down to Primary Button - Paired example\n')
@@ -65,7 +65,7 @@ WebUI.verifyTextPresent('Google', false)
 WebUI.back()
 
 // Click on T button to remove JetBlue floating menu
-WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
+//WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
 
 'when the user scrolls down to Primary Button - Square example\n'
 WebUI.comment('when the user scrolls down to Primary Button - Square example\n')
@@ -86,7 +86,7 @@ WebUI.back()
 WebUI.waitForPageLoad(5)
 
 // Click on T button to remove JetBlue floating menu
-WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
+//WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
 
 'when the user scrolls down to Secondary Button - Rounded example\n'
 WebUI.comment('when the user scrolls down to Secondary Button - Rounded example\n')
@@ -107,7 +107,7 @@ WebUI.verifyTextPresent('Google', false)
 WebUI.back()
 
 // Click on T button to remove JetBlue floating menu
-WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
+//WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
 
 'when the user scrolls down to Secondary Button - Paired example\n'
 WebUI.comment('when the user scrolls down to Secondary Button - Paired example\n')
@@ -128,7 +128,7 @@ WebUI.verifyTextPresent('Google', false)
 WebUI.back()
 
 // Click on T button to remove JetBlue floating menu
-WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
+//WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
 
 'when the user scrolls down to Secondary Button - Default example\n'
 WebUI.comment('when the user scrolls down to Secondary Button - Default example\n')
@@ -149,7 +149,7 @@ WebUI.verifyTextPresent('Google', false)
 WebUI.back()
 
 // Click on T button to remove JetBlue floating menu
-WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
+//WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
 
 'wnen the user scrolls down to Loading Button example\n'
 WebUI.comment('wnen the user scrolls down to Loading Button example\n')

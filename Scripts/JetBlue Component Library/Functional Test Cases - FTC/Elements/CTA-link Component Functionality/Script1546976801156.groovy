@@ -20,10 +20,10 @@ WebUI.maximizeWindow()
 'User Story:  When the user accesses the CTA-link component page\n '
 WebUI.comment('User Story:  When the user accesses the CTA-link component page\n ')
 
-WebUI.navigateToUrl(GlobalVariable.envURL1 + 'links/cta-link/')
+WebUI.navigateToUrl(GlobalVariable.envURL1 + 'links/cta-link/?test')
 
 // Click on T button to remove JetBlue floating menu
-WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
+//WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
 
 'and the user clicks on the Default link CTA link'
 WebUI.comment('and the user clicks on the Default link CTA link')
@@ -43,7 +43,7 @@ WebUI.verifyTextPresent('Google', false)
 WebUI.back()
 
 // Click on T button to remove JetBlue floating menu
-WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
+//WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
 
 'when the user clicks on the External link CTA link'
 WebUI.comment('when the user clicks on the External link CTA link')
@@ -63,7 +63,7 @@ WebUI.verifyTextPresent('Google', false)
 WebUI.back()
 
 // Click on T button to remove JetBlue floating menu
-WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
+//WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
 
 'when the user clicks on Document link CTA link'
 WebUI.comment('when the user clicks on Document link CTA link')
@@ -83,7 +83,7 @@ WebUI.verifyTextPresent('Illustration Icons', false)
 WebUI.back()
 
 // Click on T button to remove JetBlue floating menu
-WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
+//WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
 
 'when the user clicks on Document link CTA with target _blank'
 WebUI.comment('when the user clicks on Document link CTA with target _blank')

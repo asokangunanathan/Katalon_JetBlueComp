@@ -6,6 +6,6 @@
    <comment>User Story: When user goes to travel-alerts component page
 and scrolls to the Example
 then the user should see the &quot;travel-alerts&quot; example
-When I click on the Learn more link then I should be taken to google.com</comment>
+When then user clicks close button then the travel alert should close</comment>
    <testCaseGuid>9d07afd7-6872-4ed0-884e-497419537401</testCaseGuid>
 </TestCaseEntity>

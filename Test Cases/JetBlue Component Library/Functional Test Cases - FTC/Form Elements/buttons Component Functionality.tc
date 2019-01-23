@@ -4,13 +4,13 @@
    <name>buttons Component Functionality</name>
    <tag></tag>
    <comment>User Story: When user goes to buttons component page
-and scrolls down to Primary Button - Rounded example
+and scrolls down to Primary Button - Default example
 
 and clicks on it  then the user should be taken to google.com
 when the user scrolls down to Primary Button - Paired example
 
 and clicks on it  then the user should be taken to google.com
-when the user scrolls down to Primary Button - Default example
+when the user scrolls down to Primary Button - Square example
 
 and clicks on it  then the user should be taken to google.com
 when the user scrolls down to Secondary Button - Rounded example

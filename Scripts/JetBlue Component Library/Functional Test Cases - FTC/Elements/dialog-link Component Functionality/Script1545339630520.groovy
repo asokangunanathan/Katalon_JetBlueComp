@@ -20,13 +20,13 @@ WebUI.maximizeWindow()
 'User Story:  When the user accesses the dialog-link component page'
 WebUI.comment('User Story:  When the user accesses the dialog-link component page')
 
-WebUI.navigateToUrl(GlobalVariable.envURL1 + 'links/dialog-link/')
+WebUI.navigateToUrl(GlobalVariable.envURL1 + 'links/dialog-link/?test')
 
 'and clicks on See restrictions Dialog link then a dialog should popup with text "Lorem Ipsum Consequuntur"'
 WebUI.comment('and clicks on See restrictions Dialog link then a dialog should popup with text "Lorem Ipsum Consequuntur"')
 
 // Click on T button to remove JetBlue floating menu
-WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
+//WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
 
 WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Elements Components/dialog-link Component Objects/Page_JetBlue  Component Library/button_See restrictions'), 
     10)

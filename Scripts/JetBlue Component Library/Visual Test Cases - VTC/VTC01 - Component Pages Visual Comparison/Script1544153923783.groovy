@@ -60,7 +60,7 @@ WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue 
 
 WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/button_G'))
 
-// Verify all Links on page
+
 //WebUI.verifyAllLinksOnCurrentPageAccessible(true, [])
 File expectedFile = resolveScreenshotFile((("$browserName" + '_') + "$componentName") + '_expected_component_page.png' //****** Variable ****
     )
@@ -75,7 +75,7 @@ WebUI.navigateToUrl(actualComponentURL)
 
 //WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
 
-WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/button_G'))
+//WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/button_G'))
 
 File actualFile = resolveScreenshotFile((("$browserName" + '_') + "$componentName") + '_actual_component_page.png' //****** Variable ****
     )

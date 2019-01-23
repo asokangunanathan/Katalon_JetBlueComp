@@ -21,9 +21,9 @@ WebUI.maximizeWindow()
 WebUI.comment('User Story: When user goes to related-content-block component page')
 
 // User Story: When user goes to simple-selet component page
-WebUI.navigateToUrl(GlobalVariable.envURL1 + 'related-content-block')
+WebUI.navigateToUrl(GlobalVariable.envURL1 + 'related-content-block?test')
 
-WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/button_T'))
+//WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/button_T'))
 
 'and scrolls to example "Section Specific Related Content Block With Icon"'
 WebUI.comment('and scrolls to example "Section Specific Related Content Block With Icon"')

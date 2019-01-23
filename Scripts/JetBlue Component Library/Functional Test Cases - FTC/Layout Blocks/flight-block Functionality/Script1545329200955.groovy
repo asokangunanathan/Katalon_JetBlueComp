@@ -21,10 +21,10 @@ WebUI.maximizeWindow()
 WebUI.comment('User Story: When user goes to flight-block component page')
 
 // User Story: When user goes to simple-selet component page
-WebUI.navigateToUrl(GlobalVariable.envURL1 + 'flight-block')
+WebUI.navigateToUrl(GlobalVariable.envURL1 + 'flight-block?test')
 
 // Click on T button to remove JetBlue floating menu
-WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
+//WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
 
 'and scrolls to example "Price-based Flight Block"'
 WebUI.comment('and scrolls to example "Price-based Flight Block"')
@@ -70,7 +70,7 @@ WebUI.verifyTextPresent('Let\'s go somewhere.', false)
 WebUI.back()
 
 // Click on T button to remove JetBlue floating menu
-WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
+//WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
 
 'when the user clicks See restrictions Dialog link then a popup should open'
 WebUI.comment('when the user clicks See restrictions Dialog link then a popup should open')

@@ -21,7 +21,7 @@ WebUI.maximizeWindow()
 WebUI.comment('User Story: When user goes to navigation-block component page')
 
 // User Story: When user goes to simple-selet component page
-WebUI.navigateToUrl(GlobalVariable.envURL1 + 'navigation-block/')
+WebUI.navigateToUrl(GlobalVariable.envURL1 + 'navigation-block/?test')
 
 'and scrolls down to the 1 up Navigation Block example'
 WebUI.comment('and scrolls down to the 1 up Navigation Block example')
