@@ -73,6 +73,7 @@ WebUI.comment(">>> wrote the expected component page image into ${expectedFile.t
 // Take screenshot of actual component page
 WebUI.navigateToUrl(actualComponentURL)
 
+//remove the following once 4.6.0 is released
 //WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
 
 //WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/button_G'))
