@@ -10,7 +10,7 @@
          <value>//jb-promo-block[@id='promo-block-full-bleed-with-logo-button-background-image-and-small-card']/jb-link/a/div/div/div/jb-promo-card/div/div[2]/div[3]/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

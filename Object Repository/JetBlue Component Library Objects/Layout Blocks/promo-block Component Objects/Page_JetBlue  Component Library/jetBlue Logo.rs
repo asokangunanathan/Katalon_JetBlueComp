@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//jb-promo-block[@id='promo-block-full-bleed-with-logo-button-background-image-and-small-card']/jb-link/a/div/div/div/jb-promo-card/div/div[2]/div/jb-image/img</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//img[@src = 'assets/img/jetblue-vacations-logo.png']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

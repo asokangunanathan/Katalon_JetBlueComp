@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VTC - Component Pages Visual Comparison - backup Jan 30 2019</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>373a7846-0d3c-4917-a94d-bbdf06bd082a</testCaseGuid>
+   <variable>
+      <defaultValue>'hero'</defaultValue>
+      <description></description>
+      <id>7fc11195-c56c-4bd0-8631-c991df96e105</id>
+      <masked>false</masked>
+      <name>componentName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a03dfe63-5786-4cd6-a8b8-289f03db8517</id>
+      <masked>false</masked>
+      <name>componentLocation</name>
+   </variable>
+   <variable>
+      <defaultValue>'0.00'</defaultValue>
+      <description>Acceptable Difference in Percentage</description>
+      <id>27fb397f-9bb0-4685-a7a9-028327c88dd4</id>
+      <masked>false</masked>
+      <name>acceptableDiff</name>
+   </variable>
+</TestCaseEntity>

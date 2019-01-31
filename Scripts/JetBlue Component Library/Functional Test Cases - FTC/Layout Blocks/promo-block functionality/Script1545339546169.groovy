@@ -25,7 +25,6 @@ WebUI.navigateToUrl(GlobalVariable.envURL1 + 'layout/promo-block/?test')
 
 // Click on T button to remove JetBlue floating menu
 //WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
-
 'and scrolls down to the first Over the moon Promo Block example'
 WebUI.comment('and scrolls down to the first Over the moon Promo Block example')
 
@@ -34,26 +33,6 @@ WebUI.comment('then the user should be able to see the Over the moon Promo Block
 
 WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Layout Blocks/promo-block Component Objects/Page_JetBlue  Component Library/promo-block full container'), 
     10)
-
-//WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/Layout Blocks/promo-block Component Objects/Page_JetBlue  Component Library/promo-block full container'), 
-//   10)
-WebUI.verifyElementClickable(findTestObject('JetBlue Component Library Objects/Layout Blocks/promo-block Component Objects/Page_JetBlue  Component Library/Beach Area of Image'), 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementClickable(findTestObject('JetBlue Component Library Objects/Layout Blocks/promo-block Component Objects/Page_JetBlue  Component Library/Text Content'), 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementClickable(findTestObject('JetBlue Component Library Objects/Layout Blocks/promo-block Component Objects/Page_JetBlue  Component Library/jetBlue Logo'), 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementClickable(findTestObject('JetBlue Component Library Objects/Layout Blocks/promo-block Component Objects/Page_JetBlue  Component Library/a_Book now'), 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementClickable(findTestObject('JetBlue Component Library Objects/Layout Blocks/promo-block Component Objects/Page_JetBlue  Component Library/Headline'), 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementClickable(findTestObject('JetBlue Component Library Objects/Layout Blocks/promo-block Component Objects/Page_JetBlue  Component Library/Subcopy'), 
-    FailureHandling.STOP_ON_FAILURE)
 
 'When the user clicks on the background image then the user should be taken to google.com'
 WebUI.comment('When the user clicks on the background image then the user should be taken to google.com')
@@ -68,7 +47,6 @@ WebUI.back()
 
 // Click on T button to remove JetBlue floating menu
 //WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
-
 'When the user clicks on the Over the Moon section then the user should be taken to google.com'
 WebUI.comment('When the user clicks on the Over the Moon section then the user should be taken to google.com')
 
@@ -82,7 +60,6 @@ WebUI.back()
 
 // Click on T button to remove JetBlue floating menu
 //WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
-
 'When the user clicks on the Headline the user should be taken to google.com'
 WebUI.comment('When the user clicks on the Headline the user should be taken to google.com')
 
@@ -96,7 +73,6 @@ WebUI.back()
 
 // Click on T button to remove JetBlue floating menu
 //WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
-
 'When the user clicks on the Subcopy the user should be taken to google.com'
 WebUI.comment('When the user clicks on the Subcopy the user should be taken to google.com')
 
@@ -110,7 +86,6 @@ WebUI.back()
 
 // Click on T button to remove JetBlue floating menu
 //WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
-
 'When the user clicks on the background image then the user should be taken to google.com'
 WebUI.comment('When the user clicks on the background image then the user should be taken to google.com')
 
@@ -124,7 +99,6 @@ WebUI.back()
 
 // Click on T button to remove JetBlue floating menu
 //WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
-
 'When the user clicks on the CTA Button (Book Now) the user should be taken to https://www.jetblue.com/'
 WebUI.comment('When I click on the CTA Button (Book Now) the user should be taken to https://www.jetblue.com/')
 

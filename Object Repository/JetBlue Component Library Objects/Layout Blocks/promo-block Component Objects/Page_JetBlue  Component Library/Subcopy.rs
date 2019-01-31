@@ -6,18 +6,18 @@
    <elementGuidId>5af1f7ca-745d-42e5-8cab-2e5cdbf36ccf</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;promo-block-full-bleed-with-logo-button-background-image-and-small-card&quot;)/jb-link[@class=&quot;db no-underline block-link-z-index pointer overflow-hidden page-margin-ns relative bg-white dark-theme&quot;]/a[@class=&quot;pointer w-100 h-100 di color-inherit hover-inherit no-underline&quot;]/div[@class=&quot;jb-max-width ml-auto mr-auto&quot;]/div[@class=&quot;jb-grid gr-unset&quot;]/div[@class=&quot;col-5-l col-6-m order-1 order-1-ns&quot;]/jb-promo-card[@class=&quot;db&quot;]/div[@class=&quot;ma2 mv5-m mv6-l mh0-ns jb-promo-card relative&quot;]/div[@class=&quot;content relative ph4 pt4 ph5-m pt5-m ph6-l pt6-l&quot;]/p[@class=&quot;copy mt0 mb4&quot;][count(. | //p[@class = 'copy mt0 mb4' and (text() = ' Celebrate new developments in paradise. Explore our Honeymoon &amp; Babymoon vacation packages. ' or . = ' Celebrate new developments in paradise. Explore our Honeymoon &amp; Babymoon vacation packages. ')]) = count(//p[@class = 'copy mt0 mb4' and (text() = ' Celebrate new developments in paradise. Explore our Honeymoon &amp; Babymoon vacation packages. ' or . = ' Celebrate new developments in paradise. Explore our Honeymoon &amp; Babymoon vacation packages. ')])]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//jb-promo-block[@id='promo-block-full-bleed-with-logo-button-background-image-and-small-card']/jb-link/a/div/div/div/jb-promo-card/div/div[2]/p</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = ' Celebrate new developments in paradise. Explore our Honeymoon &amp; Babymoon vacation packages. ' or . = ' Celebrate new developments in paradise. Explore our Honeymoon &amp; Babymoon vacation packages. ')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
