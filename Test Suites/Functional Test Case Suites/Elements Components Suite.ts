@@ -11,27 +11,33 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>16d28e1d-f46f-4015-a691-75ae10c7937c</testSuiteGuid>
    <testCaseLink>
-      <guid>b8bcccff-e26a-43de-b4c0-2440652dd8aa</guid>
+      <guid>9b68c99b-af5b-43c9-bd69-343f53717a02</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/JetBlue Component Library/Functional Test Cases - FTC/Elements/standalone-link Component Functionality</testCaseId>
+      <testCaseId>Test Cases/JetBlue Component Library/Functional Test Cases/Elements/list Component Functionality</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>b851a016-188c-4bf3-9094-e0d91ff539f8</guid>
+      <guid>be4983b3-9f63-40e5-a6b1-4c049c7791f8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/JetBlue Component Library/Functional Test Cases - FTC/Elements/CTA-link Component Functionality</testCaseId>
+      <testCaseId>Test Cases/JetBlue Component Library/Functional Test Cases/Elements/standalone-link Component Functionality</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>429735a4-4d85-4d91-8a7f-b448bc37af8e</guid>
+      <guid>fb9e5c1c-6d3d-40c9-89e5-1a080018dff1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/JetBlue Component Library/Functional Test Cases - FTC/Elements/dialog-link Component Functionality</testCaseId>
+      <testCaseId>Test Cases/JetBlue Component Library/Functional Test Cases/Elements/CTA-link Component Functionality</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>bffcaa10-e12c-4194-a71f-fe15ea14acc6</guid>
+      <guid>26f889d0-2971-48a0-9993-899b3a459bde</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/JetBlue Component Library/Functional Test Cases - FTC/Elements/inline-link Component Functionality</testCaseId>
+      <testCaseId>Test Cases/JetBlue Component Library/Functional Test Cases/Elements/dialog-link Component Functionality</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7b48d00f-7db7-4416-a2c9-0ad281c44e44</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/JetBlue Component Library/Functional Test Cases/Elements/inline-link Component Functionality</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

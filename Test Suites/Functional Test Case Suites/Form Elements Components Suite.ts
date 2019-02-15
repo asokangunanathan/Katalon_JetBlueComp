@@ -14,18 +14,18 @@
       <guid>65bcc28a-cc2a-4679-8d64-eb4a3241e982</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/JetBlue Component Library/Functional Test Cases - FTC/Form Elements/radios Component Funtionality</testCaseId>
+      <testCaseId>Test Cases/JetBlue Component Library/Functional Test Cases/Form Elements/radios Component Funtionality</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>ffd2415c-0936-489b-97da-3fbc2c03324f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/JetBlue Component Library/Functional Test Cases - FTC/Form Elements/buttons Component Functionality</testCaseId>
+      <testCaseId>Test Cases/JetBlue Component Library/Functional Test Cases/Form Elements/buttons Component Functionality</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>da2d6d54-99a7-4a5f-91f6-d36821473927</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/JetBlue Component Library/Functional Test Cases - FTC/Form Elements/simple-select Component Functionality</testCaseId>
+      <testCaseId>Test Cases/JetBlue Component Library/Functional Test Cases/Form Elements/simple-select Component Functionality</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

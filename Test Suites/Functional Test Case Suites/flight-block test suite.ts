@@ -14,6 +14,6 @@
       <guid>1d934aff-a212-458e-bb87-533791e6725b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/JetBlue Component Library/Functional Test Cases - FTC/Layout Blocks/flight-block Functionality</testCaseId>
+      <testCaseId>Test Cases/JetBlue Component Library/Functional Test Cases/Layout Blocks/flight-block Functionality</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

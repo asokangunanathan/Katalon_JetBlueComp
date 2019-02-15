@@ -14,12 +14,12 @@
       <guid>ef691fea-4dc1-484f-a5b6-646eebb2d1ed</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/JetBlue Component Library/Functional Test Cases - FTC/Interactive/travel-alerts Component Functionality</testCaseId>
+      <testCaseId>Test Cases/JetBlue Component Library/Functional Test Cases/Interactive/travel-alerts Component Functionality</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>94575371-44f9-4e6e-9f0f-1a6bf107ae28</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/JetBlue Component Library/Functional Test Cases - FTC/Interactive/tabs Component Functionality</testCaseId>
+      <testCaseId>Test Cases/JetBlue Component Library/Functional Test Cases/Interactive/tabs Component Functionality</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

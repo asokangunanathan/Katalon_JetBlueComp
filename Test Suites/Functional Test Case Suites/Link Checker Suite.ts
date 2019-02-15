@@ -4,7 +4,6 @@
    <name>Link Checker Suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-11T14:06:48</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -15,7 +14,7 @@
       <guid>bafa4421-02df-425c-b443-6485d4de65ed</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/JetBlue Component Library/Functional Test Cases - FTC/Uncategorized/Verify Links on Component Pages</testCaseId>
+      <testCaseId>Test Cases/JetBlue Component Library/Functional Test Cases/Uncategorized/Verify Links on Component Pages</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>7fad2101-a1db-4bd4-8445-bbf21975ce9b</id>

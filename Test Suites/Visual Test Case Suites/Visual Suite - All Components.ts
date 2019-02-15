@@ -14,7 +14,7 @@
       <guid>c9d5bfc4-5f63-44ba-9771-8e2d29b5a1be</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/JetBlue Component Library/Visual Test Cases - VTC/VTC - Component Pages Visual Comparison</testCaseId>
+      <testCaseId>Test Cases/JetBlue Component Library/Visual Test Cases/VTC - Component Pages Visual Comparison</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>dfe6b869-a36b-4d12-8c67-69ed3b3777f5</id>

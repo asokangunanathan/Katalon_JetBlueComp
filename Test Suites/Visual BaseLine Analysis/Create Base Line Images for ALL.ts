@@ -14,7 +14,7 @@
       <guid>942575aa-d34b-4682-95f8-913e22e681cd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/JetBlue Component Library/Visual Test Cases - VTC/VTC - Create Baseline Image</testCaseId>
+      <testCaseId>Test Cases/JetBlue Component Library/Visual Test Cases/VTC - Create Baseline Image</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>1b2f34a5-a209-4794-bb95-0ac107305526</id>
@@ -41,6 +41,12 @@
          <type>DATA_COLUMN</type>
          <value>acceptableDiff</value>
          <variableId>246fabd7-93dd-4cab-b735-633509d748a9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ebaf7b21-dea3-41a2-8d87-b8648300d516</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
