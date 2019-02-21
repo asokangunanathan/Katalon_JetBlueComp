@@ -8,7 +8,7 @@
 >>> wrote the ImageDiff into $diffFile.toString()</comment>
    <testCaseGuid>dd786349-1343-4471-be7c-828b68e515bd</testCaseGuid>
    <variable>
-      <defaultValue>'overlay-image'</defaultValue>
+      <defaultValue>'related-content-block'</defaultValue>
       <description></description>
       <id>e1487eaf-633d-4b71-b89b-49da1b3d6eaf</id>
       <masked>false</masked>

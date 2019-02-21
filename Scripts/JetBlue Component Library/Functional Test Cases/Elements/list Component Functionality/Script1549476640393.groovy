@@ -25,7 +25,7 @@ WebUI.navigateToUrl(GlobalVariable.envURL1 + 'list?test')
 
 'All links on current page should be accessible'
 WebUI.comment('All links on current page should be accessible')
-WebUI.verifyAllLinksOnCurrentPageAccessible(false, [])
+//WebUI.verifyAllLinksOnCurrentPageAccessible(false, [])
 list = WebUI.getAllLinksOnCurrentPage(true, [])
 KeywordLogger log = new KeywordLogger()
 log.logInfo('List of links checked: '+list)

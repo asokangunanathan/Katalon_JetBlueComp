@@ -3,6 +3,7 @@
    <description></description>
    <name>list Component Functionality</name>
    <tag></tag>
-   <comment></comment>
+   <comment>User Story:  When the user accesses the list component page
+All links on current page should be accessible</comment>
    <testCaseGuid>f67455bc-a63b-463c-a18d-cecd5e9d2fc7</testCaseGuid>
 </TestCaseEntity>

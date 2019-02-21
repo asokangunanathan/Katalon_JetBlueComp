@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>editorial-grid Functionality</name>
+   <tag></tag>
+   <comment>and scrolls to example &quot;Editorial Grid&quot;
+then the user should see the &quot;Editorial Grid&quot; example
+When I click on the calendar list button in the weather gird item then it should expand with months listed
+>>> wrote the expected calendar list image into $expectedFile.toString()
+and scrolls to example &quot;Editorial Grid&quot;
+then the user should see the &quot;Editorial Grid&quot; example
+When I click on the calendar list button in the weather gird item then it should expand with months listed
+>>> wrote the actual calendar list image into $actualFile.toString()
+>>> wrote the ImageDiff into $diffFile.toString()</comment>
+   <testCaseGuid>5dac2b59-c851-48df-b8b1-d52f94a84ab4</testCaseGuid>
+   <variable>
+      <defaultValue>'editorial-grid'</defaultValue>
+      <description></description>
+      <id>e1487eaf-633d-4b71-b89b-49da1b3d6eaf</id>
+      <masked>false</masked>
+      <name>componentName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5e6dfab3-1130-47a7-8d7f-f06d40a12ceb</id>
+      <masked>false</masked>
+      <name>componentLocation</name>
+   </variable>
+   <variable>
+      <defaultValue>'0.00'</defaultValue>
+      <description>Acceptable Difference in Percentage</description>
+      <id>246fabd7-93dd-4cab-b735-633509d748a9</id>
+      <masked>false</masked>
+      <name>acceptableDiff</name>
+   </variable>
+</TestCaseEntity>

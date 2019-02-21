@@ -48,7 +48,7 @@
             <profileName>default</profileName>
             <runConfigurationId>Firefox (headless)</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Functional Test Case Suites/Elements Components Suite</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -57,7 +57,7 @@
             <profileName>default</profileName>
             <runConfigurationId>Firefox (headless)</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Functional Test Case Suites/Form Elements Components Suite</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -66,7 +66,7 @@
             <profileName>default</profileName>
             <runConfigurationId>Firefox (headless)</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Functional Test Case Suites/Interactive Components Suite</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -75,7 +75,7 @@
             <profileName>default</profileName>
             <runConfigurationId>Firefox (headless)</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Functional Test Case Suites/Layout Blocks Components Suite</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>

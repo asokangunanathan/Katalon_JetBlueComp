@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>simpleSelectbutton_Dropdown title</name>
+   <tag></tag>
+   <elementGuidId>67b4da06-6317-4f47-b2c3-1a73131499d5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bg-white w-100 flex flex-row items-center avenir lh-copy pointer tl pa0 b bn royal-blue hover-core-blue hover-fill-core-blue</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-haspopup</name>
+      <type>Main</type>
+      <value>listbox</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Dropdown title </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;h-100&quot;]/body[@class=&quot;h-100&quot;]/jb-app[@class=&quot;ng-tns-c0-0&quot;]/div[@class=&quot;flex flex-column flex-row-m flex-row-l&quot;]/div[@class=&quot;flex flex-column items-center flex-auto pt4 pt0-ns w-100 h-100 ng-trigger ng-trigger-pushContent&quot;]/main[@class=&quot;h-100 bg-white charcoal pt7-ns center&quot;]/cb-dropdowns[@class=&quot;ng-star-inserted&quot;]/cb-example[4]/div[@class=&quot;pb0 mt4 mb5&quot;]/div[@class=&quot;pv3 page-margin&quot;]/div[@class=&quot;example-width&quot;]/form[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]/jb-select[@class=&quot;relative db ng-tns-c5-4 simple-select ng-untouched ng-pristine ng-valid&quot;]/button[@class=&quot;bg-white w-100 flex flex-row items-center avenir lh-copy pointer tl pa0 b bn royal-blue hover-core-blue hover-fill-core-blue&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <value>(//button[@type='button'])[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='min-width'])[1]/following::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NOTE:'])[4]/following::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='red'])[2]/preceding::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//cb-example[4]/div/div[2]/div/form/jb-select/button</value>
+   </webElementXpaths>
+</WebElementEntity>

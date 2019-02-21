@@ -26,6 +26,6 @@
       <guid>da2d6d54-99a7-4a5f-91f6-d36821473927</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/JetBlue Component Library/Functional Test Cases/Form Elements/simple-select Component Functionality</testCaseId>
+      <testCaseId>Test Cases/JetBlue Component Library/Functional Test Cases/Form Elements/dropdowns Component Functionality</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
