@@ -16,7 +16,7 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
-
+//
 'User Story: When user goes to buttons component page'
 WebUI.comment('User Story: When user goes to buttons component page')
 
