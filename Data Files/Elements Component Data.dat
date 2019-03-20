@@ -8,26 +8,27 @@
    <dataFileGUID>31da6333-9ad4-4820-8f0c-25b3982088bb</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>lists null 0.0</data>
-   <data>table null 0.0</data>
-   <data>cta-link links%2F 0.0</data>
-   <data>dialog-link links%2F 0.0</data>
-   <data>inlinke-link links%2F 0.0</data>
-   <data>standalone-link links%2F 1.0</data>
+   <data>list elements%2F 0.0</data>
+   <data>table elements%2F 0.0</data>
+   <data>cta-link elements%2F 0.0</data>
+   <data>dialog-link elements%2F 0.0</data>
+   <data>inline-link elements%2F 0.0</data>
+   <data>standalone-link elements%2F 1.0</data>
+   <data>null null null</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>componentName</name>
-      <size>6</size>
+      <size>7</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>componentLocation</name>
-      <size>6</size>
+      <size>7</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>2</columnIndex>
       <name>acceptableDiff</name>
-      <size>6</size>
+      <size>7</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

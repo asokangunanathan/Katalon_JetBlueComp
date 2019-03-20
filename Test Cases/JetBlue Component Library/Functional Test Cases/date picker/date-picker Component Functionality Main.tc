@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>date-picker Component Functionality Main</name>
+   <tag></tag>
+   <comment>User Story:  When the user accesses the date-picker component page
+and scrolls to the date picker forward example then I should see the calendar&quot;</comment>
+   <testCaseGuid>bb3fa38f-8a4f-4054-a680-ee606ba53311</testCaseGuid>
+</TestCaseEntity>

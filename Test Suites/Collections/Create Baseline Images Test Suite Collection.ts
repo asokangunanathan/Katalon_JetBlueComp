@@ -24,5 +24,14 @@
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Visual BaseLine Analysis/Create Base Line Images for ALL</testSuiteEntity>
       </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>Firefox (headless)</runConfigurationId>
+         </configuration>
+         <runEnabled>true</runEnabled>
+         <testSuiteEntity>Test Suites/Visual BaseLine Analysis/Create Base Line Images for ALL</testSuiteEntity>
+      </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

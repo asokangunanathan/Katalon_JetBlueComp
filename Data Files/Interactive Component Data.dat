@@ -8,25 +8,27 @@
    <dataFileGUID>31da6333-9ad4-4820-8f0c-25b3982088bb</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>dialog null 0.0</data>
-   <data>help null 0.0</data>
-   <data>expansion null 0.0</data>
-   <data>tabs null 0.0</data>
-   <data>travel-alerts null 0.0</data>
+   <data>dialog interactive%2F 0.0</data>
+   <data>contextual-help interactive%2F 0.0</data>
+   <data>expansion interactive%2F 0.0</data>
+   <data>tabs interactive%2F 0.0</data>
+   <data>travel-alerts interactive%2F 0.0</data>
+   <data>button-close interactive%2F 0.0</data>
+   <data>null null null</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>componentName</name>
-      <size>5</size>
+      <size>7</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>componentLocation</name>
-      <size>5</size>
+      <size>7</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>2</columnIndex>
       <name>acceptableDiff</name>
-      <size>5</size>
+      <size>7</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

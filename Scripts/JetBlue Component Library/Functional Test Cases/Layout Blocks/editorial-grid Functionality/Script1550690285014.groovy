@@ -51,7 +51,7 @@ if (browserName != 'IOS_DRIVER'){
 }
 
 // Build the URL for componenent pages
-def expectedComponentURL = (GlobalVariable.envURL2 + componentLocation) + componentName +"?test"
+def expectedComponentURL = (GlobalVariable.envURL1 + componentLocation) + componentName +"?test"
 def actualComponentURL = (GlobalVariable.envURL1 + componentLocation) + componentName +"?test"
 KeywordLogger log = new KeywordLogger()
 log.logInfo('Component Name: ' + componentName)

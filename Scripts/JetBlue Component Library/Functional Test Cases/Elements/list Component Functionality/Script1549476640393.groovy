@@ -21,7 +21,7 @@ WebUI.maximizeWindow()
 'User Story:  When the user accesses the list component page'
 WebUI.comment('User Story:  When the user accesses the list component page')
 
-WebUI.navigateToUrl(GlobalVariable.envURL1 + 'list?test')
+WebUI.navigateToUrl(GlobalVariable.envURL1 + 'elements/list?test')
 
 'All links on current page should be accessible'
 WebUI.comment('All links on current page should be accessible')

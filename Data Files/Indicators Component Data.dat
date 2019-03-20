@@ -8,9 +8,9 @@
    <dataFileGUID>31da6333-9ad4-4820-8f0c-25b3982088bb</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>star-rating null 0.0</data>
-   <data>callout-stamp null 0.0</data>
-   <data>flag null 0.0</data>
+   <data>star-rating indicators%2F 0.0</data>
+   <data>callout-stamp indicators%2F 0.0</data>
+   <data>flag indicators%2F 0.0</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>componentName</name>

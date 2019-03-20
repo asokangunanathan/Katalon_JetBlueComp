@@ -27,7 +27,7 @@
       <name>acceptableDiff</name>
    </variable>
    <variable>
-      <defaultValue>'Screenshots_Baseline_Stage2'</defaultValue>
+      <defaultValue>'Screenshots_Baseline_Sprint_Stage_2'</defaultValue>
       <description></description>
       <id>ebaf7b21-dea3-41a2-8d87-b8648300d516</id>
       <masked>false</masked>

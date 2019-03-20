@@ -3,7 +3,7 @@
    <description></description>
    <name>Visual Regression Test Collection</name>
    <tag></tag>
-   <executionMode>SEQUENTIAL</executionMode>
+   <executionMode>PARALLEL</executionMode>
    <maxConcurrentInstances>8</maxConcurrentInstances>
    <testSuiteRunConfigurations>
       <TestSuiteRunConfiguration>
@@ -12,7 +12,7 @@
             <profileName>default</profileName>
             <runConfigurationId>iOS</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Visual Test Case Suites/Visual Suite - All Components</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -20,6 +20,15 @@
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
             <runConfigurationId>Chrome (headless)</runConfigurationId>
+         </configuration>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Visual Test Case Suites/Visual Suite - All Components</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>Remote</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Visual Test Case Suites/Visual Suite - All Components</testSuiteEntity>

@@ -20,7 +20,7 @@ WebUI.maximizeWindow()
 'User Story:  When the user accesses the dialog-link component page'
 WebUI.comment('User Story:  When the user accesses the dialog-link component page')
 
-WebUI.navigateToUrl(GlobalVariable.envURL1 + 'links/dialog-link/?test')
+WebUI.navigateToUrl(GlobalVariable.envURL1 + 'elements/dialog-link/?test')
 
 'and clicks on See restrictions Dialog link then a dialog should popup with text "Lorem Ipsum Consequuntur"'
 WebUI.comment('and clicks on See restrictions Dialog link then a dialog should popup with text "Lorem Ipsum Consequuntur"')

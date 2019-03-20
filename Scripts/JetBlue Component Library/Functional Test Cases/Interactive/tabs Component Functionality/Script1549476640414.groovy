@@ -21,13 +21,13 @@ WebUI.setViewPortSize(GlobalVariable.viewPortWidth, GlobalVariable.viewPortHeigh
 WebUI.comment('User Story: When user goes to tabs component page')
 
 // User Story: When user goes to tabs component page
-WebUI.navigateToUrl(GlobalVariable.envURL1 + 'tabs/?test')
+WebUI.navigateToUrl(GlobalVariable.envURL1 + 'interactive/tabs/?test')
 
 // and scrolls down to Tabbed Navigation (Text Only) Example
 'and scrolls down to Tabbed Navigation (Text Only) Example'
 WebUI.comment('and scrolls down to Tabbed Navigation (Text Only) Example')
 
-WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Interactive/tabs Component Objects/Page_JetBlue  Component Library/h3_Tabbed Navigation (Text Only)'), 
+WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Interactive/tabs Component Objects/Page_JetBlue  Component Library/h2_Tabbed Navigation (Text Onl'), 
     10)
 
 // and selects each Tab in the Tabbed Navigation (Text Only) Component then the correct content should display within tab

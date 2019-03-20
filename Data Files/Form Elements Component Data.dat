@@ -8,30 +8,28 @@
    <dataFileGUID>31da6333-9ad4-4820-8f0c-25b3982088bb</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>autocomplete null 0.0</data>
-   <data>buttons null 0.0</data>
-   <data>button-close null 0.0</data>
-   <data>checkboxes null 0.0</data>
-   <data>dropdowns null 0.0</data>
-   <data>incrementers inputs%2F 0.0</data>
-   <data>radios null 0.0</data>
-   <data>simple-select null 0.0</data>
-   <data>text-input null 0.0</data>
-   <data>toggle null 0.0</data>
+   <data>type-ahead form-elements%2F 0.0</data>
+   <data>buttons form-elements%2F 0.0</data>
+   <data>checkbox form-elements%2F 0.0</data>
+   <data>dropdown form-elements%2F 0.0</data>
+   <data>incrementer form-elements%2F 0.0</data>
+   <data>radio-button form-elements%2F 0.0</data>
+   <data>text-input form-elements%2F 0.0</data>
+   <data>toggle form-elements%2F 0.0</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>componentName</name>
-      <size>10</size>
+      <size>8</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>componentLocation</name>
-      <size>10</size>
+      <size>8</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>2</columnIndex>
       <name>acceptableDiff</name>
-      <size>10</size>
+      <size>8</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

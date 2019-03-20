@@ -8,25 +8,26 @@
    <dataFileGUID>31da6333-9ad4-4820-8f0c-25b3982088bb</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>pipes null 0.0</data>
-   <data>types null 0.0</data>
-   <data>constants null 0.0</data>
-   <data>ssr-utilities null 0.0</data>
-   <data>screen-reader-only null 0.0</data>
+   <data>pipes non-component-utilities%2F 0.0</data>
+   <data>types non-component-utilities%2F 0.0</data>
+   <data>constants non-component-utilities%2F 0.0</data>
+   <data>ssr-utilities non-component-utilities%2F 0.0</data>
+   <data>screen-reader-only non-component-utilities%2F 0.0</data>
+   <data>null null null</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>componentName</name>
-      <size>5</size>
+      <size>6</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>componentLocation</name>
-      <size>5</size>
+      <size>6</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>2</columnIndex>
       <name>acceptableDiff</name>
-      <size>5</size>
+      <size>6</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

@@ -20,11 +20,10 @@ WebUI.maximizeWindow()
 'User Story:  When the user accesses the standalone-link component page'
 WebUI.comment('User Story:  When the user accesses the standalone-link component page')
 
-WebUI.navigateToUrl(GlobalVariable.envURL1 + 'links/standalone-link?test')
+WebUI.navigateToUrl(GlobalVariable.envURL1 + 'elements/standalone-link?test')
 
 // Click on T button to remove JetBlue floating menu
 //WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
-
 'When the user clicks on the Standalone link then the user should be taken to google.com'
 WebUI.comment('When the user clicks on the Standalone link then the user should be taken to google.com')
 
@@ -41,9 +40,8 @@ WebUI.back()
 
 // Click on T button to remove JetBlue floating menu
 //WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
-
 'when the user clicks on Standalone link: with icon then the user should be taken to component library icons page'
-WebUI.comment('when the user clicks on Standalone link: with icon then the user should be taken to component library icons page')
+WebUI.comment('when the user clicks on Standalone link: with icon then the user should be taken https://dev.b6orgeng.net/component-library/style-guide')
 
 WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Elements Components/standalone-link Component Objects/Page_JetBlue  Component Library/a_Standalone with icon link'), 
     10)
@@ -52,7 +50,7 @@ WebUI.click(findTestObject('JetBlue Component Library Objects/Elements Component
 
 WebUI.waitForPageLoad(5)
 
-WebUI.verifyTextPresent('Illustration Icons', false)
+WebUI.verifyTextPresent('JetBlue Component Library', false)
 
 WebUI.closeBrowser()
 

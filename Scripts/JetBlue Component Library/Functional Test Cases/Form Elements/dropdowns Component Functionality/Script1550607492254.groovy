@@ -21,7 +21,7 @@ WebUI.maximizeWindow()
 WebUI.comment('User Story: When user goes to dropdowns component page')
 
 // User Story: When user goes to simple-selet component page
-WebUI.navigateToUrl(GlobalVariable.envURL1 + 'dropdowns/?test')
+WebUI.navigateToUrl(GlobalVariable.envURL1 + 'form-elements/dropdown/?test')
 
 //WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
 'and scrolls down to Simple Select Example'

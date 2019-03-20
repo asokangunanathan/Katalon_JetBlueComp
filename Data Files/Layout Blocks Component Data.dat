@@ -8,19 +8,19 @@
    <dataFileGUID>31da6333-9ad4-4820-8f0c-25b3982088bb</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>hero null 0.0</data>
-   <data>callout-block layout%2F 0.0</data>
-   <data>flight-block null 0.0</data>
-   <data>navigation-block null 0.0</data>
-   <data>product-block null 0.0</data>
-   <data>promo-block layout%2F 0.0</data>
-   <data>logo-grid-item null 0.0</data>
-   <data>related-content-block null 0.0</data>
-   <data>editorial-crew-scoop null 0.0</data>
-   <data>editorial-blog-post null 0.0</data>
-   <data>editorial-image null 0.0</data>
-   <data>editorial-grid null 0.0</data>
-   <data>editorial-weather-widget null 0.0</data>
+   <data>hero layout-blocks%2F 0.0</data>
+   <data>callout-block layout-blocks%2F 0.0</data>
+   <data>flight-block layout-blocks%2F 0.0</data>
+   <data>navigation-block layout-blocks%2F 0.0</data>
+   <data>product-block layout-blocks%2F 0.0</data>
+   <data>promo-block layout-blocks%2F 0.0</data>
+   <data>logo-grid-item layout-blocks%2F 0.0</data>
+   <data>related-content-block layout-blocks%2F 0.0</data>
+   <data>editorial-crew-scoop layout-blocks%2F 0.0</data>
+   <data>editorial-blog-post layout-blocks%2F 0.0</data>
+   <data>editorial-image layout-blocks%2F 0.0</data>
+   <data>editorial-grid layout-blocks%2F 0.0</data>
+   <data>editorial-weather-widget layout-blocks%2F 0.0</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>componentName</name>

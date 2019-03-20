@@ -8,11 +8,11 @@
    <dataFileGUID>31da6333-9ad4-4820-8f0c-25b3982088bb</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>back-to-top null 0.0</data>
-   <data>breadcrumbs null 0.0</data>
-   <data>sidenav null 0.0</data>
-   <data>subnav null 0.0</data>
-   <data>toolbars null 0.0</data>
+   <data>back-to-top navigation%2F 0.0</data>
+   <data>breadcrumbs navigation%2F 0.0</data>
+   <data>sidenav navigation%2F 0.0</data>
+   <data>subnav navigation%2F 0.0</data>
+   <data>toolbars navigation%2F 0.0</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>componentName</name>

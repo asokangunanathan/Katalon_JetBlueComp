@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify cycling through Months using month Buttons</name>
+   <tag></tag>
+   <comment>Click on each month button and verify that the month on the calendar changes to the correct month</comment>
+   <testCaseGuid>3ef81253-9493-4f63-b2eb-ceaf08d34266</testCaseGuid>
+</TestCaseEntity>

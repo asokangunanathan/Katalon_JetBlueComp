@@ -3,9 +3,9 @@
    <description></description>
    <name>dropdowns Component Functionality</name>
    <tag></tag>
-   <comment>User Story: When user goes to simple-selet component page
-and scrolls down to Simple Select Example
-and then selects each listItem in the simple select dropdown then Simple Dropdown Value should change to the listItem
-then the Simple Dropdown value should change to the selected listItem Value</comment>
+   <comment>User Story: When user goes to dropdowns component page
+and scrolls down to Standard Select Example
+and then selects each listItem in the standard select dropdown then Simple Dropdown Value should change to the listItem
+then the Standard select Dropdown value should change to the selected listItem Value</comment>
    <testCaseGuid>82135371-e585-42f2-985c-66cf7e344c89</testCaseGuid>
 </TestCaseEntity>

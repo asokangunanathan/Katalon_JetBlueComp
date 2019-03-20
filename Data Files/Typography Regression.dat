@@ -8,9 +8,9 @@
    <dataFileGUID>31da6333-9ad4-4820-8f0c-25b3982088bb</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>typography null 0.0</data>
+   <data>typography-styles typography%2F 0.0</data>
    <data>copy typography%2F 0.0</data>
-   <data>related-content-block null 0.0</data>
+   <data>related-content-block layout-blocks%2F 0.0</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>componentName</name>

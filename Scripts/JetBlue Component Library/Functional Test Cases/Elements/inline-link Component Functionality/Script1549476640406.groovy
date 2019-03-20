@@ -20,11 +20,10 @@ WebUI.maximizeWindow()
 'User Story:  When the user accesses the inline-link component page'
 WebUI.comment('User Story:  When the user accesses the inline-link component page')
 
-WebUI.navigateToUrl(GlobalVariable.envURL1 + 'links/inline-link/?test')
+WebUI.navigateToUrl(GlobalVariable.envURL1 + 'elements/inline-link/?test')
 
 // Click on T button to remove JetBlue floating menu
 //WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
-
 WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Elements Components/inline-link Component Objects/Page_JetBlue  Component Library/a_Inline link no icon'), 
     10)
 
@@ -41,9 +40,8 @@ WebUI.back()
 
 // Click on T button to remove JetBlue floating menu
 //WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
-
 'when the user clicks on Inline Links: with icon example link then the user should be taken to Component Library icons page'
-WebUI.comment('when the user clicks on Inline Links: with icon example link then the user should be taken to Component Library icons page')
+WebUI.comment('when the user clicks on Inline Links: with icon example link then the user should be taken to https://dev.b6orgeng.net/component-library/style-guide')
 
 WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Elements Components/inline-link Component Objects/Page_JetBlue  Component Library/a_Inline link with icon'), 
     10)
@@ -52,7 +50,7 @@ WebUI.click(findTestObject('JetBlue Component Library Objects/Elements Component
 
 WebUI.waitForPageLoad(5)
 
-WebUI.verifyTextPresent('Illustration Icons', false)
+WebUI.verifyTextPresent('JetBlue Component Library', false)
 
 WebUI.closeBrowser()
 

@@ -8,11 +8,11 @@
    <dataFileGUID>31da6333-9ad4-4820-8f0c-25b3982088bb</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>image null 0.0</data>
-   <data>featured-image null 0.0</data>
-   <data>background null 0.0</data>
-   <data>overlay-image null 0.0</data>
-   <data>video null 0.0</data>
+   <data>image media%2F 0.0</data>
+   <data>featured-image media%2F 0.0</data>
+   <data>background media%2F 0.0</data>
+   <data>overlay-image media%2F 0.0</data>
+   <data>video media%2F 0.0</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>componentName</name>

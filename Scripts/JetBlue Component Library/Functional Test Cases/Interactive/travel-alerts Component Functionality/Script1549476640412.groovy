@@ -21,20 +21,18 @@ WebUI.maximizeWindow()
 WebUI.comment('User Story: When user goes to travel-alerts component page')
 
 // User Story: When user goes to simple-selet component page
-WebUI.navigateToUrl(GlobalVariable.envURL1 + 'travel-alerts?test')
+WebUI.navigateToUrl(GlobalVariable.envURL1 + 'interactive/travel-alerts?test')
 
 // Click on T button to remove JetBlue floating menu
 //WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
-
 //WebUI.click(findTestObject('JetBlue Component Library Objects/Misc/Page_JetBlue  Component Library/Test_Flag_Button'))
-
 'and scrolls to the Example'
 WebUI.comment('and scrolls to the Example')
 
 'then the user should see the "travel-alerts" example'
 WebUI.comment('then the user should see the "travel-alerts" example')
 
-WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Interactive/travel alerts Objects/Page_JetBlue  Component Library/svg'), 
+WebUI.scrollToElement(findTestObject('JetBlue Component Library Objects/Interactive/travel alerts Objects/Page_JetBlue  Component Library/h2_Desktop view above main nav'), 
     10)
 
 //WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/Layout Blocks/related-content-block Objects/Page_JetBlue  Component Library/polygon'), 
@@ -52,9 +50,6 @@ WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/Int
     10)
 
 WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/Interactive/travel alerts Objects/Page_JetBlue  Component Library/p_Emotional Support Animal (ES'), 
-    10)
-
-WebUI.verifyElementPresent(findTestObject('JetBlue Component Library Objects/Interactive/travel alerts Objects/Page_JetBlue  Component Library/h3_Desktop view above main nav'), 
     10)
 
 'When then user clicks close button then the travel alert should close'

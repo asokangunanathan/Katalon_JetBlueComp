@@ -7,7 +7,7 @@
 >>> wrote the ImageDiff into $diffFile.toString()</comment>
    <testCaseGuid>bd123809-9f1c-4794-be54-8fb395dd0665</testCaseGuid>
    <variable>
-      <defaultValue>'simple-select'</defaultValue>
+      <defaultValue>'screen-reader-only'</defaultValue>
       <description></description>
       <id>e1487eaf-633d-4b71-b89b-49da1b3d6eaf</id>
       <masked>false</masked>
@@ -28,7 +28,7 @@
       <name>acceptableDiff</name>
    </variable>
    <variable>
-      <defaultValue>'Screenshots_Baseline_Stage2'</defaultValue>
+      <defaultValue>'Screenshots_Baseline_Sprint_Stage_2'</defaultValue>
       <description></description>
       <id>6566affb-1d7d-42b9-90ad-f5544b333be0</id>
       <masked>false</masked>
